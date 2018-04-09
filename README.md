@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Prerequisites
 
 * GCC C++ compiler, aka g++ (tested with 4.x and 5.x)
@@ -63,3 +64,6 @@ compile
 ```
 
 Double-clicking on ```compile.cmd``` in ```Modules\Simul\cpp``` works as well.
+=======
+# pyry3d_main
+>>>>>>> c0076e2127e94a8d9e0db47513a2936aa1eae41f
