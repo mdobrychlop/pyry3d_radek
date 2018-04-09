@@ -1,0 +1,13 @@
+*.pyc
+/Modules/Simul/cpp/build/
+/Modules/Simul/cpp/pyry3d_cpp.py
+/Modules/Simul/cpp/_pyry3d_cpp.so
+/Modules/Simul/cpp/_pyry3d_cpp.pyd
+
+# Eclipse CDT
+.project
+.settings/
+.cproject
+
+# PyCharm
+.idea/

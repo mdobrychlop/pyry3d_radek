@@ -1,0 +1,116 @@
+#   SIMULATION PARAMETERS FILE
+
+
+## ----   General simulation parameters   ----------
+
+SIMMETHOD SimulatedAnnealing #"Genetic" or "SimulatedAnnealing" for simulated annealing (default) or "ReplicaExchange" for replica exchange
+STEPS   75000                  #default 100; how many simulation steps to perform?
+ANNTEMP 10                  #from range X to Y
+REHEAT True 1000
+#REPLICAEXCHANGE_FREQ 2      #each X steps replicas will be exchanged; by default every 10% of simulation steps
+#REPLICATEMPERATURES 200 100 50 0 # 400 375 350 325 300 275 250 225 200 175 150 125 100 #list of temperatures for all replicas
+MAXROT 5                     #default is 5
+MAXTRANS    5 5 5            #default is [5, 5, 5]
+
+## ---    Scoring function parameters      ----------
+OUTBOX 1 1                   #default 1 1; can be in range from 0 to 10 (float numbers)
+MAP_FREESPACE  0 0           #default 1 1; can be in range from 0 to 10 (float numbers)
+CLASHES   1 1                #default 1 1; can be in range from 0 to 10 (float numbers)
+RESTRAINTS  0 0              #default 1 1; can be in range from 0 to 10 (float numbers)
+DENSITY     3 3              #default 1 1; can be in range from 0 to 10 (float numbers)
+
+### ----  Mutation frequencies -----------
+ROTATION_FREQ 0.45           #from range 0 to 1, default is 0.25, sum of FREQ params must be equal to 1
+ROTATION_COV_FREQ 0.0       #from range 0 to 1, default is 0.25, sum of FREQ params must be equal to 1
+TRANSLATION_FREQ 0.45        #from range 0 to 1, default is 0.25, sum of FREQ params must be equal to 1
+EXCHANGE_FREQ 0.05           #from range 0 to 1, default is 0.25, sum of FREQ params must be equal to 1
+SIMUL_DD_FREQ 0.0           #from range 0 to 1, default is 0.25, sum of FREQ params must be equal to 1
+TRANSLATION_ALL_FREQ 0.025   #from range 0 to 1, default is 0.25, sum of FREQ params must be equal to 1; mutation were all components are translated together
+ROTATION_ALL_FREQ 0.025       #from range 0 to 1, default is 0.25, sum of FREQ params must be equal to 1; mutation were all components are translated together
+
+
+## -----  Input data descriptors   --------
+#THRESHOLD 1.6                #float value existing in map file, default is 0
+KVOL 1.0
+SIMBOX 1.4                   #default simulation box diameter
+GRIDRADIUS  1.5              #default is 1.0
+GRIDTYPE    cubic                #cubic or diamond
+COMPONENT_REPRESENTATION fa  #CA - only calfas/c4' (default); cacb - coarse grain, 3p - 3points, fa - full atom
+
+
+### ----- Simulation process control -------
+SCALEPARAMS on               #on/off
+PARAMSCALINGRANGES 0 25 50   #default 0 25 50; at what point of simulation should parameter scaling ranges kick in; % zakresu symulacji (postep)
+PARAMSCALINGR1 50 100        #default 50 100 in %
+PARAMSCALINGR2 25 50         #default 25 50 in %
+PARAMSCALINGR3 0 25          #default 0 25 in %
+
+
+## ------ Output parameters ---------
+
+#WRITE_N_ITER 1              #default 0, minimum 1 max=STRUCT_NR
+WRITE_EACHBETTER True
+#OUT_STEPS   10 15           #default one struct with best score; which steps in output data?
+#STRUCT_NR  14              #default 0.1*SIMUL_NR; number ot out structure with best scores
+
+
+#COMPONENTS MOVEMENTS INFORMATION
+
+
+#MOVE_STATE  A   fixed
+#MOVE_STATE  X_protein   fixed
+#MOVE_STATE  D   movable 5 5 5 0.1 0.1 0.1 10 10 10 0.1 0.1 1 5 30 #max_rot_angle; axis *3; maxtrans, sum_rots, sum_trans, around_line rot_single, rot_sum
+#MOVE_STATE  D   movable 5 5 5 0.1 0.1 0.1 180 180 180 1 1 1 5 90 #max_rot_angle; axis *3; maxtrans
+#MOVE_STATE  Z   movable 5 5 5 0.1 0.1 0.1 180 180 180 1 1 1 5 90 #max_rot_angle; axis *3; maxtrans
+#START_ORIENTATION true     #True if user sets start conformation, False if not!!
+
+
+#define components that are mutated together; eg. A [Z,D] if A is rotated/translated then Z and D will be also rotated/translated
+#COVALENT_BONDS A ['Z','D'] [10,'CA'] [11,'CA']   #to indicate which components are covalently bonded
+#COVALENT_BONDS A ['D'] [5,'CA'] [7,'CA']
+#COVALENT_BONDS D ['A']    #to indicate which components are covalently bonded
+#COVALENT_BONDS Z ['A']  [14,'CA'] [15,'CA']  #to indicate which components are covalently bonded
+
+#COVALENT_BONDS A [B]    #to indicate which components are covalently bonded
+#COVALENT_BONDS B [A,C]  #to indicate which components are covalently bonded
+#COVALENT_BONDS C [B]    #to indicate which components are covalently bonded
+#COVALENT_BONDS D [E,F]  #to indicate which components are covalently bonded
+#COVALENT_BONDS E [D]    #to indicate which components are covalently bonded
+#COVALENT_BONDS F [D]    #to indicate which components are covalently bonded
+
+
+
+#   EXAMPLES
+
+#use density map equal to 10 complex volumes
+#KVOL 10
+
+#use density map with density values >= threshold equal to 1.5
+#THRESHOLD 1.5
+
+#perform only 5 simulation steps
+#STEPS   5
+
+#perform default number of steps
+#STEPS   X
+
+#“give me the structure with best score”
+
+#OUT_STEPS   FIRST   LAST 
+#STRUCT_NR   1 
+
+#“give me structures with 100 best scores”
+
+#OUT_STEPS   FIRST   LAST 
+#STRUCT_NR   100
+
+#“give me all structures from the part of trajectory, steps: 13548-13570”
+
+#OUT_STEPS   13548   13570 
+#STRUCT_NR   22
+
+#“give me the structure with 7th best score among all structures
+#from the part of trajectory, steps: 13548-13570”
+
+#OUT_STEPS   13548   13570
+#STRUCT_NR   7

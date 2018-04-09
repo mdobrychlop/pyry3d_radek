@@ -1,0 +1,2361 @@
+HEADER    STRUCTURAL PROTEIN                      18-SEP-10   2XRP              
+TITLE     HUMAN DOUBLECORTIN N-DC REPEAT (1MJD) AND MAMMALIAN TUBULIN           
+TITLE    2 (1JFF AND 3HKE) DOCKED INTO THE 8-ANGSTROM CRYO-EM MAP OF            
+TITLE    3 DOUBLECORTIN-STABILISED MICROTUBULES                                 
+COMPND    MOL_ID: 1;                                                            
+COMPND   2 MOLECULE: TUBULIN BETA-2B CHAIN;                                     
+COMPND   3 CHAIN: A, C, E, G;                                                   
+COMPND   4 SYNONYM: TUBULIN BETA CHAIN;                                         
+COMPND   5 EC: 3.6.5.6;                                                         
+COMPND   6 MOL_ID: 2;                                                           
+COMPND   7 MOLECULE: TUBULIN ALPHA-1D CHAIN;                                    
+COMPND   8 CHAIN: B, D, F, H;                                                   
+COMPND   9 SYNONYM: TUBULIN ALPHA CHAIN;                                        
+COMPND  10 EC: 3.6.5.6;                                                         
+COMPND  11 MOL_ID: 3;                                                           
+COMPND  12 MOLECULE: NEURONAL MIGRATION PROTEIN DOUBLECORTIN;                   
+COMPND  13 CHAIN: I;                                                            
+COMPND  14 FRAGMENT: RESIDUES 46-140;                                           
+COMPND  15 SYNONYM: DOUBLECORTIN, LISSENCEPHALIN-X, LIS-X, DOUBLIN;             
+COMPND  16 ENGINEERED: YES                                                      
+SOURCE    MOL_ID: 1;                                                            
+SOURCE   2 ORGANISM_SCIENTIFIC: BOS TAURUS;                                     
+SOURCE   3 ORGANISM_COMMON: CATTLE;                                             
+SOURCE   4 ORGANISM_TAXID: 9913;                                                
+SOURCE   5 ORGAN: BRAIN;                                                        
+SOURCE   6 MOL_ID: 2;                                                           
+SOURCE   7 ORGANISM_SCIENTIFIC: BOS TAURUS;                                     
+SOURCE   8 ORGANISM_COMMON: CATTLE;                                             
+SOURCE   9 ORGANISM_TAXID: 9913;                                                
+SOURCE  10 ORGAN: BRAIN;                                                        
+SOURCE  11 MOL_ID: 3;                                                           
+SOURCE  12 ORGANISM_SCIENTIFIC: HOMO SAPIENS;                                   
+SOURCE  13 ORGANISM_COMMON: HUMAN;                                              
+SOURCE  14 ORGANISM_TAXID: 9606;                                                
+SOURCE  15 ORGAN: BRAIN;                                                        
+SOURCE  16 EXPRESSION_SYSTEM: SPODOPTERA FRUGIPERDA;                            
+SOURCE  17 EXPRESSION_SYSTEM_COMMON: FALL ARMYWORM;                             
+SOURCE  18 EXPRESSION_SYSTEM_TAXID: 7108;                                       
+SOURCE  19 EXPRESSION_SYSTEM_STRAIN: SF9;                                       
+SOURCE  20 EXPRESSION_SYSTEM_VECTOR_TYPE: BACULOVIRUS;                          
+SOURCE  21 EXPRESSION_SYSTEM_PLASMID: PFASTBAC                                  
+KEYWDS    STRUCTURAL PROTEIN                                                    
+EXPDTA    ELECTRON MICROSCOPY                                                   
+AUTHOR    F.J.FOURNIOL,C.V.SINDELAR,B.AMIGUES,D.K.CLARE,G.THOMAS,M.PERDERISET,  
+AUTHOR   2 F.FRANCIS,A.HOUDUSSE,C.A.MOORES                                      
+REVDAT   1   24-NOV-10 2XRP    0                                                
+JRNL        AUTH   F.J.FOURNIOL,C.V.SINDELAR,B.AMIGUES,D.K.CLARE,G.THOMAS,      
+JRNL        AUTH 2 M.PERDERISET,F.FRANCIS,A.HOUDUSSE,C.A.MOORES                 
+JRNL        TITL   TEMPLATE-FREE 13-PROTOFILAMENT MICROTUBULE-MAP ASSEMBLY      
+JRNL        TITL 2 VISUALIZED AT 8 A RESOLUTION.                                
+JRNL        REF    J.CELL BIOL.                  V. 191   463 2010              
+JRNL        REFN                   ISSN 0021-9525                               
+JRNL        PMID   20974813                                                     
+JRNL        DOI    10.1083/JCB.201007081                                        
+REMARK   2                                                                      
+REMARK   2 RESOLUTION.    8.20 ANGSTROMS.                                       
+REMARK   3                                                                      
+REMARK   3 REFINEMENT.                                                          
+REMARK   3   SOFTWARE PACKAGES      : SPIDER, FREALIGN                          
+REMARK   3   RECONSTRUCTION SCHEMA  : CUSTOM SCRIPTS, PROJECTION MATCHING       
+REMARK   3                                                                      
+REMARK   3 EM MAP-MODEL FITTING AND REFINEMENT                                  
+REMARK   3   PDB ENTRY                    : 1JFF,3HKE,1MJD                      
+REMARK   3   REFINEMENT SPACE             : NULL                                
+REMARK   3   REFINEMENT PROTOCOL          : ELECTRON CRYSTALLOGRAPHY            
+REMARK   3   REFINEMENT TARGET            : CROSS-CORRELATION                   
+REMARK   3   OVERALL ANISOTROPIC B VALUE  : NULL                                
+REMARK   3                                                                      
+REMARK   3 FITTING PROCEDURE : LOCAL CORRELATION                                
+REMARK   3                                                                      
+REMARK   3 EM IMAGE RECONSTRUCTION STATISTICS                                   
+REMARK   3   NOMINAL PIXEL SIZE (ANGSTROMS)    : 2.8                            
+REMARK   3   ACTUAL PIXEL SIZE  (ANGSTROMS)    : NULL                           
+REMARK   3   EFFECTIVE RESOLUTION (ANGSTROMS)  : 8.2                            
+REMARK   3   NUMBER OF PARTICLES               : 168000                         
+REMARK   3   CTF CORRECTION METHOD             : DONE IN FREALIGN               
+REMARK   3                                                                      
+REMARK   3 EM RECONSTRUCTION MAGNIFICATION CALIBRATION: NULL                    
+REMARK   3                                                                      
+REMARK   3 OTHER DETAILS: THE STRUCTURE WAS DETERMINED IN THE ABSENCE OF A      
+REMARK   3 STABILISING DRUG. SUBMISSION BASED ON EXPERIMENTAL DATA FROM EMDB    
+REMARK   3  EMD-1788. (DEPOSITION ID: 7535).                                    
+REMARK   4                                                                      
+REMARK   4 2XRP COMPLIES WITH FORMAT V. 3.20, 01-DEC-08                         
+REMARK 100                                                                      
+REMARK 100 THIS ENTRY HAS BEEN PROCESSED BY PDBE ON 21-SEP-10.                  
+REMARK 100 THE PDBE ID CODE IS EBI-45434.                                       
+REMARK 245                                                                      
+REMARK 245 EXPERIMENTAL DETAILS                                                 
+REMARK 245   RECONSTRUCTION METHOD          : SINGLE PARTICLE                   
+REMARK 245   SPECIMEN TYPE                  : VITREOUS ICE, CRYO-EM             
+REMARK 245                                                                      
+REMARK 245 ELECTRON MICROSCOPE SAMPLE                                           
+REMARK 245   SAMPLE TYPE                    : FILAMENT                          
+REMARK 245   PARTICLE TYPE                  : NULL                              
+REMARK 245   NAME OF SAMPLE                 : MICROTUBULES NUCLEATED            
+REMARK 245                                    AND STABILISED BY                 
+REMARK 245                                    DOUBLECORTIN                      
+REMARK 245   SAMPLE CONCENTRATION (MG ML-1) : 1.2                               
+REMARK 245   SAMPLE SUPPORT DETAILS         : HOLEY CARBON                      
+REMARK 245   SAMPLE VITRIFICATION DETAILS   : LIQUID ETHANE                     
+REMARK 245   SAMPLE BUFFER                  : 80MM PIPES, 1MM EGTA, 3MM         
+REMARK 245                                    MGCL2, 1MM TCEP, 0.5MM GTP        
+REMARK 245   PH                             : 6.8                               
+REMARK 245   SAMPLE DETAILS                 : NULL                              
+REMARK 245                                                                      
+REMARK 245 DATA ACQUISITION                                                     
+REMARK 245   DATE OF EXPERIMENT                : NULL                           
+REMARK 245   NUMBER OF MICROGRAPHS-IMAGES      : 63                             
+REMARK 245   TEMPERATURE (KELVIN)              : 93                             
+REMARK 245   MICROSCOPE MODEL                  : FEI TECNAI F20                 
+REMARK 245   DETECTOR TYPE                     : KODAK SO163 FILM               
+REMARK 245   MINIMUM DEFOCUS (NM)              : 760                            
+REMARK 245   MAXIMUM DEFOCUS (NM)              : 2900                           
+REMARK 245   MINIMUM TILT ANGLE (DEGREES)      : NULL                           
+REMARK 245   MAXIMUM TILT ANGLE (DEGREES)      : NULL                           
+REMARK 245   NOMINAL CS                        : 2.0                            
+REMARK 245   IMAGING MODE                      : BRIGHT FIELD                   
+REMARK 245   ELECTRON DOSE (ELECTRONS NM**-2)  : 15                             
+REMARK 245   ILLUMINATION MODE                 : LOW DOSE                       
+REMARK 245   NOMINAL MAGNIFICATION             : 50000                          
+REMARK 245   CALIBRATED MAGNIFICATION          : NULL                           
+REMARK 245   SOURCE                            : FIELD EMISSION GUN             
+REMARK 245   ACCELERATION VOLTAGE (KV)         : 200                            
+REMARK 245   IMAGING DETAILS                   : NULL                           
+REMARK 247                                                                      
+REMARK 247 ELECTRON MICROSCOPY                                                  
+REMARK 247  THE COORDINATES IN THIS ENTRY WERE GENERATED FROM ELECTRON          
+REMARK 247  MICROSCOPY DATA. PROTEIN DATA BANK CONVENTIONS REQUIRE              
+REMARK 247  THAT CRYST1 AND SCALE RECORDS BE INCLUDED, BUT THE VALUES           
+REMARK 247  ON THESE RECORDS ARE MEANINGLESS EXCEPT FOR THE CALCULATION         
+REMARK 247  OF THE STRUCTURE FACTORS.                                           
+REMARK 290                                                                      
+REMARK 290 CRYSTALLOGRAPHIC SYMMETRY                                            
+REMARK 290 SYMMETRY OPERATORS FOR SPACE GROUP: P 1                              
+REMARK 290                                                                      
+REMARK 290      SYMOP   SYMMETRY                                                
+REMARK 290     NNNMMM   OPERATOR                                                
+REMARK 290       1555   X,Y,Z                                                   
+REMARK 290                                                                      
+REMARK 290     WHERE NNN -> OPERATOR NUMBER                                     
+REMARK 290           MMM -> TRANSLATION VECTOR                                  
+REMARK 290                                                                      
+REMARK 290 CRYSTALLOGRAPHIC SYMMETRY TRANSFORMATIONS                            
+REMARK 290 THE FOLLOWING TRANSFORMATIONS OPERATE ON THE ATOM/HETATM             
+REMARK 290 RECORDS IN THIS ENTRY TO PRODUCE CRYSTALLOGRAPHICALLY                
+REMARK 290 RELATED MOLECULES.                                                   
+REMARK 290   SMTRY1   1  1.000000  0.000000  0.000000        0.00000            
+REMARK 290   SMTRY2   1  0.000000  1.000000  0.000000        0.00000            
+REMARK 290   SMTRY3   1  0.000000  0.000000  1.000000        0.00000            
+REMARK 290                                                                      
+REMARK 290 REMARK: NULL                                                         
+REMARK 300                                                                      
+REMARK 300 BIOMOLECULE: 1                                                       
+REMARK 300 SEE REMARK 350 FOR THE AUTHOR PROVIDED AND/OR PROGRAM                
+REMARK 300 GENERATED ASSEMBLY INFORMATION FOR THE STRUCTURE IN                  
+REMARK 300 THIS ENTRY. THE REMARK MAY ALSO PROVIDE INFORMATION ON               
+REMARK 300 BURIED SURFACE AREA.                                                 
+REMARK 350                                                                      
+REMARK 350 COORDINATES FOR A COMPLETE MULTIMER REPRESENTING THE KNOWN           
+REMARK 350 BIOLOGICALLY SIGNIFICANT OLIGOMERIZATION STATE OF THE                
+REMARK 350 MOLECULE CAN BE GENERATED BY APPLYING BIOMT TRANSFORMATIONS          
+REMARK 350 GIVEN BELOW.  BOTH NON-CRYSTALLOGRAPHIC AND                          
+REMARK 350 CRYSTALLOGRAPHIC OPERATIONS ARE GIVEN.                               
+REMARK 350                                                                      
+REMARK 350 BIOMOLECULE: 1                                                       
+REMARK 350 AUTHOR DETERMINED BIOLOGICAL UNIT: NONAMERIC                         
+REMARK 350 SOFTWARE DETERMINED QUATERNARY STRUCTURE: NONAMERIC                  
+REMARK 350 SOFTWARE USED: PISA                                                  
+REMARK 350 APPLY THE FOLLOWING TO CHAINS: A, B, C, D, E, F, G, H, I             
+REMARK 350   BIOMT1   1  1.000000  0.000000  0.000000        0.00000            
+REMARK 350   BIOMT2   1  0.000000  1.000000  0.000000        0.00000            
+REMARK 350   BIOMT3   1  0.000000  0.000000  1.000000        0.00000            
+REMARK 465                                                                      
+REMARK 465 MISSING RESIDUES                                                     
+REMARK 465 THE FOLLOWING RESIDUES WERE NOT LOCATED IN THE                       
+REMARK 465 EXPERIMENT. (M=MODEL NUMBER; RES=RESIDUE NAME; C=CHAIN               
+REMARK 465 IDENTIFIER; SSSEQ=SEQUENCE NUMBER; I=INSERTION CODE.)                
+REMARK 465                                                                      
+REMARK 465   M RES C SSSEQI                                                     
+REMARK 465     MET A     1                                                      
+REMARK 465     ALA A   438                                                      
+REMARK 465     THR A   439                                                      
+REMARK 465     ALA A   440                                                      
+REMARK 465     ASP A   441                                                      
+REMARK 465     GLU A   442                                                      
+REMARK 465     GLN A   443                                                      
+REMARK 465     GLY A   444                                                      
+REMARK 465     GLU A   445                                                      
+REMARK 465     PHE A   446                                                      
+REMARK 465     GLU A   447                                                      
+REMARK 465     GLU A   448                                                      
+REMARK 465     GLU A   449                                                      
+REMARK 465     GLU A   450                                                      
+REMARK 465     GLY A   451                                                      
+REMARK 465     GLU A   452                                                      
+REMARK 465     ASP A   453                                                      
+REMARK 465     GLU A   454                                                      
+REMARK 465     ALA A   455                                                      
+REMARK 465     MET B     1                                                      
+REMARK 465     SER B    38                                                      
+REMARK 465     ASP B    39                                                      
+REMARK 465     LYS B    40                                                      
+REMARK 465     THR B    41                                                      
+REMARK 465     ILE B    42                                                      
+REMARK 465     GLY B    43                                                      
+REMARK 465     GLY B    44                                                      
+REMARK 465     GLY B    45                                                      
+REMARK 465     ASP B    46                                                      
+REMARK 465     VAL B   440                                                      
+REMARK 465     GLU B   441                                                      
+REMARK 465     GLY B   442                                                      
+REMARK 465     GLU B   443                                                      
+REMARK 465     GLY B   444                                                      
+REMARK 465     GLU B   445                                                      
+REMARK 465     GLU B   446                                                      
+REMARK 465     GLU B   447                                                      
+REMARK 465     GLU B   448                                                      
+REMARK 465     GLY B   449                                                      
+REMARK 465     GLU B   450                                                      
+REMARK 465     GLU B   451                                                      
+REMARK 465     TYR B   452                                                      
+REMARK 465     MET C     1                                                      
+REMARK 465     ALA C   438                                                      
+REMARK 465     THR C   439                                                      
+REMARK 465     ALA C   440                                                      
+REMARK 465     ASP C   441                                                      
+REMARK 465     GLU C   442                                                      
+REMARK 465     GLN C   443                                                      
+REMARK 465     GLY C   444                                                      
+REMARK 465     GLU C   445                                                      
+REMARK 465     PHE C   446                                                      
+REMARK 465     GLU C   447                                                      
+REMARK 465     GLU C   448                                                      
+REMARK 465     GLU C   449                                                      
+REMARK 465     GLU C   450                                                      
+REMARK 465     GLY C   451                                                      
+REMARK 465     GLU C   452                                                      
+REMARK 465     ASP C   453                                                      
+REMARK 465     GLU C   454                                                      
+REMARK 465     ALA C   455                                                      
+REMARK 465     MET D     1                                                      
+REMARK 465     SER D    38                                                      
+REMARK 465     ASP D    39                                                      
+REMARK 465     LYS D    40                                                      
+REMARK 465     THR D    41                                                      
+REMARK 465     ILE D    42                                                      
+REMARK 465     GLY D    43                                                      
+REMARK 465     GLY D    44                                                      
+REMARK 465     GLY D    45                                                      
+REMARK 465     ASP D    46                                                      
+REMARK 465     VAL D   440                                                      
+REMARK 465     GLU D   441                                                      
+REMARK 465     GLY D   442                                                      
+REMARK 465     GLU D   443                                                      
+REMARK 465     GLY D   444                                                      
+REMARK 465     GLU D   445                                                      
+REMARK 465     GLU D   446                                                      
+REMARK 465     GLU D   447                                                      
+REMARK 465     GLU D   448                                                      
+REMARK 465     GLY D   449                                                      
+REMARK 465     GLU D   450                                                      
+REMARK 465     GLU D   451                                                      
+REMARK 465     TYR D   452                                                      
+REMARK 465     MET E     1                                                      
+REMARK 465     ALA E   438                                                      
+REMARK 465     THR E   439                                                      
+REMARK 465     ALA E   440                                                      
+REMARK 465     ASP E   441                                                      
+REMARK 465     GLU E   442                                                      
+REMARK 465     GLN E   443                                                      
+REMARK 465     GLY E   444                                                      
+REMARK 465     GLU E   445                                                      
+REMARK 465     PHE E   446                                                      
+REMARK 465     GLU E   447                                                      
+REMARK 465     GLU E   448                                                      
+REMARK 465     GLU E   449                                                      
+REMARK 465     GLU E   450                                                      
+REMARK 465     GLY E   451                                                      
+REMARK 465     GLU E   452                                                      
+REMARK 465     ASP E   453                                                      
+REMARK 465     GLU E   454                                                      
+REMARK 465     ALA E   455                                                      
+REMARK 465     MET F     1                                                      
+REMARK 465     SER F    38                                                      
+REMARK 465     ASP F    39                                                      
+REMARK 465     LYS F    40                                                      
+REMARK 465     THR F    41                                                      
+REMARK 465     ILE F    42                                                      
+REMARK 465     GLY F    43                                                      
+REMARK 465     GLY F    44                                                      
+REMARK 465     GLY F    45                                                      
+REMARK 465     ASP F    46                                                      
+REMARK 465     VAL F   440                                                      
+REMARK 465     GLU F   441                                                      
+REMARK 465     GLY F   442                                                      
+REMARK 465     GLU F   443                                                      
+REMARK 465     GLY F   444                                                      
+REMARK 465     GLU F   445                                                      
+REMARK 465     GLU F   446                                                      
+REMARK 465     GLU F   447                                                      
+REMARK 465     GLU F   448                                                      
+REMARK 465     GLY F   449                                                      
+REMARK 465     GLU F   450                                                      
+REMARK 465     GLU F   451                                                      
+REMARK 465     TYR F   452                                                      
+REMARK 465     MET G     1                                                      
+REMARK 465     ALA G   438                                                      
+REMARK 465     THR G   439                                                      
+REMARK 465     ALA G   440                                                      
+REMARK 465     ASP G   441                                                      
+REMARK 465     GLU G   442                                                      
+REMARK 465     GLN G   443                                                      
+REMARK 465     GLY G   444                                                      
+REMARK 465     GLU G   445                                                      
+REMARK 465     PHE G   446                                                      
+REMARK 465     GLU G   447                                                      
+REMARK 465     GLU G   448                                                      
+REMARK 465     GLU G   449                                                      
+REMARK 465     GLU G   450                                                      
+REMARK 465     GLY G   451                                                      
+REMARK 465     GLU G   452                                                      
+REMARK 465     ASP G   453                                                      
+REMARK 465     GLU G   454                                                      
+REMARK 465     ALA G   455                                                      
+REMARK 465     MET H     1                                                      
+REMARK 465     SER H    38                                                      
+REMARK 465     ASP H    39                                                      
+REMARK 465     LYS H    40                                                      
+REMARK 465     THR H    41                                                      
+REMARK 465     ILE H    42                                                      
+REMARK 465     GLY H    43                                                      
+REMARK 465     GLY H    44                                                      
+REMARK 465     GLY H    45                                                      
+REMARK 465     ASP H    46                                                      
+REMARK 465     VAL H   440                                                      
+REMARK 465     GLU H   441                                                      
+REMARK 465     GLY H   442                                                      
+REMARK 465     GLU H   443                                                      
+REMARK 465     GLY H   444                                                      
+REMARK 465     GLU H   445                                                      
+REMARK 465     GLU H   446                                                      
+REMARK 465     GLU H   447                                                      
+REMARK 465     GLU H   448                                                      
+REMARK 465     GLY H   449                                                      
+REMARK 465     GLU H   450                                                      
+REMARK 465     GLU H   451                                                      
+REMARK 465     TYR H   452                                                      
+REMARK 470                                                                      
+REMARK 470 MISSING ATOM                                                         
+REMARK 470 THE FOLLOWING RESIDUES HAVE MISSING ATOMS (M=MODEL NUMBER;           
+REMARK 470 RES=RESIDUE NAME; C=CHAIN IDENTIFIER; SSEQ=SEQUENCE NUMBER;          
+REMARK 470 I=INSERTION CODE):                                                   
+REMARK 470   M RES CSSEQI  ATOMS                                                
+REMARK 470     GLN B  35    CG   CD   OE1  NE2                                  
+REMARK 470     ASP B  47    CG   OD1  OD2                                       
+REMARK 470     THR B  51    OG1  CG2                                            
+REMARK 470     GLU B  55    CG   CD   OE1  OE2                                  
+REMARK 470     THR B  56    OG1  CG2                                            
+REMARK 470     GLU B  77    CG   CD   OE1  OE2                                  
+REMARK 470     GLN B 285    CG   CD   OE1  NE2                                  
+REMARK 470     GLN D  35    CG   CD   OE1  NE2                                  
+REMARK 470     ASP D  47    CG   OD1  OD2                                       
+REMARK 470     THR D  51    OG1  CG2                                            
+REMARK 470     GLU D  55    CG   CD   OE1  OE2                                  
+REMARK 470     THR D  56    OG1  CG2                                            
+REMARK 470     GLU D  77    CG   CD   OE1  OE2                                  
+REMARK 470     GLN D 285    CG   CD   OE1  NE2                                  
+REMARK 470     GLN F  35    CG   CD   OE1  NE2                                  
+REMARK 470     ASP F  47    CG   OD1  OD2                                       
+REMARK 470     THR F  51    OG1  CG2                                            
+REMARK 470     GLU F  55    CG   CD   OE1  OE2                                  
+REMARK 470     THR F  56    OG1  CG2                                            
+REMARK 470     GLU F  77    CG   CD   OE1  OE2                                  
+REMARK 470     GLN F 285    CG   CD   OE1  NE2                                  
+REMARK 470     GLN H  35    CG   CD   OE1  NE2                                  
+REMARK 470     ASP H  47    CG   OD1  OD2                                       
+REMARK 470     THR H  51    OG1  CG2                                            
+REMARK 470     GLU H  55    CG   CD   OE1  OE2                                  
+REMARK 470     THR H  56    OG1  CG2                                            
+REMARK 470     GLU H  77    CG   CD   OE1  OE2                                  
+REMARK 470     GLN H 285    CG   CD   OE1  NE2                                  
+REMARK 500                                                                      
+REMARK 500 GEOMETRY AND STEREOCHEMISTRY                                         
+REMARK 500 SUBTOPIC: CLOSE CONTACTS IN SAME ASYMMETRIC UNIT                     
+REMARK 500                                                                      
+REMARK 500 THE FOLLOWING ATOMS ARE IN CLOSE CONTACT.                            
+REMARK 500                                                                      
+REMARK 500  ATM1  RES C  SSEQI   ATM2  RES C  SSEQI           DISTANCE          
+REMARK 500   O    GLN A   281     N    TYR A   283              2.00            
+REMARK 500   O    GLN C   281     N    TYR C   283              2.00            
+REMARK 500   O    GLN G   281     N    TYR G   283              2.00            
+REMARK 500   O    GLN E   281     N    TYR E   283              2.00            
+REMARK 500   CG2  VAL G   257     CB   TRP H   407              2.02            
+REMARK 500   O    GLU B    55     N    GLY B    57              2.04            
+REMARK 500   CG1  ILE B     5     NH1  ARG B    64              2.05            
+REMARK 500   CG2  VAL G   257     CG   TRP H   407              2.06            
+REMARK 500   O    ARG D   264     N    HIS D   266              2.09            
+REMARK 500   O    ARG F   264     N    HIS F   266              2.09            
+REMARK 500   O    ARG B   264     N    HIS B   266              2.09            
+REMARK 500   O    ARG H   264     N    HIS H   266              2.09            
+REMARK 500   CE2  PHE B   296     CD1  ILE B   341              2.11            
+REMARK 500   CE2  PHE D   296     CD1  ILE D   341              2.11            
+REMARK 500   CE2  PHE F   296     CD1  ILE F   341              2.11            
+REMARK 500   CE2  PHE H   296     CD1  ILE H   341              2.11            
+REMARK 500   CD   ARG C    88     OH   TYR G   283              2.13            
+REMARK 500   OD2  ASP G   179     O2'  GDP G   600              2.15            
+REMARK 500   O    GLU D    55     N    GLY D    57              2.17            
+REMARK 500   OD1  ASN C   249     OE1  GLU D    71              2.17            
+REMARK 500   O    LEU D    70     O    GLY D    95              2.17            
+REMARK 500   O    LEU B    70     O    GLY B    95              2.17            
+REMARK 500   O    LEU H    70     O    GLY H    95              2.17            
+REMARK 500   O    LEU F    70     O    GLY F    95              2.18            
+REMARK 500   CB   LYS F   326     CG   PRO G   222              2.18            
+REMARK 500   ND1  HIS E   192     OD1  ASN E   424              2.18            
+REMARK 500   ND1  HIS A   192     OD1  ASN A   424              2.18            
+REMARK 500   CD   PRO B   348     CE   MET C   398              2.18            
+REMARK 500   ND1  HIS C   192     OD1  ASN C   424              2.18            
+REMARK 500   ND1  HIS G   192     OD1  ASN G   424              2.18            
+REMARK 500   CD1  LEU B    70     OG1  THR B   145              2.18            
+REMARK 500   CD1  LEU H    70     OG1  THR H   145              2.18            
+REMARK 500   CD1  LEU F    70     OG1  THR F   145              2.18            
+REMARK 500   CD1  LEU D    70     OG1  THR D   145              2.18            
+REMARK 500   CG   PRO B    63     OE1  GLN B    91              2.19            
+REMARK 500                                                                      
+REMARK 500 REMARK: NULL                                                         
+REMARK 500                                                                      
+REMARK 500 GEOMETRY AND STEREOCHEMISTRY                                         
+REMARK 500 SUBTOPIC: COVALENT BOND ANGLES                                       
+REMARK 500                                                                      
+REMARK 500 THE STEREOCHEMICAL PARAMETERS OF THE FOLLOWING RESIDUES              
+REMARK 500 HAVE VALUES WHICH DEVIATE FROM EXPECTED VALUES BY MORE               
+REMARK 500 THAN 6*RMSD (M=MODEL NUMBER; RES=RESIDUE NAME; C=CHAIN               
+REMARK 500 IDENTIFIER; SSEQ=SEQUENCE NUMBER; I=INSERTION CODE).                 
+REMARK 500                                                                      
+REMARK 500 STANDARD TABLE:                                                      
+REMARK 500 FORMAT: (10X,I3,1X,A3,1X,A1,I4,A1,3(1X,A4,2X),12X,F5.1)              
+REMARK 500                                                                      
+REMARK 500 EXPECTED VALUES PROTEIN: ENGH AND HUBER, 1999                        
+REMARK 500 EXPECTED VALUES NUCLEIC ACID: CLOWNEY ET AL 1996                     
+REMARK 500                                                                      
+REMARK 500  M RES CSSEQI ATM1   ATM2   ATM3                                     
+REMARK 500    MET A 235   CG  -  SD  -  CE  ANGL. DEV. =   9.7 DEGREES          
+REMARK 500    PRO A 263   C   -  N   -  CA  ANGL. DEV. =  13.0 DEGREES          
+REMARK 500    PRO A 263   C   -  N   -  CD  ANGL. DEV. = -13.7 DEGREES          
+REMARK 500    ASP B  69   CB  -  CG  -  OD2 ANGL. DEV. =   5.4 DEGREES          
+REMARK 500    PRO B 173   C   -  N   -  CA  ANGL. DEV. =  13.9 DEGREES          
+REMARK 500    MET C 235   CG  -  SD  -  CE  ANGL. DEV. =   9.7 DEGREES          
+REMARK 500    PRO C 263   C   -  N   -  CA  ANGL. DEV. =  13.0 DEGREES          
+REMARK 500    PRO C 263   C   -  N   -  CD  ANGL. DEV. = -13.7 DEGREES          
+REMARK 500    ASP D  69   CB  -  CG  -  OD2 ANGL. DEV. =   5.5 DEGREES          
+REMARK 500    PRO D 173   C   -  N   -  CA  ANGL. DEV. =  13.9 DEGREES          
+REMARK 500    MET E 235   CG  -  SD  -  CE  ANGL. DEV. =   9.7 DEGREES          
+REMARK 500    PRO E 263   C   -  N   -  CA  ANGL. DEV. =  13.0 DEGREES          
+REMARK 500    PRO E 263   C   -  N   -  CD  ANGL. DEV. = -13.7 DEGREES          
+REMARK 500    ASP F  69   CB  -  CG  -  OD2 ANGL. DEV. =   5.5 DEGREES          
+REMARK 500    PRO F 173   C   -  N   -  CA  ANGL. DEV. =  13.9 DEGREES          
+REMARK 500    MET G 235   CG  -  SD  -  CE  ANGL. DEV. =   9.8 DEGREES          
+REMARK 500    PRO G 263   C   -  N   -  CA  ANGL. DEV. =  13.0 DEGREES          
+REMARK 500    PRO G 263   C   -  N   -  CD  ANGL. DEV. = -13.7 DEGREES          
+REMARK 500    ASP H  69   CB  -  CG  -  OD2 ANGL. DEV. =   5.5 DEGREES          
+REMARK 500    PRO H 173   C   -  N   -  CA  ANGL. DEV. =  13.9 DEGREES          
+REMARK 500                                                                      
+REMARK 500 REMARK: NULL                                                         
+REMARK 500                                                                      
+REMARK 500 GEOMETRY AND STEREOCHEMISTRY                                         
+REMARK 500 SUBTOPIC: TORSION ANGLES                                             
+REMARK 500                                                                      
+REMARK 500 TORSION ANGLES OUTSIDE THE EXPECTED RAMACHANDRAN REGIONS:            
+REMARK 500 (M=MODEL NUMBER; RES=RESIDUE NAME; C=CHAIN IDENTIFIER;               
+REMARK 500 SSEQ=SEQUENCE NUMBER; I=INSERTION CODE).                             
+REMARK 500                                                                      
+REMARK 500 STANDARD TABLE:                                                      
+REMARK 500 FORMAT:(10X,I3,1X,A3,1X,A1,I4,A1,4X,F7.2,3X,F7.2)                    
+REMARK 500                                                                      
+REMARK 500 EXPECTED VALUES: GJ KLEYWEGT AND TA JONES (1996). PHI/PSI-           
+REMARK 500 CHOLOGY: RAMACHANDRAN REVISITED. STRUCTURE 4, 1395 - 1400            
+REMARK 500                                                                      
+REMARK 500  M RES CSSEQI        PSI       PHI                                   
+REMARK 500    VAL A  23      -87.57    -58.91                                   
+REMARK 500    ILE A  24      -46.23    -20.28                                   
+REMARK 500    HIS A  28       17.02   -161.50                                   
+REMARK 500    PRO A  32      -84.18    -13.72                                   
+REMARK 500    SER A  35     -137.18   -111.36                                   
+REMARK 500    SER A  40     -160.31   -114.23                                   
+REMARK 500    GLN A  43       24.06    -76.80                                   
+REMARK 500    LEU A  44      -33.52   -136.07                                   
+REMARK 500    ASN A  50      -46.60    -18.56                                   
+REMARK 500    VAL A  51      -29.08    -37.95                                   
+REMARK 500    ALA A  56      -74.02   -130.26                                   
+REMARK 500    ALA A  57      -83.87    -73.11                                   
+REMARK 500    ASN A  59       -4.88   -143.63                                   
+REMARK 500    ASP A  69      140.40   -170.30                                   
+REMARK 500    THR A  74      -76.95    -58.81                                   
+REMARK 500    PRO A  82     -114.12    -61.54                                   
+REMARK 500    PHE A  83       -0.35    -54.05                                   
+REMARK 500    GLN A  85       36.89    -99.12                                   
+REMARK 500    GLN A  96       -4.07    -52.72                                   
+REMARK 500    SER A  97     -167.82    -54.79                                   
+REMARK 500    ALA A  99       38.42    -65.59                                   
+REMARK 500    ASN A 101       27.46    -73.90                                   
+REMARK 500    VAL A 118      -63.17   -102.22                                   
+REMARK 500    SER A 128      -87.87    -53.96                                   
+REMARK 500    ASP A 130     -137.79     41.22                                   
+REMARK 500    HIS A 139      175.19    172.97                                   
+REMARK 500    THR A 145      -13.19    -48.72                                   
+REMARK 500    ARG A 158        9.34    -67.34                                   
+REMARK 500    TYR A 161       65.51   -152.09                                   
+REMARK 500    PRO A 162       13.38    -61.54                                   
+REMARK 500    VAL A 171       67.81   -100.63                                   
+REMARK 500    PRO A 175      -98.44    -68.15                                   
+REMARK 500    LYS A 176      -63.50     -7.03                                   
+REMARK 500    GLU A 183      -65.39     -1.47                                   
+REMARK 500    ALA A 187      -70.77    -77.35                                   
+REMARK 500    VAL A 195       -2.63    -53.96                                   
+REMARK 500    ASN A 197      -76.11   -150.71                                   
+REMARK 500    GLU A 200      113.28   -163.62                                   
+REMARK 500    ASP A 211      -71.61    -38.91                                   
+REMARK 500    LYS A 218        6.49    -48.79                                   
+REMARK 500    ASP A 226      -71.17    -62.91                                   
+REMARK 500    VAL A 238      -88.67    -62.05                                   
+REMARK 500    THR A 239     -111.23    -59.21                                   
+REMARK 500    THR A 240      -53.97    -11.73                                   
+REMARK 500    LEU A 252      -58.30     -1.52                                   
+REMARK 500    PRO A 263      -16.73    -17.99                                   
+REMARK 500    LEU A 265      -38.17    128.14                                   
+REMARK 500    HIS A 266      145.39     54.16                                   
+REMARK 500    PHE A 268     -169.79   -109.29                                   
+REMARK 500    ALA A 273      -89.27    -87.84                                   
+REMARK 500                                                                      
+REMARK 500 THIS ENTRY HAS     712 RAMACHANDRAN OUTLIERS.                        
+REMARK 500                                                                      
+REMARK 500 REMARK: NULL                                                         
+REMARK 800                                                                      
+REMARK 800 SITE                                                                 
+REMARK 800 SITE_IDENTIFIER: AC1                                                 
+REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
+REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE GDP A 600                 
+REMARK 800                                                                      
+REMARK 800 SITE_IDENTIFIER: AC2                                                 
+REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
+REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE GTP B 500                 
+REMARK 800                                                                      
+REMARK 800 SITE_IDENTIFIER: AC3                                                 
+REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
+REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE GDP C 600                 
+REMARK 800                                                                      
+REMARK 800 SITE_IDENTIFIER: AC4                                                 
+REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
+REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE GTP D 500                 
+REMARK 800                                                                      
+REMARK 800 SITE_IDENTIFIER: AC5                                                 
+REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
+REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE GDP E 600                 
+REMARK 800                                                                      
+REMARK 800 SITE_IDENTIFIER: AC6                                                 
+REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
+REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE GTP F 500                 
+REMARK 800                                                                      
+REMARK 800 SITE_IDENTIFIER: AC7                                                 
+REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
+REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE GDP G 600                 
+REMARK 800                                                                      
+REMARK 800 SITE_IDENTIFIER: AC8                                                 
+REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
+REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE GTP H 500                 
+REMARK 900                                                                      
+REMARK 900 RELATED ENTRIES                                                      
+REMARK 900 RELATED ID: 2WBE   RELATED DB: PDB                                   
+REMARK 900  KINESIN-5-TUBULIN COMPLEX WITH AMPPNP                               
+REMARK 900 RELATED ID: 1Z2B   RELATED DB: PDB                                   
+REMARK 900  TUBULIN-COLCHICINE-VINBLASTINE: STATHMIN-LIKE                       
+REMARK 900  DOMAIN COMPLEX                                                      
+REMARK 900 RELATED ID: 2BQQ   RELATED DB: PDB                                   
+REMARK 900  X-RAY STRUCURE OF THE N-TERMINAL DOMAIN                             
+REMARK 900  OF HUMAN DOUBLECORTIN                                               
+REMARK 900 RELATED ID: 1SA1   RELATED DB: PDB                                   
+REMARK 900  TUBULIN-PODOPHYLLOTOXIN: STATHMIN-LIKE DOMAIN                       
+REMARK 900  COMPLEX                                                             
+REMARK 900 RELATED ID: 1MJD   RELATED DB: PDB                                   
+REMARK 900  STRUCTURE OF N-TERMINAL DOMAIN OF HUMAN                             
+REMARK 900  DOUBLECORTIN                                                        
+REMARK 900 RELATED ID: 1JFF   RELATED DB: PDB                                   
+REMARK 900  REFINED STRUCTURE OF ALPHA-BETA TUBULIN FROM                        
+REMARK 900   ZINC-INDUCEDSHEETS STABILIZED WITH TAXOL                           
+REMARK 900 RELATED ID: 1TVK   RELATED DB: PDB                                   
+REMARK 900  THE BINDING MODE OF EPOTHILONE A ON A,B                             
+REMARK 900  -TUBULIN BY ELECTRONCRYSTALLOGRAPHY                                 
+REMARK 900 RELATED ID: 1SA0   RELATED DB: PDB                                   
+REMARK 900  TUBULIN-COLCHICINE: STATHMIN-LIKE DOMAIN                            
+REMARK 900  COMPLEX                                                             
+REMARK 900 RELATED ID: EMDB-1788   RELATED DB: EMDB                             
+REMARK 900  DOUBLECORTIN-STABILISED MICROTUBULES AT SECONDARY                   
+REMARK 900  STRUCTURE RESOLUTION                                                
+REMARK 999                                                                      
+REMARK 999 SEQUENCE                                                             
+REMARK 999 CHIMERIC SEQUENCE OF SHEEP AND CATTLE MAIN ALPHA-TUBULIN             
+REMARK 999 ISOFORMS (1JFF AND 3HKE)                                             
+DBREF  2XRP A    1   455  UNP    Q6B856   TBB2B_BOVIN      1    445             
+DBREF  2XRP B    1   449  UNP    Q2HJ86   TBA1D_BOVIN      1    449             
+DBREF  2XRP C    1   455  UNP    Q6B856   TBB2B_BOVIN      1    445             
+DBREF  2XRP D    1   449  UNP    Q2HJ86   TBA1D_BOVIN      1    449             
+DBREF  2XRP E    1   455  UNP    Q6B856   TBB2B_BOVIN      1    445             
+DBREF  2XRP F    1   449  UNP    Q2HJ86   TBA1D_BOVIN      1    449             
+DBREF  2XRP G    1   455  UNP    Q6B856   TBB2B_BOVIN      1    445             
+DBREF  2XRP H    1   449  UNP    Q2HJ86   TBA1D_BOVIN      1    449             
+DBREF  2XRP I   46   140  UNP    O43602   DCX_HUMAN       46    140             
+SEQADV 2XRP VAL A  172  UNP  Q6B856    MET   170 CONFLICT                       
+SEQADV 2XRP VAL A  318  UNP  Q6B856    ILE   316 CONFLICT                       
+SEQADV 2XRP ILE B    7  UNP  Q2HJ86    VAL     7 CONFLICT                       
+SEQADV 2XRP ILE B  114  UNP  Q2HJ86    LEU   114 CONFLICT                       
+SEQADV 2XRP SER B  136  UNP  Q2HJ86    LEU   136 CONFLICT                       
+SEQADV 2XRP GLU B  358  UNP  Q2HJ86    GLN   358 CONFLICT                       
+SEQADV 2XRP VAL B  437  UNP  Q2HJ86    MET   437 CONFLICT                       
+SEQADV 2XRP GLU B  450  UNP  Q2HJ86    ASP   450 CONFLICT                       
+SEQADV 2XRP VAL C  172  UNP  Q6B856    MET   170 CONFLICT                       
+SEQADV 2XRP VAL C  318  UNP  Q6B856    ILE   316 CONFLICT                       
+SEQADV 2XRP ILE D    7  UNP  Q2HJ86    VAL     7 CONFLICT                       
+SEQADV 2XRP ILE D  114  UNP  Q2HJ86    LEU   114 CONFLICT                       
+SEQADV 2XRP SER D  136  UNP  Q2HJ86    LEU   136 CONFLICT                       
+SEQADV 2XRP GLU D  358  UNP  Q2HJ86    GLN   358 CONFLICT                       
+SEQADV 2XRP VAL D  437  UNP  Q2HJ86    MET   437 CONFLICT                       
+SEQADV 2XRP GLU D  450  UNP  Q2HJ86    ASP   450 CONFLICT                       
+SEQADV 2XRP VAL E  172  UNP  Q6B856    MET   170 CONFLICT                       
+SEQADV 2XRP VAL E  318  UNP  Q6B856    ILE   316 CONFLICT                       
+SEQADV 2XRP ILE F    7  UNP  Q2HJ86    VAL     7 CONFLICT                       
+SEQADV 2XRP ILE F  114  UNP  Q2HJ86    LEU   114 CONFLICT                       
+SEQADV 2XRP SER F  136  UNP  Q2HJ86    LEU   136 CONFLICT                       
+SEQADV 2XRP GLU F  358  UNP  Q2HJ86    GLN   358 CONFLICT                       
+SEQADV 2XRP VAL F  437  UNP  Q2HJ86    MET   437 CONFLICT                       
+SEQADV 2XRP GLU F  450  UNP  Q2HJ86    ASP   450 CONFLICT                       
+SEQADV 2XRP VAL G  172  UNP  Q6B856    MET   170 CONFLICT                       
+SEQADV 2XRP VAL G  318  UNP  Q6B856    ILE   316 CONFLICT                       
+SEQADV 2XRP ILE H    7  UNP  Q2HJ86    VAL     7 CONFLICT                       
+SEQADV 2XRP ILE H  114  UNP  Q2HJ86    LEU   114 CONFLICT                       
+SEQADV 2XRP SER H  136  UNP  Q2HJ86    LEU   136 CONFLICT                       
+SEQADV 2XRP GLU H  358  UNP  Q2HJ86    GLN   358 CONFLICT                       
+SEQADV 2XRP VAL H  437  UNP  Q2HJ86    MET   437 CONFLICT                       
+SEQADV 2XRP GLU H  450  UNP  Q2HJ86    ASP   450 CONFLICT                       
+SEQRES   1 A  445  MET ARG GLU ILE VAL HIS ILE GLN ALA GLY GLN CYS GLY          
+SEQRES   2 A  445  ASN GLN ILE GLY ALA LYS PHE TRP GLU VAL ILE SER ASP          
+SEQRES   3 A  445  GLU HIS GLY ILE ASP PRO THR GLY SER TYR HIS GLY ASP          
+SEQRES   4 A  445  SER ASP LEU GLN LEU GLU ARG ILE ASN VAL TYR TYR ASN          
+SEQRES   5 A  445  GLU ALA ALA GLY ASN LYS TYR VAL PRO ARG ALA ILE LEU          
+SEQRES   6 A  445  VAL ASP LEU GLU PRO GLY THR MET ASP SER VAL ARG SER          
+SEQRES   7 A  445  GLY PRO PHE GLY GLN ILE PHE ARG PRO ASP ASN PHE VAL          
+SEQRES   8 A  445  PHE GLY GLN SER GLY ALA GLY ASN ASN TRP ALA LYS GLY          
+SEQRES   9 A  445  HIS TYR THR GLU GLY ALA GLU LEU VAL ASP SER VAL LEU          
+SEQRES  10 A  445  ASP VAL VAL ARG LYS GLU SER GLU SER CYS ASP CYS LEU          
+SEQRES  11 A  445  GLN GLY PHE GLN LEU THR HIS SER LEU GLY GLY GLY THR          
+SEQRES  12 A  445  GLY SER GLY MET GLY THR LEU LEU ILE SER LYS ILE ARG          
+SEQRES  13 A  445  GLU GLU TYR PRO ASP ARG ILE MET ASN THR PHE SER VAL          
+SEQRES  14 A  445  VAL PRO SER PRO LYS VAL SER ASP THR VAL VAL GLU PRO          
+SEQRES  15 A  445  TYR ASN ALA THR LEU SER VAL HIS GLN LEU VAL GLU ASN          
+SEQRES  16 A  445  THR ASP GLU THR TYR CYS ILE ASP ASN GLU ALA LEU TYR          
+SEQRES  17 A  445  ASP ILE CYS PHE ARG THR LEU LYS LEU THR THR PRO THR          
+SEQRES  18 A  445  TYR GLY ASP LEU ASN HIS LEU VAL SER ALA THR MET SER          
+SEQRES  19 A  445  GLY VAL THR THR CYS LEU ARG PHE PRO GLY GLN LEU ASN          
+SEQRES  20 A  445  ALA ASP LEU ARG LYS LEU ALA VAL ASN MET VAL PRO PHE          
+SEQRES  21 A  445  PRO ARG LEU HIS PHE PHE MET PRO GLY PHE ALA PRO LEU          
+SEQRES  22 A  445  THR SER ARG GLY SER GLN GLN TYR ARG ALA LEU THR VAL          
+SEQRES  23 A  445  PRO GLU LEU THR GLN GLN MET PHE ASP ALA LYS ASN MET          
+SEQRES  24 A  445  MET ALA ALA CYS ASP PRO ARG HIS GLY ARG TYR LEU THR          
+SEQRES  25 A  445  VAL ALA ALA VAL PHE ARG GLY ARG MET SER MET LYS GLU          
+SEQRES  26 A  445  VAL ASP GLU GLN MET LEU ASN VAL GLN ASN LYS ASN SER          
+SEQRES  27 A  445  SER TYR PHE VAL GLU TRP ILE PRO ASN ASN VAL LYS THR          
+SEQRES  28 A  445  ALA VAL CYS ASP ILE PRO PRO ARG GLY LEU LYS MET SER          
+SEQRES  29 A  445  ALA THR PHE ILE GLY ASN SER THR ALA ILE GLN GLU LEU          
+SEQRES  30 A  445  PHE LYS ARG ILE SER GLU GLN PHE THR ALA MET PHE ARG          
+SEQRES  31 A  445  ARG LYS ALA PHE LEU HIS TRP TYR THR GLY GLU GLY MET          
+SEQRES  32 A  445  ASP GLU MET GLU PHE THR GLU ALA GLU SER ASN MET ASN          
+SEQRES  33 A  445  ASP LEU VAL SER GLU TYR GLN GLN TYR GLN ASP ALA THR          
+SEQRES  34 A  445  ALA ASP GLU GLN GLY GLU PHE GLU GLU GLU GLU GLY GLU          
+SEQRES  35 A  445  ASP GLU ALA                                                  
+SEQRES   1 B  452  MET ARG GLU CYS ILE SER ILE HIS VAL GLY GLN ALA GLY          
+SEQRES   2 B  452  VAL GLN ILE GLY ASN ALA CYS TRP GLU LEU TYR CYS LEU          
+SEQRES   3 B  452  GLU HIS GLY ILE GLN PRO ASP GLY GLN MET PRO SER ASP          
+SEQRES   4 B  452  LYS THR ILE GLY GLY GLY ASP ASP SER PHE ASN THR PHE          
+SEQRES   5 B  452  PHE SER GLU THR GLY ALA GLY LYS HIS VAL PRO ARG ALA          
+SEQRES   6 B  452  VAL PHE VAL ASP LEU GLU PRO THR VAL ILE ASP GLU VAL          
+SEQRES   7 B  452  ARG THR GLY THR TYR ARG GLN LEU PHE HIS PRO GLU GLN          
+SEQRES   8 B  452  LEU ILE THR GLY LYS GLU ASP ALA ALA ASN ASN TYR ALA          
+SEQRES   9 B  452  ARG GLY HIS TYR THR ILE GLY LYS GLU ILE ILE ASP LEU          
+SEQRES  10 B  452  VAL LEU ASP ARG ILE ARG LYS LEU ALA ASP GLN CYS THR          
+SEQRES  11 B  452  GLY LEU GLN GLY PHE SER VAL PHE HIS SER PHE GLY GLY          
+SEQRES  12 B  452  GLY THR GLY SER GLY PHE THR SER LEU LEU MET GLU ARG          
+SEQRES  13 B  452  LEU SER VAL ASP TYR GLY LYS LYS SER LYS LEU GLU PHE          
+SEQRES  14 B  452  SER ILE TYR PRO ALA PRO GLN VAL SER THR ALA VAL VAL          
+SEQRES  15 B  452  GLU PRO TYR ASN SER ILE LEU THR THR HIS THR THR LEU          
+SEQRES  16 B  452  GLU HIS SER ASP CYS ALA PHE MET VAL ASP ASN GLU ALA          
+SEQRES  17 B  452  ILE TYR ASP ILE CYS ARG ARG ASN LEU ASP ILE GLU ARG          
+SEQRES  18 B  452  PRO THR TYR THR ASN LEU ASN ARG LEU ILE GLY GLN ILE          
+SEQRES  19 B  452  VAL SER SER ILE THR ALA SER LEU ARG PHE ASP GLY ALA          
+SEQRES  20 B  452  LEU ASN VAL ASP LEU THR GLU PHE GLN THR ASN LEU VAL          
+SEQRES  21 B  452  PRO TYR PRO ARG GLY HIS PHE PRO LEU ALA THR TYR ALA          
+SEQRES  22 B  452  PRO VAL ILE SER ALA GLU LYS ALA TYR HIS GLU GLN LEU          
+SEQRES  23 B  452  SER VAL ALA GLU ILE THR ASN ALA CYS PHE GLU PRO ALA          
+SEQRES  24 B  452  ASN GLN MET VAL LYS CYS ASP PRO ARG HIS GLY LYS TYR          
+SEQRES  25 B  452  MET ALA CYS CYS LEU LEU TYR ARG GLY ASP VAL VAL PRO          
+SEQRES  26 B  452  LYS ASP VAL ASN ALA ALA ILE ALA THR ILE LYS THR LYS          
+SEQRES  27 B  452  ARG THR ILE GLN PHE VAL ASP TRP CYS PRO THR GLY PHE          
+SEQRES  28 B  452  LYS VAL GLY ILE ASN TYR GLU PRO PRO THR VAL VAL PRO          
+SEQRES  29 B  452  GLY GLY ASP LEU ALA LYS VAL GLN ARG ALA VAL CYS MET          
+SEQRES  30 B  452  LEU SER ASN THR THR ALA ILE ALA GLU ALA TRP ALA ARG          
+SEQRES  31 B  452  LEU ASP HIS LYS PHE ASP LEU MET TYR ALA LYS ARG ALA          
+SEQRES  32 B  452  PHE VAL HIS TRP TYR VAL GLY GLU GLY MET GLU GLU GLY          
+SEQRES  33 B  452  GLU PHE SER GLU ALA ARG GLU ASP MET ALA ALA LEU GLU          
+SEQRES  34 B  452  LYS ASP TYR GLU GLU VAL GLY VAL ASP SER VAL GLU GLY          
+SEQRES  35 B  452  GLU GLY GLU GLU GLU GLU GLY GLU GLU TYR                      
+SEQRES   1 C  445  MET ARG GLU ILE VAL HIS ILE GLN ALA GLY GLN CYS GLY          
+SEQRES   2 C  445  ASN GLN ILE GLY ALA LYS PHE TRP GLU VAL ILE SER ASP          
+SEQRES   3 C  445  GLU HIS GLY ILE ASP PRO THR GLY SER TYR HIS GLY ASP          
+SEQRES   4 C  445  SER ASP LEU GLN LEU GLU ARG ILE ASN VAL TYR TYR ASN          
+SEQRES   5 C  445  GLU ALA ALA GLY ASN LYS TYR VAL PRO ARG ALA ILE LEU          
+SEQRES   6 C  445  VAL ASP LEU GLU PRO GLY THR MET ASP SER VAL ARG SER          
+SEQRES   7 C  445  GLY PRO PHE GLY GLN ILE PHE ARG PRO ASP ASN PHE VAL          
+SEQRES   8 C  445  PHE GLY GLN SER GLY ALA GLY ASN ASN TRP ALA LYS GLY          
+SEQRES   9 C  445  HIS TYR THR GLU GLY ALA GLU LEU VAL ASP SER VAL LEU          
+SEQRES  10 C  445  ASP VAL VAL ARG LYS GLU SER GLU SER CYS ASP CYS LEU          
+SEQRES  11 C  445  GLN GLY PHE GLN LEU THR HIS SER LEU GLY GLY GLY THR          
+SEQRES  12 C  445  GLY SER GLY MET GLY THR LEU LEU ILE SER LYS ILE ARG          
+SEQRES  13 C  445  GLU GLU TYR PRO ASP ARG ILE MET ASN THR PHE SER VAL          
+SEQRES  14 C  445  VAL PRO SER PRO LYS VAL SER ASP THR VAL VAL GLU PRO          
+SEQRES  15 C  445  TYR ASN ALA THR LEU SER VAL HIS GLN LEU VAL GLU ASN          
+SEQRES  16 C  445  THR ASP GLU THR TYR CYS ILE ASP ASN GLU ALA LEU TYR          
+SEQRES  17 C  445  ASP ILE CYS PHE ARG THR LEU LYS LEU THR THR PRO THR          
+SEQRES  18 C  445  TYR GLY ASP LEU ASN HIS LEU VAL SER ALA THR MET SER          
+SEQRES  19 C  445  GLY VAL THR THR CYS LEU ARG PHE PRO GLY GLN LEU ASN          
+SEQRES  20 C  445  ALA ASP LEU ARG LYS LEU ALA VAL ASN MET VAL PRO PHE          
+SEQRES  21 C  445  PRO ARG LEU HIS PHE PHE MET PRO GLY PHE ALA PRO LEU          
+SEQRES  22 C  445  THR SER ARG GLY SER GLN GLN TYR ARG ALA LEU THR VAL          
+SEQRES  23 C  445  PRO GLU LEU THR GLN GLN MET PHE ASP ALA LYS ASN MET          
+SEQRES  24 C  445  MET ALA ALA CYS ASP PRO ARG HIS GLY ARG TYR LEU THR          
+SEQRES  25 C  445  VAL ALA ALA VAL PHE ARG GLY ARG MET SER MET LYS GLU          
+SEQRES  26 C  445  VAL ASP GLU GLN MET LEU ASN VAL GLN ASN LYS ASN SER          
+SEQRES  27 C  445  SER TYR PHE VAL GLU TRP ILE PRO ASN ASN VAL LYS THR          
+SEQRES  28 C  445  ALA VAL CYS ASP ILE PRO PRO ARG GLY LEU LYS MET SER          
+SEQRES  29 C  445  ALA THR PHE ILE GLY ASN SER THR ALA ILE GLN GLU LEU          
+SEQRES  30 C  445  PHE LYS ARG ILE SER GLU GLN PHE THR ALA MET PHE ARG          
+SEQRES  31 C  445  ARG LYS ALA PHE LEU HIS TRP TYR THR GLY GLU GLY MET          
+SEQRES  32 C  445  ASP GLU MET GLU PHE THR GLU ALA GLU SER ASN MET ASN          
+SEQRES  33 C  445  ASP LEU VAL SER GLU TYR GLN GLN TYR GLN ASP ALA THR          
+SEQRES  34 C  445  ALA ASP GLU GLN GLY GLU PHE GLU GLU GLU GLU GLY GLU          
+SEQRES  35 C  445  ASP GLU ALA                                                  
+SEQRES   1 D  452  MET ARG GLU CYS ILE SER ILE HIS VAL GLY GLN ALA GLY          
+SEQRES   2 D  452  VAL GLN ILE GLY ASN ALA CYS TRP GLU LEU TYR CYS LEU          
+SEQRES   3 D  452  GLU HIS GLY ILE GLN PRO ASP GLY GLN MET PRO SER ASP          
+SEQRES   4 D  452  LYS THR ILE GLY GLY GLY ASP ASP SER PHE ASN THR PHE          
+SEQRES   5 D  452  PHE SER GLU THR GLY ALA GLY LYS HIS VAL PRO ARG ALA          
+SEQRES   6 D  452  VAL PHE VAL ASP LEU GLU PRO THR VAL ILE ASP GLU VAL          
+SEQRES   7 D  452  ARG THR GLY THR TYR ARG GLN LEU PHE HIS PRO GLU GLN          
+SEQRES   8 D  452  LEU ILE THR GLY LYS GLU ASP ALA ALA ASN ASN TYR ALA          
+SEQRES   9 D  452  ARG GLY HIS TYR THR ILE GLY LYS GLU ILE ILE ASP LEU          
+SEQRES  10 D  452  VAL LEU ASP ARG ILE ARG LYS LEU ALA ASP GLN CYS THR          
+SEQRES  11 D  452  GLY LEU GLN GLY PHE SER VAL PHE HIS SER PHE GLY GLY          
+SEQRES  12 D  452  GLY THR GLY SER GLY PHE THR SER LEU LEU MET GLU ARG          
+SEQRES  13 D  452  LEU SER VAL ASP TYR GLY LYS LYS SER LYS LEU GLU PHE          
+SEQRES  14 D  452  SER ILE TYR PRO ALA PRO GLN VAL SER THR ALA VAL VAL          
+SEQRES  15 D  452  GLU PRO TYR ASN SER ILE LEU THR THR HIS THR THR LEU          
+SEQRES  16 D  452  GLU HIS SER ASP CYS ALA PHE MET VAL ASP ASN GLU ALA          
+SEQRES  17 D  452  ILE TYR ASP ILE CYS ARG ARG ASN LEU ASP ILE GLU ARG          
+SEQRES  18 D  452  PRO THR TYR THR ASN LEU ASN ARG LEU ILE GLY GLN ILE          
+SEQRES  19 D  452  VAL SER SER ILE THR ALA SER LEU ARG PHE ASP GLY ALA          
+SEQRES  20 D  452  LEU ASN VAL ASP LEU THR GLU PHE GLN THR ASN LEU VAL          
+SEQRES  21 D  452  PRO TYR PRO ARG GLY HIS PHE PRO LEU ALA THR TYR ALA          
+SEQRES  22 D  452  PRO VAL ILE SER ALA GLU LYS ALA TYR HIS GLU GLN LEU          
+SEQRES  23 D  452  SER VAL ALA GLU ILE THR ASN ALA CYS PHE GLU PRO ALA          
+SEQRES  24 D  452  ASN GLN MET VAL LYS CYS ASP PRO ARG HIS GLY LYS TYR          
+SEQRES  25 D  452  MET ALA CYS CYS LEU LEU TYR ARG GLY ASP VAL VAL PRO          
+SEQRES  26 D  452  LYS ASP VAL ASN ALA ALA ILE ALA THR ILE LYS THR LYS          
+SEQRES  27 D  452  ARG THR ILE GLN PHE VAL ASP TRP CYS PRO THR GLY PHE          
+SEQRES  28 D  452  LYS VAL GLY ILE ASN TYR GLU PRO PRO THR VAL VAL PRO          
+SEQRES  29 D  452  GLY GLY ASP LEU ALA LYS VAL GLN ARG ALA VAL CYS MET          
+SEQRES  30 D  452  LEU SER ASN THR THR ALA ILE ALA GLU ALA TRP ALA ARG          
+SEQRES  31 D  452  LEU ASP HIS LYS PHE ASP LEU MET TYR ALA LYS ARG ALA          
+SEQRES  32 D  452  PHE VAL HIS TRP TYR VAL GLY GLU GLY MET GLU GLU GLY          
+SEQRES  33 D  452  GLU PHE SER GLU ALA ARG GLU ASP MET ALA ALA LEU GLU          
+SEQRES  34 D  452  LYS ASP TYR GLU GLU VAL GLY VAL ASP SER VAL GLU GLY          
+SEQRES  35 D  452  GLU GLY GLU GLU GLU GLU GLY GLU GLU TYR                      
+SEQRES   1 E  445  MET ARG GLU ILE VAL HIS ILE GLN ALA GLY GLN CYS GLY          
+SEQRES   2 E  445  ASN GLN ILE GLY ALA LYS PHE TRP GLU VAL ILE SER ASP          
+SEQRES   3 E  445  GLU HIS GLY ILE ASP PRO THR GLY SER TYR HIS GLY ASP          
+SEQRES   4 E  445  SER ASP LEU GLN LEU GLU ARG ILE ASN VAL TYR TYR ASN          
+SEQRES   5 E  445  GLU ALA ALA GLY ASN LYS TYR VAL PRO ARG ALA ILE LEU          
+SEQRES   6 E  445  VAL ASP LEU GLU PRO GLY THR MET ASP SER VAL ARG SER          
+SEQRES   7 E  445  GLY PRO PHE GLY GLN ILE PHE ARG PRO ASP ASN PHE VAL          
+SEQRES   8 E  445  PHE GLY GLN SER GLY ALA GLY ASN ASN TRP ALA LYS GLY          
+SEQRES   9 E  445  HIS TYR THR GLU GLY ALA GLU LEU VAL ASP SER VAL LEU          
+SEQRES  10 E  445  ASP VAL VAL ARG LYS GLU SER GLU SER CYS ASP CYS LEU          
+SEQRES  11 E  445  GLN GLY PHE GLN LEU THR HIS SER LEU GLY GLY GLY THR          
+SEQRES  12 E  445  GLY SER GLY MET GLY THR LEU LEU ILE SER LYS ILE ARG          
+SEQRES  13 E  445  GLU GLU TYR PRO ASP ARG ILE MET ASN THR PHE SER VAL          
+SEQRES  14 E  445  VAL PRO SER PRO LYS VAL SER ASP THR VAL VAL GLU PRO          
+SEQRES  15 E  445  TYR ASN ALA THR LEU SER VAL HIS GLN LEU VAL GLU ASN          
+SEQRES  16 E  445  THR ASP GLU THR TYR CYS ILE ASP ASN GLU ALA LEU TYR          
+SEQRES  17 E  445  ASP ILE CYS PHE ARG THR LEU LYS LEU THR THR PRO THR          
+SEQRES  18 E  445  TYR GLY ASP LEU ASN HIS LEU VAL SER ALA THR MET SER          
+SEQRES  19 E  445  GLY VAL THR THR CYS LEU ARG PHE PRO GLY GLN LEU ASN          
+SEQRES  20 E  445  ALA ASP LEU ARG LYS LEU ALA VAL ASN MET VAL PRO PHE          
+SEQRES  21 E  445  PRO ARG LEU HIS PHE PHE MET PRO GLY PHE ALA PRO LEU          
+SEQRES  22 E  445  THR SER ARG GLY SER GLN GLN TYR ARG ALA LEU THR VAL          
+SEQRES  23 E  445  PRO GLU LEU THR GLN GLN MET PHE ASP ALA LYS ASN MET          
+SEQRES  24 E  445  MET ALA ALA CYS ASP PRO ARG HIS GLY ARG TYR LEU THR          
+SEQRES  25 E  445  VAL ALA ALA VAL PHE ARG GLY ARG MET SER MET LYS GLU          
+SEQRES  26 E  445  VAL ASP GLU GLN MET LEU ASN VAL GLN ASN LYS ASN SER          
+SEQRES  27 E  445  SER TYR PHE VAL GLU TRP ILE PRO ASN ASN VAL LYS THR          
+SEQRES  28 E  445  ALA VAL CYS ASP ILE PRO PRO ARG GLY LEU LYS MET SER          
+SEQRES  29 E  445  ALA THR PHE ILE GLY ASN SER THR ALA ILE GLN GLU LEU          
+SEQRES  30 E  445  PHE LYS ARG ILE SER GLU GLN PHE THR ALA MET PHE ARG          
+SEQRES  31 E  445  ARG LYS ALA PHE LEU HIS TRP TYR THR GLY GLU GLY MET          
+SEQRES  32 E  445  ASP GLU MET GLU PHE THR GLU ALA GLU SER ASN MET ASN          
+SEQRES  33 E  445  ASP LEU VAL SER GLU TYR GLN GLN TYR GLN ASP ALA THR          
+SEQRES  34 E  445  ALA ASP GLU GLN GLY GLU PHE GLU GLU GLU GLU GLY GLU          
+SEQRES  35 E  445  ASP GLU ALA                                                  
+SEQRES   1 F  452  MET ARG GLU CYS ILE SER ILE HIS VAL GLY GLN ALA GLY          
+SEQRES   2 F  452  VAL GLN ILE GLY ASN ALA CYS TRP GLU LEU TYR CYS LEU          
+SEQRES   3 F  452  GLU HIS GLY ILE GLN PRO ASP GLY GLN MET PRO SER ASP          
+SEQRES   4 F  452  LYS THR ILE GLY GLY GLY ASP ASP SER PHE ASN THR PHE          
+SEQRES   5 F  452  PHE SER GLU THR GLY ALA GLY LYS HIS VAL PRO ARG ALA          
+SEQRES   6 F  452  VAL PHE VAL ASP LEU GLU PRO THR VAL ILE ASP GLU VAL          
+SEQRES   7 F  452  ARG THR GLY THR TYR ARG GLN LEU PHE HIS PRO GLU GLN          
+SEQRES   8 F  452  LEU ILE THR GLY LYS GLU ASP ALA ALA ASN ASN TYR ALA          
+SEQRES   9 F  452  ARG GLY HIS TYR THR ILE GLY LYS GLU ILE ILE ASP LEU          
+SEQRES  10 F  452  VAL LEU ASP ARG ILE ARG LYS LEU ALA ASP GLN CYS THR          
+SEQRES  11 F  452  GLY LEU GLN GLY PHE SER VAL PHE HIS SER PHE GLY GLY          
+SEQRES  12 F  452  GLY THR GLY SER GLY PHE THR SER LEU LEU MET GLU ARG          
+SEQRES  13 F  452  LEU SER VAL ASP TYR GLY LYS LYS SER LYS LEU GLU PHE          
+SEQRES  14 F  452  SER ILE TYR PRO ALA PRO GLN VAL SER THR ALA VAL VAL          
+SEQRES  15 F  452  GLU PRO TYR ASN SER ILE LEU THR THR HIS THR THR LEU          
+SEQRES  16 F  452  GLU HIS SER ASP CYS ALA PHE MET VAL ASP ASN GLU ALA          
+SEQRES  17 F  452  ILE TYR ASP ILE CYS ARG ARG ASN LEU ASP ILE GLU ARG          
+SEQRES  18 F  452  PRO THR TYR THR ASN LEU ASN ARG LEU ILE GLY GLN ILE          
+SEQRES  19 F  452  VAL SER SER ILE THR ALA SER LEU ARG PHE ASP GLY ALA          
+SEQRES  20 F  452  LEU ASN VAL ASP LEU THR GLU PHE GLN THR ASN LEU VAL          
+SEQRES  21 F  452  PRO TYR PRO ARG GLY HIS PHE PRO LEU ALA THR TYR ALA          
+SEQRES  22 F  452  PRO VAL ILE SER ALA GLU LYS ALA TYR HIS GLU GLN LEU          
+SEQRES  23 F  452  SER VAL ALA GLU ILE THR ASN ALA CYS PHE GLU PRO ALA          
+SEQRES  24 F  452  ASN GLN MET VAL LYS CYS ASP PRO ARG HIS GLY LYS TYR          
+SEQRES  25 F  452  MET ALA CYS CYS LEU LEU TYR ARG GLY ASP VAL VAL PRO          
+SEQRES  26 F  452  LYS ASP VAL ASN ALA ALA ILE ALA THR ILE LYS THR LYS          
+SEQRES  27 F  452  ARG THR ILE GLN PHE VAL ASP TRP CYS PRO THR GLY PHE          
+SEQRES  28 F  452  LYS VAL GLY ILE ASN TYR GLU PRO PRO THR VAL VAL PRO          
+SEQRES  29 F  452  GLY GLY ASP LEU ALA LYS VAL GLN ARG ALA VAL CYS MET          
+SEQRES  30 F  452  LEU SER ASN THR THR ALA ILE ALA GLU ALA TRP ALA ARG          
+SEQRES  31 F  452  LEU ASP HIS LYS PHE ASP LEU MET TYR ALA LYS ARG ALA          
+SEQRES  32 F  452  PHE VAL HIS TRP TYR VAL GLY GLU GLY MET GLU GLU GLY          
+SEQRES  33 F  452  GLU PHE SER GLU ALA ARG GLU ASP MET ALA ALA LEU GLU          
+SEQRES  34 F  452  LYS ASP TYR GLU GLU VAL GLY VAL ASP SER VAL GLU GLY          
+SEQRES  35 F  452  GLU GLY GLU GLU GLU GLU GLY GLU GLU TYR                      
+SEQRES   1 G  445  MET ARG GLU ILE VAL HIS ILE GLN ALA GLY GLN CYS GLY          
+SEQRES   2 G  445  ASN GLN ILE GLY ALA LYS PHE TRP GLU VAL ILE SER ASP          
+SEQRES   3 G  445  GLU HIS GLY ILE ASP PRO THR GLY SER TYR HIS GLY ASP          
+SEQRES   4 G  445  SER ASP LEU GLN LEU GLU ARG ILE ASN VAL TYR TYR ASN          
+SEQRES   5 G  445  GLU ALA ALA GLY ASN LYS TYR VAL PRO ARG ALA ILE LEU          
+SEQRES   6 G  445  VAL ASP LEU GLU PRO GLY THR MET ASP SER VAL ARG SER          
+SEQRES   7 G  445  GLY PRO PHE GLY GLN ILE PHE ARG PRO ASP ASN PHE VAL          
+SEQRES   8 G  445  PHE GLY GLN SER GLY ALA GLY ASN ASN TRP ALA LYS GLY          
+SEQRES   9 G  445  HIS TYR THR GLU GLY ALA GLU LEU VAL ASP SER VAL LEU          
+SEQRES  10 G  445  ASP VAL VAL ARG LYS GLU SER GLU SER CYS ASP CYS LEU          
+SEQRES  11 G  445  GLN GLY PHE GLN LEU THR HIS SER LEU GLY GLY GLY THR          
+SEQRES  12 G  445  GLY SER GLY MET GLY THR LEU LEU ILE SER LYS ILE ARG          
+SEQRES  13 G  445  GLU GLU TYR PRO ASP ARG ILE MET ASN THR PHE SER VAL          
+SEQRES  14 G  445  VAL PRO SER PRO LYS VAL SER ASP THR VAL VAL GLU PRO          
+SEQRES  15 G  445  TYR ASN ALA THR LEU SER VAL HIS GLN LEU VAL GLU ASN          
+SEQRES  16 G  445  THR ASP GLU THR TYR CYS ILE ASP ASN GLU ALA LEU TYR          
+SEQRES  17 G  445  ASP ILE CYS PHE ARG THR LEU LYS LEU THR THR PRO THR          
+SEQRES  18 G  445  TYR GLY ASP LEU ASN HIS LEU VAL SER ALA THR MET SER          
+SEQRES  19 G  445  GLY VAL THR THR CYS LEU ARG PHE PRO GLY GLN LEU ASN          
+SEQRES  20 G  445  ALA ASP LEU ARG LYS LEU ALA VAL ASN MET VAL PRO PHE          
+SEQRES  21 G  445  PRO ARG LEU HIS PHE PHE MET PRO GLY PHE ALA PRO LEU          
+SEQRES  22 G  445  THR SER ARG GLY SER GLN GLN TYR ARG ALA LEU THR VAL          
+SEQRES  23 G  445  PRO GLU LEU THR GLN GLN MET PHE ASP ALA LYS ASN MET          
+SEQRES  24 G  445  MET ALA ALA CYS ASP PRO ARG HIS GLY ARG TYR LEU THR          
+SEQRES  25 G  445  VAL ALA ALA VAL PHE ARG GLY ARG MET SER MET LYS GLU          
+SEQRES  26 G  445  VAL ASP GLU GLN MET LEU ASN VAL GLN ASN LYS ASN SER          
+SEQRES  27 G  445  SER TYR PHE VAL GLU TRP ILE PRO ASN ASN VAL LYS THR          
+SEQRES  28 G  445  ALA VAL CYS ASP ILE PRO PRO ARG GLY LEU LYS MET SER          
+SEQRES  29 G  445  ALA THR PHE ILE GLY ASN SER THR ALA ILE GLN GLU LEU          
+SEQRES  30 G  445  PHE LYS ARG ILE SER GLU GLN PHE THR ALA MET PHE ARG          
+SEQRES  31 G  445  ARG LYS ALA PHE LEU HIS TRP TYR THR GLY GLU GLY MET          
+SEQRES  32 G  445  ASP GLU MET GLU PHE THR GLU ALA GLU SER ASN MET ASN          
+SEQRES  33 G  445  ASP LEU VAL SER GLU TYR GLN GLN TYR GLN ASP ALA THR          
+SEQRES  34 G  445  ALA ASP GLU GLN GLY GLU PHE GLU GLU GLU GLU GLY GLU          
+SEQRES  35 G  445  ASP GLU ALA                                                  
+SEQRES   1 H  452  MET ARG GLU CYS ILE SER ILE HIS VAL GLY GLN ALA GLY          
+SEQRES   2 H  452  VAL GLN ILE GLY ASN ALA CYS TRP GLU LEU TYR CYS LEU          
+SEQRES   3 H  452  GLU HIS GLY ILE GLN PRO ASP GLY GLN MET PRO SER ASP          
+SEQRES   4 H  452  LYS THR ILE GLY GLY GLY ASP ASP SER PHE ASN THR PHE          
+SEQRES   5 H  452  PHE SER GLU THR GLY ALA GLY LYS HIS VAL PRO ARG ALA          
+SEQRES   6 H  452  VAL PHE VAL ASP LEU GLU PRO THR VAL ILE ASP GLU VAL          
+SEQRES   7 H  452  ARG THR GLY THR TYR ARG GLN LEU PHE HIS PRO GLU GLN          
+SEQRES   8 H  452  LEU ILE THR GLY LYS GLU ASP ALA ALA ASN ASN TYR ALA          
+SEQRES   9 H  452  ARG GLY HIS TYR THR ILE GLY LYS GLU ILE ILE ASP LEU          
+SEQRES  10 H  452  VAL LEU ASP ARG ILE ARG LYS LEU ALA ASP GLN CYS THR          
+SEQRES  11 H  452  GLY LEU GLN GLY PHE SER VAL PHE HIS SER PHE GLY GLY          
+SEQRES  12 H  452  GLY THR GLY SER GLY PHE THR SER LEU LEU MET GLU ARG          
+SEQRES  13 H  452  LEU SER VAL ASP TYR GLY LYS LYS SER LYS LEU GLU PHE          
+SEQRES  14 H  452  SER ILE TYR PRO ALA PRO GLN VAL SER THR ALA VAL VAL          
+SEQRES  15 H  452  GLU PRO TYR ASN SER ILE LEU THR THR HIS THR THR LEU          
+SEQRES  16 H  452  GLU HIS SER ASP CYS ALA PHE MET VAL ASP ASN GLU ALA          
+SEQRES  17 H  452  ILE TYR ASP ILE CYS ARG ARG ASN LEU ASP ILE GLU ARG          
+SEQRES  18 H  452  PRO THR TYR THR ASN LEU ASN ARG LEU ILE GLY GLN ILE          
+SEQRES  19 H  452  VAL SER SER ILE THR ALA SER LEU ARG PHE ASP GLY ALA          
+SEQRES  20 H  452  LEU ASN VAL ASP LEU THR GLU PHE GLN THR ASN LEU VAL          
+SEQRES  21 H  452  PRO TYR PRO ARG GLY HIS PHE PRO LEU ALA THR TYR ALA          
+SEQRES  22 H  452  PRO VAL ILE SER ALA GLU LYS ALA TYR HIS GLU GLN LEU          
+SEQRES  23 H  452  SER VAL ALA GLU ILE THR ASN ALA CYS PHE GLU PRO ALA          
+SEQRES  24 H  452  ASN GLN MET VAL LYS CYS ASP PRO ARG HIS GLY LYS TYR          
+SEQRES  25 H  452  MET ALA CYS CYS LEU LEU TYR ARG GLY ASP VAL VAL PRO          
+SEQRES  26 H  452  LYS ASP VAL ASN ALA ALA ILE ALA THR ILE LYS THR LYS          
+SEQRES  27 H  452  ARG THR ILE GLN PHE VAL ASP TRP CYS PRO THR GLY PHE          
+SEQRES  28 H  452  LYS VAL GLY ILE ASN TYR GLU PRO PRO THR VAL VAL PRO          
+SEQRES  29 H  452  GLY GLY ASP LEU ALA LYS VAL GLN ARG ALA VAL CYS MET          
+SEQRES  30 H  452  LEU SER ASN THR THR ALA ILE ALA GLU ALA TRP ALA ARG          
+SEQRES  31 H  452  LEU ASP HIS LYS PHE ASP LEU MET TYR ALA LYS ARG ALA          
+SEQRES  32 H  452  PHE VAL HIS TRP TYR VAL GLY GLU GLY MET GLU GLU GLY          
+SEQRES  33 H  452  GLU PHE SER GLU ALA ARG GLU ASP MET ALA ALA LEU GLU          
+SEQRES  34 H  452  LYS ASP TYR GLU GLU VAL GLY VAL ASP SER VAL GLU GLY          
+SEQRES  35 H  452  GLU GLY GLU GLU GLU GLU GLY GLU GLU TYR                      
+SEQRES   1 I   95  LEU SER ASN GLU LYS LYS ALA LYS LYS VAL ARG PHE TYR          
+SEQRES   2 I   95  ARG ASN GLY ASP ARG TYR PHE LYS GLY ILE VAL TYR ALA          
+SEQRES   3 I   95  VAL SER SER ASP ARG PHE ARG SER PHE ASP ALA LEU LEU          
+SEQRES   4 I   95  ALA ASP LEU THR ARG SER LEU SER ASP ASN ILE ASN LEU          
+SEQRES   5 I   95  PRO GLN GLY VAL ARG TYR ILE TYR THR ILE ASP GLY SER          
+SEQRES   6 I   95  ARG LYS ILE GLY SER MET ASP GLU LEU GLU GLU GLY GLU          
+SEQRES   7 I   95  SER TYR VAL CYS SER SER ASP ASN PHE PHE LYS LYS VAL          
+SEQRES   8 I   95  GLU TYR THR LYS                                              
+HET    GDP  A 600      28                                                       
+HET    GTP  B 500      32                                                       
+HET    GDP  C 600      28                                                       
+HET    GTP  D 500      32                                                       
+HET    GDP  E 600      28                                                       
+HET    GTP  F 500      32                                                       
+HET    GDP  G 600      28                                                       
+HET    GTP  H 500      32                                                       
+HETNAM     GDP GUANOSINE-5'-DIPHOSPHATE                                         
+HETNAM     GTP GUANOSINE-5'-TRIPHOSPHATE                                        
+FORMUL  10  GDP    4(C10 H15 N5 O11 P2)                                         
+FORMUL  11  GTP    4(C10 H16 N5 O14 P3)                                         
+HELIX    1   1 PHE I   80  LEU I   91  1                                  12
+HELIX    2   2 MET I  116  GLU I  118  1                                   3
+SHEET    1   1 1 LYS I  53  ARG I  59  0
+SHEET    2   2 1 ILE I  68  VAL I  72  0
+SHEET    3   3 1 TYR I 103  THR I 106  0
+SHEET    4   4 1 GLU I 123  SER I 128  0
+SITE     1 AC1 13 GLY A  10  GLN A  11  CYS A  12  GLN A  15                    
+SITE     2 AC1 13 SER A 140  GLY A 142  GLY A 144  THR A 145                    
+SITE     3 AC1 13 GLY A 146  ASP A 179  ASN A 206  TYR A 224                    
+SITE     4 AC1 13 ASN A 228                                                     
+SITE     1 AC2 19 LEU A 248  LYS A 254  GLY B  10  GLN B  11                    
+SITE     2 AC2 19 ALA B  12  GLN B  15  ALA B  99  ALA B 100                    
+SITE     3 AC2 19 ASN B 101  SER B 140  GLY B 143  GLY B 144                    
+SITE     4 AC2 19 THR B 145  GLY B 146  ILE B 171  GLU B 183                    
+SITE     5 AC2 19 ASN B 206  TYR B 224  ASN B 228                               
+SITE     1 AC3 13 GLY C  10  GLN C  11  CYS C  12  GLN C  15                    
+SITE     2 AC3 13 SER C 140  GLY C 142  GLY C 144  THR C 145                    
+SITE     3 AC3 13 GLY C 146  ASP C 179  ASN C 206  TYR C 224                    
+SITE     4 AC3 13 ASN C 228                                                     
+SITE     1 AC4 19 LEU C 248  LYS C 254  GLY D  10  GLN D  11                    
+SITE     2 AC4 19 ALA D  12  GLN D  15  ALA D  99  ALA D 100                    
+SITE     3 AC4 19 ASN D 101  SER D 140  GLY D 143  GLY D 144                    
+SITE     4 AC4 19 THR D 145  GLY D 146  ILE D 171  GLU D 183                    
+SITE     5 AC4 19 ASN D 206  TYR D 224  ASN D 228                               
+SITE     1 AC5 13 GLY E  10  GLN E  11  CYS E  12  GLN E  15                    
+SITE     2 AC5 13 SER E 140  GLY E 142  GLY E 144  THR E 145                    
+SITE     3 AC5 13 GLY E 146  ASP E 179  ASN E 206  TYR E 224                    
+SITE     4 AC5 13 ASN E 228                                                     
+SITE     1 AC6 19 LEU E 248  LYS E 254  GLY F  10  GLN F  11                    
+SITE     2 AC6 19 ALA F  12  GLN F  15  ALA F  99  ALA F 100                    
+SITE     3 AC6 19 ASN F 101  SER F 140  GLY F 143  GLY F 144                    
+SITE     4 AC6 19 THR F 145  GLY F 146  ILE F 171  GLU F 183                    
+SITE     5 AC6 19 ASN F 206  TYR F 224  ASN F 228                               
+SITE     1 AC7 13 GLY G  10  GLN G  11  CYS G  12  GLN G  15                    
+SITE     2 AC7 13 SER G 140  GLY G 142  GLY G 144  THR G 145                    
+SITE     3 AC7 13 GLY G 146  ASP G 179  ASN G 206  TYR G 224                    
+SITE     4 AC7 13 ASN G 228                                                     
+SITE     1 AC8 18 LEU G 248  GLY H  10  GLN H  11  ALA H  12                    
+SITE     2 AC8 18 GLN H  15  ALA H  99  ALA H 100  ASN H 101                    
+SITE     3 AC8 18 SER H 140  GLY H 143  GLY H 144  THR H 145                    
+SITE     4 AC8 18 GLY H 146  ILE H 171  GLU H 183  ASN H 206                    
+SITE     5 AC8 18 TYR H 224  ASN H 228                                          
+CRYST1    1.000    1.000    1.000  90.00  90.00  90.00 P 1           1          
+ORIGX1      1.000000  0.000000  0.000000        0.00000                         
+ORIGX2      0.000000  1.000000  0.000000        0.00000                         
+ORIGX3      0.000000  0.000000  1.000000        0.00000                         
+SCALE1      1.000000  0.000000  0.000000        0.00000                         
+SCALE2      0.000000  1.000000  0.000000        0.00000                         
+SCALE3      0.000000  0.000000  1.000000        0.00000                         
+ATOM      1  N   LEU I  46      68.820  33.523  76.177  1.00  0.00           N
+ATOM      2  CA  LEU I  46      68.138  34.460  75.291  1.00  0.00           C
+ATOM      3  C   LEU I  46      67.692  35.703  76.056  1.00  0.00           C
+ATOM      4  O   LEU I  46      66.595  35.741  76.614  1.00  0.00           O
+ATOM      5  CB  LEU I  46      66.928  33.788  74.638  1.00  0.00           C
+ATOM      6  CG  LEU I  46      67.258  32.596  73.739  1.00  0.00           C
+ATOM      7  CD1 LEU I  46      67.493  31.346  74.574  1.00  0.00           C
+ATOM      8  CD2 LEU I  46      66.139  32.363  72.734  1.00  0.00           C
+ATOM      9  H   LEU I  46      68.328  32.754  76.531  1.00  0.00           H
+ATOM     10  HA  LEU I  46      68.833  34.756  74.522  1.00  0.00           H
+ATOM     11  HB2 LEU I  46      66.264  33.450  75.422  1.00  0.00           H
+ATOM     12  HB3 LEU I  46      66.410  34.526  74.045  1.00  0.00           H
+ATOM     13  HG  LEU I  46      68.164  32.806  73.190  1.00  0.00           H
+ATOM     14  N   SER I  47      68.550  36.718  76.075  1.00  0.00           N
+ATOM     15  CA  SER I  47      68.244  37.964  76.770  1.00  0.00           C
+ATOM     16  C   SER I  47      67.339  38.852  75.923  1.00  0.00           C
+ATOM     17  O   SER I  47      67.293  38.722  74.699  1.00  0.00           O
+ATOM     18  CB  SER I  47      69.536  38.710  77.114  1.00  0.00           C
+ATOM     19  OG  SER I  47      69.827  38.612  78.499  1.00  0.00           O
+ATOM     20  H   SER I  47      69.408  36.628  75.612  1.00  0.00           H
+ATOM     21  HA  SER I  47      67.727  37.713  77.686  1.00  0.00           H
+ATOM     22  HB2 SER I  47      70.355  38.281  76.557  1.00  0.00           H
+ATOM     23  HB3 SER I  47      69.428  39.752  76.855  1.00  0.00           H
+ATOM     24  HG  SER I  47      69.049  38.854  79.007  1.00  0.00           H
+ATOM     25  N   ASN I  48      66.618  39.754  76.581  1.00  0.00           N
+ATOM     26  CA  ASN I  48      65.715  40.666  75.888  1.00  0.00           C
+ATOM     27  C   ASN I  48      66.475  41.856  75.314  1.00  0.00           C
+ATOM     28  O   ASN I  48      67.326  42.443  75.983  1.00  0.00           O
+ATOM     29  CB  ASN I  48      64.623  41.154  76.842  1.00  0.00           C
+ATOM     30  CG  ASN I  48      63.361  41.573  76.111  1.00  0.00           C
+ATOM     31  OD1 ASN I  48      63.422  42.215  75.063  1.00  0.00           O
+ATOM     32  ND2 ASN I  48      62.210  41.211  76.664  1.00  0.00           N
+ATOM     33  H   ASN I  48      66.697  39.810  77.555  1.00  0.00           H
+ATOM     34  HA  ASN I  48      65.254  40.122  75.077  1.00  0.00           H
+ATOM     35  HB2 ASN I  48      64.372  40.361  77.528  1.00  0.00           H
+ATOM     36  HB3 ASN I  48      64.993  42.003  77.398  1.00  0.00           H
+ATOM     37  N   GLU I  49      66.163  42.207  74.070  1.00  0.00           N
+ATOM     38  CA  GLU I  49      66.819  43.329  73.407  1.00  0.00           C
+ATOM     39  C   GLU I  49      66.008  43.798  72.201  1.00  0.00           C
+ATOM     40  O   GLU I  49      65.120  43.090  71.724  1.00  0.00           O
+ATOM     41  CB  GLU I  49      68.230  42.930  72.965  1.00  0.00           C
+ATOM     42  CG  GLU I  49      69.326  43.751  73.626  1.00  0.00           C
+ATOM     43  CD  GLU I  49      70.419  44.154  72.654  1.00  0.00           C
+ATOM     44  OE1 GLU I  49      70.102  44.393  71.471  1.00  0.00           O
+ATOM     45  OE2 GLU I  49      71.592  44.227  73.077  1.00  0.00           O
+ATOM     46  H   GLU I  49      65.476  41.700  73.588  1.00  0.00           H
+ATOM     47  HA  GLU I  49      66.887  44.139  74.117  1.00  0.00           H
+ATOM     48  HB2 GLU I  49      68.391  41.892  73.212  1.00  0.00           H
+ATOM     49  HB3 GLU I  49      68.313  43.054  71.896  1.00  0.00           H
+ATOM     50  HG2 GLU I  49      68.888  44.647  74.041  1.00  0.00           H
+ATOM     51  HG3 GLU I  49      69.768  43.167  74.420  1.00  0.00           H
+ATOM     52  N   LYS I  50      66.318  44.996  71.716  1.00  0.00           N
+ATOM     53  CA  LYS I  50      65.618  45.561  70.569  1.00  0.00           C
+ATOM     54  C   LYS I  50      66.533  46.478  69.762  1.00  0.00           C
+ATOM     55  O   LYS I  50      66.062  47.356  69.040  1.00  0.00           O
+ATOM     56  CB  LYS I  50      64.383  46.334  71.033  1.00  0.00           C
+ATOM     57  CG  LYS I  50      64.687  47.401  72.073  1.00  0.00           C
+ATOM     58  CD  LYS I  50      64.098  47.051  73.431  1.00  0.00           C
+ATOM     59  CE  LYS I  50      65.186  46.844  74.476  1.00  0.00           C
+ATOM     60  NZ  LYS I  50      64.732  45.960  75.584  1.00  0.00           N
+ATOM     61  H   LYS I  50      67.033  45.512  72.140  1.00  0.00           H
+ATOM     62  HA  LYS I  50      65.303  44.744  69.938  1.00  0.00           H
+ATOM     63  HB2 LYS I  50      63.931  46.813  70.178  1.00  0.00           H
+ATOM     64  HB3 LYS I  50      63.677  45.636  71.458  1.00  0.00           H
+ATOM     65  HG2 LYS I  50      65.759  47.499  72.169  1.00  0.00           H
+ATOM     66  HG3 LYS I  50      64.269  48.341  71.741  1.00  0.00           H
+ATOM     67  HD2 LYS I  50      63.456  47.857  73.754  1.00  0.00           H
+ATOM     68  HD3 LYS I  50      63.523  46.142  73.342  1.00  0.00           H
+ATOM     69  HE2 LYS I  50      66.045  46.398  73.999  1.00  0.00           H
+ATOM     70  HE3 LYS I  50      65.462  47.806  74.884  1.00  0.00           H
+ATOM     71  HZ1 LYS I  50      64.149  45.185  75.206  1.00  0.00           H
+ATOM     72  HZ2 LYS I  50      65.553  45.553  76.076  1.00  0.00           H
+ATOM     73  HZ3 LYS I  50      64.166  46.502  76.266  1.00  0.00           H
+ATOM     74  N   LYS I  51      67.842  46.268  69.893  1.00  0.00           N
+ATOM     75  CA  LYS I  51      68.839  47.067  69.179  1.00  0.00           C
+ATOM     76  C   LYS I  51      68.534  48.562  69.266  1.00  0.00           C
+ATOM     77  O   LYS I  51      67.616  48.984  69.969  1.00  0.00           O
+ATOM     78  CB  LYS I  51      68.928  46.629  67.710  1.00  0.00           C
+ATOM     79  CG  LYS I  51      67.714  47.001  66.874  1.00  0.00           C
+ATOM     80  CD  LYS I  51      66.691  45.875  66.839  1.00  0.00           C
+ATOM     81  CE  LYS I  51      66.627  45.218  65.469  1.00  0.00           C
+ATOM     82  NZ  LYS I  51      67.984  44.962  64.911  1.00  0.00           N
+ATOM     83  H   LYS I  51      68.152  45.550  70.484  1.00  0.00           H
+ATOM     84  HA  LYS I  51      69.794  46.888  69.649  1.00  0.00           H
+ATOM     85  HB2 LYS I  51      69.797  47.088  67.265  1.00  0.00           H
+ATOM     86  HB3 LYS I  51      69.044  45.556  67.678  1.00  0.00           H
+ATOM     87  HG2 LYS I  51      67.251  47.882  67.293  1.00  0.00           H
+ATOM     88  HG3 LYS I  51      68.038  47.212  65.864  1.00  0.00           H
+ATOM     89  HD2 LYS I  51      66.965  45.131  67.572  1.00  0.00           H
+ATOM     90  HD3 LYS I  51      65.718  46.280  67.082  1.00  0.00           H
+ATOM     91  HE2 LYS I  51      66.102  44.281  65.559  1.00  0.00           H
+ATOM     92  HE3 LYS I  51      66.089  45.871  64.796  1.00  0.00           H
+ATOM     93  HZ1 LYS I  51      68.669  44.830  65.683  1.00  0.00           H
+ATOM     94  HZ2 LYS I  51      67.972  44.105  64.323  1.00  0.00           H
+ATOM     95  HZ3 LYS I  51      68.288  45.767  64.326  1.00  0.00           H
+ATOM     96  N   ALA I  52      69.320  49.359  68.545  1.00  0.00           N
+ATOM     97  CA  ALA I  52      69.145  50.807  68.534  1.00  0.00           C
+ATOM     98  C   ALA I  52      68.062  51.224  67.541  1.00  0.00           C
+ATOM     99  O   ALA I  52      67.209  50.419  67.168  1.00  0.00           O
+ATOM    100  CB  ALA I  52      70.468  51.484  68.202  1.00  0.00           C
+ATOM    101  H   ALA I  52      70.036  48.960  68.008  1.00  0.00           H
+ATOM    102  HA  ALA I  52      68.850  51.115  69.527  1.00  0.00           H
+ATOM    103  HB1 ALA I  52      70.422  52.525  68.488  1.00  0.00           H
+ATOM    104  HB2 ALA I  52      71.268  50.999  68.742  1.00  0.00           H
+ATOM    105  HB3 ALA I  52      70.654  51.410  67.141  1.00  0.00           H
+ATOM    106  N   LYS I  53      68.103  52.484  67.113  1.00  0.00           N
+ATOM    107  CA  LYS I  53      67.129  53.005  66.162  1.00  0.00           C
+ATOM    108  C   LYS I  53      67.826  53.820  65.077  1.00  0.00           C
+ATOM    109  O   LYS I  53      68.612  54.721  65.371  1.00  0.00           O
+ATOM    110  CB  LYS I  53      66.090  53.872  66.879  1.00  0.00           C
+ATOM    111  CG  LYS I  53      65.452  53.195  68.081  1.00  0.00           C
+ATOM    112  CD  LYS I  53      64.114  52.570  67.725  1.00  0.00           C
+ATOM    113  CE  LYS I  53      63.326  52.193  68.969  1.00  0.00           C
+ATOM    114  NZ  LYS I  53      61.874  52.498  68.822  1.00  0.00           N
+ATOM    115  H   LYS I  53      68.809  53.078  67.444  1.00  0.00           H
+ATOM    116  HA  LYS I  53      66.632  52.164  65.701  1.00  0.00           H
+ATOM    117  HB2 LYS I  53      66.570  54.779  67.216  1.00  0.00           H
+ATOM    118  HB3 LYS I  53      65.308  54.127  66.179  1.00  0.00           H
+ATOM    119  HG2 LYS I  53      66.114  52.423  68.442  1.00  0.00           H
+ATOM    120  HG3 LYS I  53      65.301  53.933  68.858  1.00  0.00           H
+ATOM    121  HD2 LYS I  53      63.538  53.280  67.149  1.00  0.00           H
+ATOM    122  HD3 LYS I  53      64.288  51.682  67.135  1.00  0.00           H
+ATOM    123  HE2 LYS I  53      63.446  51.134  69.148  1.00  0.00           H
+ATOM    124  HE3 LYS I  53      63.717  52.746  69.810  1.00  0.00           H
+ATOM    125  HZ1 LYS I  53      61.737  53.251  68.120  1.00  0.00           H
+ATOM    126  HZ2 LYS I  53      61.361  51.649  68.508  1.00  0.00           H
+ATOM    127  HZ3 LYS I  53      61.482  52.810  69.733  1.00  0.00           H
+ATOM    128  N   LYS I  54      67.535  53.496  63.820  1.00  0.00           N
+ATOM    129  CA  LYS I  54      68.132  54.191  62.698  1.00  0.00           C
+ATOM    130  C   LYS I  54      67.251  55.345  62.248  1.00  0.00           C
+ATOM    131  O   LYS I  54      66.083  55.167  61.896  1.00  0.00           O
+ATOM    132  CB  LYS I  54      68.359  53.225  61.532  1.00  0.00           C
+ATOM    133  CG  LYS I  54      69.687  52.490  61.603  1.00  0.00           C
+ATOM    134  CD  LYS I  54      70.815  53.320  61.009  1.00  0.00           C
+ATOM    135  CE  LYS I  54      71.356  54.325  62.013  1.00  0.00           C
+ATOM    136  NZ  LYS I  54      72.833  54.478  61.906  1.00  0.00           N
+ATOM    137  H   LYS I  54      66.908  52.781  63.646  1.00  0.00           H
+ATOM    138  HA  LYS I  54      69.084  54.584  63.017  1.00  0.00           H
+ATOM    139  HB2 LYS I  54      67.566  52.491  61.530  1.00  0.00           H
+ATOM    140  HB3 LYS I  54      68.327  53.781  60.609  1.00  0.00           H
+ATOM    141  HG2 LYS I  54      69.918  52.279  62.637  1.00  0.00           H
+ATOM    142  HG3 LYS I  54      69.605  51.564  61.054  1.00  0.00           H
+ATOM    143  HD2 LYS I  54      71.615  52.660  60.710  1.00  0.00           H
+ATOM    144  HD3 LYS I  54      70.441  53.850  60.145  1.00  0.00           H
+ATOM    145  HE2 LYS I  54      70.889  55.283  61.828  1.00  0.00           H
+ATOM    146  HE3 LYS I  54      71.107  53.989  63.009  1.00  0.00           H
+ATOM    147  HZ1 LYS I  54      73.098  54.720  60.930  1.00  0.00           H
+ATOM    148  HZ2 LYS I  54      73.160  55.234  62.541  1.00  0.00           H
+ATOM    149  HZ3 LYS I  54      73.303  53.589  62.171  1.00  0.00           H
+ATOM    150  N   VAL I  55      67.825  56.529  62.264  1.00  0.00           N
+ATOM    151  CA  VAL I  55      67.106  57.728  61.857  1.00  0.00           C
+ATOM    152  C   VAL I  55      67.935  58.589  60.921  1.00  0.00           C
+ATOM    153  O   VAL I  55      69.162  58.611  60.993  1.00  0.00           O
+ATOM    154  CB  VAL I  55      66.726  58.608  63.058  1.00  0.00           C
+ATOM    155  CG1 VAL I  55      65.699  57.926  63.941  1.00  0.00           C
+ATOM    156  CG2 VAL I  55      67.967  58.977  63.849  1.00  0.00           C
+ATOM    157  H   VAL I  55      68.754  56.594  62.561  1.00  0.00           H
+ATOM    158  HA  VAL I  55      66.200  57.425  61.354  1.00  0.00           H
+ATOM    159  HB  VAL I  55      66.287  59.518  62.682  1.00  0.00           H
+ATOM    160  N   ARG I  56      67.244  59.347  60.085  1.00  0.00           N
+ATOM    161  CA  ARG I  56      67.898  60.268  59.175  1.00  0.00           C
+ATOM    162  C   ARG I  56      67.684  61.678  59.702  1.00  0.00           C
+ATOM    163  O   ARG I  56      66.572  62.205  59.651  1.00  0.00           O
+ATOM    164  CB  ARG I  56      67.336  60.136  57.758  1.00  0.00           C
+ATOM    165  CG  ARG I  56      68.267  60.680  56.686  1.00  0.00           C
+ATOM    166  CD  ARG I  56      68.142  59.901  55.386  1.00  0.00           C
+ATOM    167  NE  ARG I  56      69.437  59.427  54.905  1.00  0.00           N
+ATOM    168  CZ  ARG I  56      70.209  60.098  54.051  1.00  0.00           C
+ATOM    169  NH1 ARG I  56      69.826  61.280  53.583  1.00  0.00           N
+ATOM    170  NH2 ARG I  56      71.369  59.586  53.665  1.00  0.00           N
+ATOM    171  H   ARG I  56      66.266  59.315  60.111  1.00  0.00           H
+ATOM    172  HA  ARG I  56      68.955  60.047  59.170  1.00  0.00           H
+ATOM    173  HB2 ARG I  56      67.156  59.091  57.552  1.00  0.00           H
+ATOM    174  HB3 ARG I  56      66.401  60.673  57.701  1.00  0.00           H
+ATOM    175  HG2 ARG I  56      68.019  61.714  56.500  1.00  0.00           H
+ATOM    176  HG3 ARG I  56      69.286  60.613  57.040  1.00  0.00           H
+ATOM    177  HD2 ARG I  56      67.499  59.052  55.553  1.00  0.00           H
+ATOM    178  HD3 ARG I  56      67.701  60.542  54.638  1.00  0.00           H
+ATOM    179  HE  ARG I  56      69.752  58.560  55.235  1.00  0.00           H
+ATOM    180  N   PHE I  57      68.737  62.275  60.240  1.00  0.00           N
+ATOM    181  CA  PHE I  57      68.628  63.607  60.814  1.00  0.00           C
+ATOM    182  C   PHE I  57      68.921  64.695  59.785  1.00  0.00           C
+ATOM    183  O   PHE I  57      69.936  64.673  59.098  1.00  0.00           O
+ATOM    184  CB  PHE I  57      69.570  63.742  62.011  1.00  0.00           C
+ATOM    185  CG  PHE I  57      69.121  62.999  63.246  1.00  0.00           C
+ATOM    186  CD1 PHE I  57      67.850  62.433  63.332  1.00  0.00           C
+ATOM    187  CD2 PHE I  57      69.972  62.872  64.332  1.00  0.00           C
+ATOM    188  CE1 PHE I  57      67.451  61.763  64.470  1.00  0.00           C
+ATOM    189  CE2 PHE I  57      69.572  62.202  65.472  1.00  0.00           C
+ATOM    190  CZ  PHE I  57      68.312  61.649  65.541  1.00  0.00           C
+ATOM    191  H   PHE I  57      69.591  61.795  60.289  1.00  0.00           H
+ATOM    192  HA  PHE I  57      67.612  63.731  61.157  1.00  0.00           H
+ATOM    193  HB2 PHE I  57      70.543  63.363  61.737  1.00  0.00           H
+ATOM    194  HB3 PHE I  57      69.660  64.787  62.268  1.00  0.00           H
+ATOM    195  HD1 PHE I  57      67.171  62.511  62.497  1.00  0.00           H
+ATOM    196  HD2 PHE I  57      70.959  63.306  64.281  1.00  0.00           H
+ATOM    197  HE1 PHE I  57      66.465  61.332  64.520  1.00  0.00           H
+ATOM    198  HE2 PHE I  57      70.246  62.108  66.308  1.00  0.00           H
+ATOM    199  HZ  PHE I  57      67.998  61.124  66.434  1.00  0.00           H
+ATOM    200  N   TYR I  58      67.998  65.641  59.709  1.00  0.00           N
+ATOM    201  CA  TYR I  58      68.084  66.771  58.792  1.00  0.00           C
+ATOM    202  C   TYR I  58      68.116  68.065  59.574  1.00  0.00           C
+ATOM    203  O   TYR I  58      67.502  68.165  60.621  1.00  0.00           O
+ATOM    204  CB  TYR I  58      66.899  66.817  57.845  1.00  0.00           C
+ATOM    205  CG  TYR I  58      66.615  65.511  57.136  1.00  0.00           C
+ATOM    206  CD1 TYR I  58      67.467  65.038  56.145  1.00  0.00           C
+ATOM    207  CD2 TYR I  58      65.495  64.754  57.455  1.00  0.00           C
+ATOM    208  CE1 TYR I  58      67.209  63.847  55.493  1.00  0.00           C
+ATOM    209  CE2 TYR I  58      65.232  63.563  56.806  1.00  0.00           C
+ATOM    210  CZ  TYR I  58      66.091  63.114  55.827  1.00  0.00           C
+ATOM    211  OH  TYR I  58      65.831  61.928  55.179  1.00  0.00           O
+ATOM    212  H   TYR I  58      67.217  65.580  60.297  1.00  0.00           H
+ATOM    213  HA  TYR I  58      68.998  66.676  58.222  1.00  0.00           H
+ATOM    214  HB2 TYR I  58      66.026  67.093  58.404  1.00  0.00           H
+ATOM    215  HB3 TYR I  58      67.084  67.572  57.098  1.00  0.00           H
+ATOM    216  HD1 TYR I  58      68.341  65.615  55.885  1.00  0.00           H
+ATOM    217  HD2 TYR I  58      64.823  65.108  58.222  1.00  0.00           H
+ATOM    218  HE1 TYR I  58      67.883  63.496  54.724  1.00  0.00           H
+ATOM    219  HE2 TYR I  58      64.354  62.987  57.069  1.00  0.00           H
+ATOM    220  HH  TYR I  58      65.949  61.197  55.789  1.00  0.00           H
+ATOM    221  N   ARG I  59      68.834  69.048  59.069  1.00  0.00           N
+ATOM    222  CA  ARG I  59      68.924  70.333  59.753  1.00  0.00           C
+ATOM    223  C   ARG I  59      67.922  71.319  59.160  1.00  0.00           C
+ATOM    224  O   ARG I  59      67.990  71.667  57.982  1.00  0.00           O
+ATOM    225  CB  ARG I  59      70.343  70.898  59.654  1.00  0.00           C
+ATOM    226  CG  ARG I  59      70.809  71.161  58.228  1.00  0.00           C
+ATOM    227  CD  ARG I  59      71.808  70.116  57.765  1.00  0.00           C
+ATOM    228  NE  ARG I  59      72.919  70.713  57.024  1.00  0.00           N
+ATOM    229  CZ  ARG I  59      74.062  71.105  57.582  1.00  0.00           C
+ATOM    230  NH1 ARG I  59      74.251  70.988  58.890  1.00  0.00           N
+ATOM    231  NH2 ARG I  59      75.020  71.625  56.827  1.00  0.00           N
+ATOM    232  H   ARG I  59      69.299  68.910  58.223  1.00  0.00           H
+ATOM    233  HA  ARG I  59      68.679  70.172  60.793  1.00  0.00           H
+ATOM    234  HB2 ARG I  59      70.381  71.831  60.197  1.00  0.00           H
+ATOM    235  HB3 ARG I  59      71.028  70.198  60.111  1.00  0.00           H
+ATOM    236  HG2 ARG I  59      69.956  71.139  57.571  1.00  0.00           H
+ATOM    237  HG3 ARG I  59      71.272  72.134  58.186  1.00  0.00           H
+ATOM    238  HD2 ARG I  59      72.198  69.596  58.626  1.00  0.00           H
+ATOM    239  HD3 ARG I  59      71.299  69.415  57.123  1.00  0.00           H
+ATOM    240  HE  ARG I  59      72.807  70.825  56.058  1.00  0.00           H
+ATOM    241  N   ASN I  60      66.974  71.749  59.993  1.00  0.00           N
+ATOM    242  CA  ASN I  60      65.933  72.682  59.568  1.00  0.00           C
+ATOM    243  C   ASN I  60      66.519  73.825  58.743  1.00  0.00           C
+ATOM    244  O   ASN I  60      67.500  74.455  59.136  1.00  0.00           O
+ATOM    245  CB  ASN I  60      65.178  73.224  60.789  1.00  0.00           C
+ATOM    246  CG  ASN I  60      64.385  74.486  60.492  1.00  0.00           C
+ATOM    247  OD1 ASN I  60      64.043  74.764  59.341  1.00  0.00           O
+ATOM    248  ND2 ASN I  60      64.084  75.252  61.531  1.00  0.00           N
+ATOM    249  H   ASN I  60      66.967  71.421  60.918  1.00  0.00           H
+ATOM    250  HA  ASN I  60      65.240  72.133  58.947  1.00  0.00           H
+ATOM    251  HB2 ASN I  60      64.490  72.471  61.137  1.00  0.00           H
+ATOM    252  HB3 ASN I  60      65.887  73.441  61.569  1.00  0.00           H
+ATOM    253  N   GLY I  61      65.901  74.081  57.595  1.00  0.00           N
+ATOM    254  CA  GLY I  61      66.365  75.143  56.723  1.00  0.00           C
+ATOM    255  C   GLY I  61      67.690  74.813  56.066  1.00  0.00           C
+ATOM    256  O   GLY I  61      68.731  75.342  56.455  1.00  0.00           O
+ATOM    257  H   GLY I  61      65.124  73.541  57.341  1.00  0.00           H
+ATOM    258  HA2 GLY I  61      66.478  76.047  57.302  1.00  0.00           H
+ATOM    259  HA3 GLY I  61      65.625  75.310  55.953  1.00  0.00           H
+ATOM    260  N   ASP I  62      67.653  73.935  55.068  1.00  0.00           N
+ATOM    261  CA  ASP I  62      68.865  73.534  54.360  1.00  0.00           C
+ATOM    262  C   ASP I  62      68.580  73.280  52.881  1.00  0.00           C
+ATOM    263  O   ASP I  62      69.341  73.711  52.015  1.00  0.00           O
+ATOM    264  CB  ASP I  62      69.460  72.277  54.997  1.00  0.00           C
+ATOM    265  CG  ASP I  62      68.484  71.117  55.015  1.00  0.00           C
+ATOM    266  OD1 ASP I  62      67.263  71.371  55.080  1.00  0.00           O
+ATOM    267  OD2 ASP I  62      68.940  69.955  54.960  1.00  0.00           O
+ATOM    268  H   ASP I  62      66.794  73.544  54.807  1.00  0.00           H
+ATOM    269  HA  ASP I  62      69.577  74.339  54.442  1.00  0.00           H
+ATOM    270  HB2 ASP I  62      70.335  71.979  54.439  1.00  0.00           H
+ATOM    271  HB3 ASP I  62      69.747  72.497  56.016  1.00  0.00           H
+ATOM    272  N   ARG I  63      67.477  72.581  52.604  1.00  0.00           N
+ATOM    273  CA  ARG I  63      67.069  72.256  51.232  1.00  0.00           C
+ATOM    274  C   ARG I  63      68.272  72.004  50.324  1.00  0.00           C
+ATOM    275  O   ARG I  63      68.259  72.358  49.146  1.00  0.00           O
+ATOM    276  CB  ARG I  63      66.192  73.371  50.652  1.00  0.00           C
+ATOM    277  CG  ARG I  63      66.875  74.728  50.575  1.00  0.00           C
+ATOM    278  CD  ARG I  63      65.864  75.861  50.653  1.00  0.00           C
+ATOM    279  NE  ARG I  63      66.378  77.001  51.408  1.00  0.00           N
+ATOM    280  CZ  ARG I  63      67.387  77.768  50.999  1.00  0.00           C
+ATOM    281  NH1 ARG I  63      67.992  77.523  49.844  1.00  0.00           N
+ATOM    282  NH2 ARG I  63      67.792  78.785  51.749  1.00  0.00           N
+ATOM    283  H   ARG I  63      66.918  72.271  53.346  1.00  0.00           H
+ATOM    284  HA  ARG I  63      66.483  71.350  51.278  1.00  0.00           H
+ATOM    285  HB2 ARG I  63      65.891  73.091  49.653  1.00  0.00           H
+ATOM    286  HB3 ARG I  63      65.309  73.473  51.265  1.00  0.00           H
+ATOM    287  HG2 ARG I  63      67.565  74.823  51.396  1.00  0.00           H
+ATOM    288  HG3 ARG I  63      67.411  74.798  49.640  1.00  0.00           H
+ATOM    289  HD2 ARG I  63      65.626  76.183  49.650  1.00  0.00           H
+ATOM    290  HD3 ARG I  63      64.970  75.494  51.135  1.00  0.00           H
+ATOM    291  HE  ARG I  63      65.949  77.206  52.266  1.00  0.00           H
+ATOM    292  N   TYR I  64      69.305  71.383  50.885  1.00  0.00           N
+ATOM    293  CA  TYR I  64      70.516  71.076  50.135  1.00  0.00           C
+ATOM    294  C   TYR I  64      71.214  69.855  50.730  1.00  0.00           C
+ATOM    295  O   TYR I  64      71.484  68.876  50.034  1.00  0.00           O
+ATOM    296  CB  TYR I  64      71.462  72.279  50.146  1.00  0.00           C
+ATOM    297  CG  TYR I  64      71.486  73.042  48.841  1.00  0.00           C
+ATOM    298  CD1 TYR I  64      70.608  74.094  48.614  1.00  0.00           C
+ATOM    299  CD2 TYR I  64      72.386  72.709  47.836  1.00  0.00           C
+ATOM    300  CE1 TYR I  64      70.625  74.793  47.423  1.00  0.00           C
+ATOM    301  CE2 TYR I  64      72.412  73.406  46.642  1.00  0.00           C
+ATOM    302  CZ  TYR I  64      71.528  74.446  46.441  1.00  0.00           C
+ATOM    303  OH  TYR I  64      71.549  75.141  45.253  1.00  0.00           O
+ATOM    304  H   TYR I  64      69.254  71.126  51.828  1.00  0.00           H
+ATOM    305  HA  TYR I  64      70.234  70.856  49.117  1.00  0.00           H
+ATOM    306  HB2 TYR I  64      71.152  72.963  50.922  1.00  0.00           H
+ATOM    307  HB3 TYR I  64      72.464  71.938  50.352  1.00  0.00           H
+ATOM    308  HD1 TYR I  64      69.902  74.364  49.386  1.00  0.00           H
+ATOM    309  HD2 TYR I  64      73.076  71.894  47.996  1.00  0.00           H
+ATOM    310  HE1 TYR I  64      69.935  75.609  47.265  1.00  0.00           H
+ATOM    311  HE2 TYR I  64      73.119  73.133  45.873  1.00  0.00           H
+ATOM    312  HH  TYR I  64      70.652  75.358  44.993  1.00  0.00           H
+ATOM    313  N   PHE I  65      71.490  69.924  52.028  1.00  0.00           N
+ATOM    314  CA  PHE I  65      72.141  68.831  52.736  1.00  0.00           C
+ATOM    315  C   PHE I  65      71.140  67.723  53.021  1.00  0.00           C
+ATOM    316  O   PHE I  65      70.084  67.962  53.608  1.00  0.00           O
+ATOM    317  CB  PHE I  65      72.751  69.340  54.044  1.00  0.00           C
+ATOM    318  CG  PHE I  65      73.505  68.292  54.811  1.00  0.00           C
+ATOM    319  CD1 PHE I  65      74.796  67.939  54.448  1.00  0.00           C
+ATOM    320  CD2 PHE I  65      72.927  67.662  55.900  1.00  0.00           C
+ATOM    321  CE1 PHE I  65      75.492  66.979  55.158  1.00  0.00           C
+ATOM    322  CE2 PHE I  65      73.615  66.701  56.613  1.00  0.00           C
+ATOM    323  CZ  PHE I  65      74.901  66.359  56.242  1.00  0.00           C
+ATOM    324  H   PHE I  65      71.238  70.725  52.524  1.00  0.00           H
+ATOM    325  HA  PHE I  65      72.926  68.443  52.105  1.00  0.00           H
+ATOM    326  HB2 PHE I  65      73.437  70.145  53.823  1.00  0.00           H
+ATOM    327  HB3 PHE I  65      71.961  69.712  54.678  1.00  0.00           H
+ATOM    328  HD1 PHE I  65      75.259  68.424  53.601  1.00  0.00           H
+ATOM    329  HD2 PHE I  65      71.921  67.926  56.190  1.00  0.00           H
+ATOM    330  HE1 PHE I  65      76.497  66.714  54.865  1.00  0.00           H
+ATOM    331  HE2 PHE I  65      73.150  66.221  57.462  1.00  0.00           H
+ATOM    332  HZ  PHE I  65      75.445  65.609  56.798  1.00  0.00           H
+ATOM    333  N   LYS I  66      71.468  66.511  52.595  1.00  0.00           N
+ATOM    334  CA  LYS I  66      70.587  65.365  52.793  1.00  0.00           C
+ATOM    335  C   LYS I  66      70.705  64.792  54.206  1.00  0.00           C
+ATOM    336  O   LYS I  66      70.630  63.580  54.401  1.00  0.00           O
+ATOM    337  CB  LYS I  66      70.903  64.291  51.754  1.00  0.00           C
+ATOM    338  CG  LYS I  66      71.082  64.854  50.352  1.00  0.00           C
+ATOM    339  CD  LYS I  66      69.992  64.370  49.408  1.00  0.00           C
+ATOM    340  CE  LYS I  66      68.686  65.117  49.635  1.00  0.00           C
+ATOM    341  NZ  LYS I  66      67.809  65.080  48.433  1.00  0.00           N
+ATOM    342  H   LYS I  66      72.318  66.384  52.126  1.00  0.00           H
+ATOM    343  HA  LYS I  66      69.575  65.702  52.643  1.00  0.00           H
+ATOM    344  HB2 LYS I  66      71.814  63.785  52.037  1.00  0.00           H
+ATOM    345  HB3 LYS I  66      70.092  63.576  51.733  1.00  0.00           H
+ATOM    346  HG2 LYS I  66      71.047  65.936  50.402  1.00  0.00           H
+ATOM    347  HG3 LYS I  66      72.042  64.542  49.969  1.00  0.00           H
+ATOM    348  HD2 LYS I  66      70.313  64.529  48.389  1.00  0.00           H
+ATOM    349  HD3 LYS I  66      69.826  63.316  49.576  1.00  0.00           H
+ATOM    350  HE2 LYS I  66      68.168  64.662  50.464  1.00  0.00           H
+ATOM    351  HE3 LYS I  66      68.913  66.146  49.872  1.00  0.00           H
+ATOM    352  HZ1 LYS I  66      68.053  64.262  47.838  1.00  0.00           H
+ATOM    353  HZ2 LYS I  66      66.813  65.000  48.721  1.00  0.00           H
+ATOM    354  HZ3 LYS I  66      67.930  65.949  47.876  1.00  0.00           H
+ATOM    355  N   GLY I  67      70.870  65.673  55.189  1.00  0.00           N
+ATOM    356  CA  GLY I  67      70.975  65.244  56.574  1.00  0.00           C
+ATOM    357  C   GLY I  67      72.004  64.146  56.793  1.00  0.00           C
+ATOM    358  O   GLY I  67      72.585  63.624  55.842  1.00  0.00           O
+ATOM    359  H   GLY I  67      70.906  66.624  54.979  1.00  0.00           H
+ATOM    360  HA2 GLY I  67      70.010  64.882  56.896  1.00  0.00           H
+ATOM    361  HA3 GLY I  67      71.245  66.096  57.180  1.00  0.00           H
+ATOM    362  N   ILE I  68      72.210  63.795  58.056  1.00  0.00           N
+ATOM    363  CA  ILE I  68      73.153  62.748  58.427  1.00  0.00           C
+ATOM    364  C   ILE I  68      72.439  61.666  59.238  1.00  0.00           C
+ATOM    365  O   ILE I  68      71.593  61.970  60.079  1.00  0.00           O
+ATOM    366  CB  ILE I  68      74.346  63.318  59.234  1.00  0.00           C
+ATOM    367  CG1 ILE I  68      75.271  62.192  59.698  1.00  0.00           C
+ATOM    368  CG2 ILE I  68      73.857  64.136  60.426  1.00  0.00           C
+ATOM    369  CD1 ILE I  68      76.630  62.676  60.154  1.00  0.00           C
+ATOM    370  H   ILE I  68      71.704  64.248  58.762  1.00  0.00           H
+ATOM    371  HA  ILE I  68      73.537  62.308  57.517  1.00  0.00           H
+ATOM    372  HB  ILE I  68      74.900  63.980  58.585  1.00  0.00           H
+ATOM    373  N   VAL I  69      72.766  60.407  58.965  1.00  0.00           N
+ATOM    374  CA  VAL I  69      72.134  59.285  59.657  1.00  0.00           C
+ATOM    375  C   VAL I  69      72.829  58.969  60.978  1.00  0.00           C
+ATOM    376  O   VAL I  69      74.055  58.876  61.041  1.00  0.00           O
+ATOM    377  CB  VAL I  69      72.127  58.018  58.779  1.00  0.00           C
+ATOM    378  CG1 VAL I  69      71.293  56.920  59.425  1.00  0.00           C
+ATOM    379  CG2 VAL I  69      71.612  58.334  57.382  1.00  0.00           C
+ATOM    380  H   VAL I  69      73.436  60.226  58.273  1.00  0.00           H
+ATOM    381  HA  VAL I  69      71.109  59.559  59.861  1.00  0.00           H
+ATOM    382  HB  VAL I  69      73.142  57.659  58.692  1.00  0.00           H
+ATOM    383  N   TYR I  70      72.032  58.794  62.029  1.00  0.00           N
+ATOM    384  CA  TYR I  70      72.549  58.478  63.343  1.00  0.00           C
+ATOM    385  C   TYR I  70      71.761  57.351  63.987  1.00  0.00           C
+ATOM    386  O   TYR I  70      70.577  57.148  63.707  1.00  0.00           O
+ATOM    387  CB  TYR I  70      72.516  59.706  64.256  1.00  0.00           C
+ATOM    388  CG  TYR I  70      73.875  60.315  64.510  1.00  0.00           C
+ATOM    389  CD1 TYR I  70      74.698  60.699  63.461  1.00  0.00           C
+ATOM    390  CD2 TYR I  70      74.337  60.492  65.808  1.00  0.00           C
+ATOM    391  CE1 TYR I  70      75.945  61.247  63.698  1.00  0.00           C
+ATOM    392  CE2 TYR I  70      75.581  61.035  66.055  1.00  0.00           C
+ATOM    393  CZ  TYR I  70      76.382  61.411  64.997  1.00  0.00           C
+ATOM    394  OH  TYR I  70      77.624  61.950  65.239  1.00  0.00           O
+ATOM    395  H   TYR I  70      71.067  58.870  61.917  1.00  0.00           H
+ATOM    396  HA  TYR I  70      73.575  58.159  63.226  1.00  0.00           H
+ATOM    397  HB2 TYR I  70      71.891  60.463  63.807  1.00  0.00           H
+ATOM    398  HB3 TYR I  70      72.095  59.425  65.212  1.00  0.00           H
+ATOM    399  HD1 TYR I  70      74.352  60.571  62.446  1.00  0.00           H
+ATOM    400  HD2 TYR I  70      73.707  60.195  66.636  1.00  0.00           H
+ATOM    401  HE1 TYR I  70      76.571  61.540  62.870  1.00  0.00           H
+ATOM    402  HE2 TYR I  70      75.923  61.165  67.070  1.00  0.00           H
+ATOM    403  HH  TYR I  70      78.040  61.483  65.967  1.00  0.00           H
+ATOM    404  N   ALA I  71      72.435  56.645  64.871  1.00  0.00           N
+ATOM    405  CA  ALA I  71      71.838  55.547  65.613  1.00  0.00           C
+ATOM    406  C   ALA I  71      71.542  56.006  67.033  1.00  0.00           C
+ATOM    407  O   ALA I  71      72.280  56.820  67.590  1.00  0.00           O
+ATOM    408  CB  ALA I  71      72.765  54.340  65.619  1.00  0.00           C
+ATOM    409  H   ALA I  71      73.362  56.887  65.042  1.00  0.00           H
+ATOM    410  HA  ALA I  71      70.914  55.271  65.127  1.00  0.00           H
+ATOM    411  HB1 ALA I  71      73.343  54.325  64.707  1.00  0.00           H
+ATOM    412  HB2 ALA I  71      72.177  53.435  65.688  1.00  0.00           H
+ATOM    413  HB3 ALA I  71      73.431  54.401  66.468  1.00  0.00           H
+ATOM    414  N   VAL I  72      70.460  55.510  67.616  1.00  0.00           N
+ATOM    415  CA  VAL I  72      70.092  55.913  68.962  1.00  0.00           C
+ATOM    416  C   VAL I  72      69.553  54.743  69.772  1.00  0.00           C
+ATOM    417  O   VAL I  72      68.734  53.957  69.296  1.00  0.00           O
+ATOM    418  CB  VAL I  72      69.044  57.044  68.949  1.00  0.00           C
+ATOM    419  CG1 VAL I  72      69.188  57.910  70.190  1.00  0.00           C
+ATOM    420  CG2 VAL I  72      69.169  57.890  67.688  1.00  0.00           C
+ATOM    421  H   VAL I  72      69.896  54.876  67.131  1.00  0.00           H
+ATOM    422  HA  VAL I  72      70.982  56.288  69.447  1.00  0.00           H
+ATOM    423  HB  VAL I  72      68.059  56.597  68.963  1.00  0.00           H
+ATOM    424  N   SER I  73      70.030  54.649  71.003  1.00  0.00           N
+ATOM    425  CA  SER I  73      69.622  53.591  71.920  1.00  0.00           C
+ATOM    426  C   SER I  73      69.838  54.028  73.366  1.00  0.00           C
+ATOM    427  O   SER I  73      70.141  55.191  73.630  1.00  0.00           O
+ATOM    428  CB  SER I  73      70.412  52.310  71.636  1.00  0.00           C
+ATOM    429  OG  SER I  73      71.799  52.510  71.843  1.00  0.00           O
+ATOM    430  H   SER I  73      70.679  55.313  71.305  1.00  0.00           H
+ATOM    431  HA  SER I  73      68.570  53.400  71.763  1.00  0.00           H
+ATOM    432  HB2 SER I  73      70.072  51.526  72.296  1.00  0.00           H
+ATOM    433  HB3 SER I  73      70.251  52.012  70.611  1.00  0.00           H
+ATOM    434  HG  SER I  73      72.052  52.150  72.695  1.00  0.00           H
+ATOM    435  N   SER I  74      69.680  53.094  74.298  1.00  0.00           N
+ATOM    436  CA  SER I  74      69.858  53.397  75.715  1.00  0.00           C
+ATOM    437  C   SER I  74      71.317  53.231  76.137  1.00  0.00           C
+ATOM    438  O   SER I  74      71.759  53.831  77.118  1.00  0.00           O
+ATOM    439  CB  SER I  74      68.967  52.489  76.565  1.00  0.00           C
+ATOM    440  OG  SER I  74      68.941  51.171  76.048  1.00  0.00           O
+ATOM    441  H   SER I  74      69.437  52.185  74.029  1.00  0.00           H
+ATOM    442  HA  SER I  74      69.565  54.422  75.874  1.00  0.00           H
+ATOM    443  HB2 SER I  74      69.346  52.458  77.575  1.00  0.00           H
+ATOM    444  HB3 SER I  74      67.960  52.881  76.570  1.00  0.00           H
+ATOM    445  HG  SER I  74      68.797  50.547  76.765  1.00  0.00           H
+ATOM    446  N   ASP I  75      72.057  52.414  75.398  1.00  0.00           N
+ATOM    447  CA  ASP I  75      73.457  52.164  75.695  1.00  0.00           C
+ATOM    448  C   ASP I  75      74.360  53.247  75.105  1.00  0.00           C
+ATOM    449  O   ASP I  75      75.481  53.448  75.568  1.00  0.00           O
+ATOM    450  CB  ASP I  75      73.851  50.795  75.147  1.00  0.00           C
+ATOM    451  CG  ASP I  75      74.003  49.753  76.238  1.00  0.00           C
+ATOM    452  OD1 ASP I  75      72.973  49.187  76.666  1.00  0.00           O
+ATOM    453  OD2 ASP I  75      75.148  49.502  76.665  1.00  0.00           O
+ATOM    454  H   ASP I  75      71.655  51.958  74.632  1.00  0.00           H
+ATOM    455  HA  ASP I  75      73.572  52.158  76.767  1.00  0.00           H
+ATOM    456  HB2 ASP I  75      73.086  50.458  74.462  1.00  0.00           H
+ATOM    457  HB3 ASP I  75      74.782  50.882  74.620  1.00  0.00           H
+ATOM    458  N   ARG I  76      73.869  53.937  74.079  1.00  0.00           N
+ATOM    459  CA  ARG I  76      74.645  54.990  73.431  1.00  0.00           C
+ATOM    460  C   ARG I  76      74.347  56.356  74.047  1.00  0.00           C
+ATOM    461  O   ARG I  76      75.264  57.107  74.384  1.00  0.00           O
+ATOM    462  CB  ARG I  76      74.348  55.017  71.929  1.00  0.00           C
+ATOM    463  CG  ARG I  76      75.570  54.749  71.065  1.00  0.00           C
+ATOM    464  CD  ARG I  76      75.688  55.755  69.928  1.00  0.00           C
+ATOM    465  NE  ARG I  76      75.742  55.101  68.623  1.00  0.00           N
+ATOM    466  CZ  ARG I  76      76.818  54.475  68.148  1.00  0.00           C
+ATOM    467  NH1 ARG I  76      77.930  54.417  68.871  1.00  0.00           N
+ATOM    468  NH2 ARG I  76      76.780  53.910  66.952  1.00  0.00           N
+ATOM    469  H   ARG I  76      72.971  53.731  73.747  1.00  0.00           H
+ATOM    470  HA  ARG I  76      75.690  54.766  73.576  1.00  0.00           H
+ATOM    471  HB2 ARG I  76      73.605  54.266  71.709  1.00  0.00           H
+ATOM    472  HB3 ARG I  76      73.953  55.988  71.668  1.00  0.00           H
+ATOM    473  HG2 ARG I  76      76.456  54.814  71.680  1.00  0.00           H
+ATOM    474  HG3 ARG I  76      75.491  53.756  70.647  1.00  0.00           H
+ATOM    475  HD2 ARG I  76      74.834  56.414  69.955  1.00  0.00           H
+ATOM    476  HD3 ARG I  76      76.590  56.331  70.068  1.00  0.00           H
+ATOM    477  HE  ARG I  76      74.932  55.130  68.069  1.00  0.00           H
+ATOM    478  N   PHE I  77      73.066  56.672  74.190  1.00  0.00           N
+ATOM    479  CA  PHE I  77      72.651  57.947  74.761  1.00  0.00           C
+ATOM    480  C   PHE I  77      71.648  57.734  75.888  1.00  0.00           C
+ATOM    481  O   PHE I  77      70.577  57.162  75.684  1.00  0.00           O
+ATOM    482  CB  PHE I  77      72.042  58.836  73.677  1.00  0.00           C
+ATOM    483  CG  PHE I  77      72.966  59.086  72.518  1.00  0.00           C
+ATOM    484  CD1 PHE I  77      73.975  60.029  72.610  1.00  0.00           C
+ATOM    485  CD2 PHE I  77      72.821  58.375  71.337  1.00  0.00           C
+ATOM    486  CE1 PHE I  77      74.826  60.259  71.545  1.00  0.00           C
+ATOM    487  CE2 PHE I  77      73.668  58.601  70.269  1.00  0.00           C
+ATOM    488  CZ  PHE I  77      74.672  59.544  70.372  1.00  0.00           C
+ATOM    489  H   PHE I  77      72.382  56.034  73.902  1.00  0.00           H
+ATOM    490  HA  PHE I  77      73.527  58.432  75.163  1.00  0.00           H
+ATOM    491  HB2 PHE I  77      71.149  58.366  73.295  1.00  0.00           H
+ATOM    492  HB3 PHE I  77      71.783  59.792  74.109  1.00  0.00           H
+ATOM    493  HD1 PHE I  77      74.097  60.587  73.526  1.00  0.00           H
+ATOM    494  HD2 PHE I  77      72.037  57.637  71.255  1.00  0.00           H
+ATOM    495  HE1 PHE I  77      75.609  60.996  71.628  1.00  0.00           H
+ATOM    496  HE2 PHE I  77      73.544  58.041  69.354  1.00  0.00           H
+ATOM    497  HZ  PHE I  77      75.335  59.723  69.538  1.00  0.00           H
+ATOM    498  N   ARG I  78      72.007  58.197  77.079  1.00  0.00           N
+ATOM    499  CA  ARG I  78      71.155  58.063  78.245  1.00  0.00           C
+ATOM    500  C   ARG I  78      69.883  58.898  78.111  1.00  0.00           C
+ATOM    501  O   ARG I  78      68.881  58.621  78.768  1.00  0.00           O
+ATOM    502  CB  ARG I  78      71.936  58.482  79.489  1.00  0.00           C
+ATOM    503  CG  ARG I  78      72.370  57.317  80.361  1.00  0.00           C
+ATOM    504  CD  ARG I  78      71.175  56.526  80.869  1.00  0.00           C
+ATOM    505  NE  ARG I  78      71.381  56.038  82.231  1.00  0.00           N
+ATOM    506  CZ  ARG I  78      71.401  56.822  83.306  1.00  0.00           C
+ATOM    507  NH1 ARG I  78      71.230  58.132  83.182  1.00  0.00           N
+ATOM    508  NH2 ARG I  78      71.594  56.296  84.507  1.00  0.00           N
+ATOM    509  H   ARG I  78      72.871  58.643  77.181  1.00  0.00           H
+ATOM    510  HA  ARG I  78      70.882  57.024  78.339  1.00  0.00           H
+ATOM    511  HB2 ARG I  78      72.822  59.015  79.176  1.00  0.00           H
+ATOM    512  HB3 ARG I  78      71.325  59.141  80.074  1.00  0.00           H
+ATOM    513  HG2 ARG I  78      73.002  56.660  79.780  1.00  0.00           H
+ATOM    514  HG3 ARG I  78      72.922  57.699  81.206  1.00  0.00           H
+ATOM    515  HD2 ARG I  78      70.305  57.165  80.855  1.00  0.00           H
+ATOM    516  HD3 ARG I  78      71.013  55.683  80.215  1.00  0.00           H
+ATOM    517  HE  ARG I  78      71.510  55.073  82.349  1.00  0.00           H
+ATOM    518  N   SER I  79      69.927  59.922  77.263  1.00  0.00           N
+ATOM    519  CA  SER I  79      68.766  60.787  77.061  1.00  0.00           C
+ATOM    520  C   SER I  79      68.907  61.628  75.796  1.00  0.00           C
+ATOM    521  O   SER I  79      69.946  61.613  75.135  1.00  0.00           O
+ATOM    522  CB  SER I  79      68.574  61.698  78.275  1.00  0.00           C
+ATOM    523  OG  SER I  79      67.218  61.721  78.687  1.00  0.00           O
+ATOM    524  H   SER I  79      70.753  60.103  76.765  1.00  0.00           H
+ATOM    525  HA  SER I  79      67.898  60.153  76.961  1.00  0.00           H
+ATOM    526  HB2 SER I  79      69.179  61.338  79.093  1.00  0.00           H
+ATOM    527  HB3 SER I  79      68.877  62.705  78.019  1.00  0.00           H
+ATOM    528  HG  SER I  79      66.650  61.804  77.917  1.00  0.00           H
+ATOM    529  N   PHE I  80      67.847  62.362  75.468  1.00  0.00           N
+ATOM    530  CA  PHE I  80      67.834  63.217  74.285  1.00  0.00           C
+ATOM    531  C   PHE I  80      68.928  64.276  74.365  1.00  0.00           C
+ATOM    532  O   PHE I  80      69.502  64.668  73.349  1.00  0.00           O
+ATOM    533  CB  PHE I  80      66.466  63.890  74.138  1.00  0.00           C
+ATOM    534  CG  PHE I  80      65.938  63.886  72.730  1.00  0.00           C
+ATOM    535  CD1 PHE I  80      65.731  62.694  72.057  1.00  0.00           C
+ATOM    536  CD2 PHE I  80      65.643  65.077  72.081  1.00  0.00           C
+ATOM    537  CE1 PHE I  80      65.243  62.686  70.767  1.00  0.00           C
+ATOM    538  CE2 PHE I  80      65.152  65.075  70.791  1.00  0.00           C
+ATOM    539  CZ  PHE I  80      64.951  63.877  70.131  1.00  0.00           C
+ATOM    540  H   PHE I  80      67.051  62.328  76.038  1.00  0.00           H
+ATOM    541  HA  PHE I  80      68.013  62.594  73.421  1.00  0.00           H
+ATOM    542  HB2 PHE I  80      65.750  63.373  74.760  1.00  0.00           H
+ATOM    543  HB3 PHE I  80      66.539  64.918  74.463  1.00  0.00           H
+ATOM    544  HD1 PHE I  80      65.957  61.762  72.549  1.00  0.00           H
+ATOM    545  HD2 PHE I  80      65.800  66.012  72.593  1.00  0.00           H
+ATOM    546  HE1 PHE I  80      65.086  61.750  70.254  1.00  0.00           H
+ATOM    547  HE2 PHE I  80      64.926  66.008  70.299  1.00  0.00           H
+ATOM    548  HZ  PHE I  80      64.569  63.872  69.123  1.00  0.00           H
+ATOM    549  N   ASP I  81      69.214  64.737  75.580  1.00  0.00           N
+ATOM    550  CA  ASP I  81      70.241  65.750  75.788  1.00  0.00           C
+ATOM    551  C   ASP I  81      71.599  65.236  75.332  1.00  0.00           C
+ATOM    552  O   ASP I  81      72.377  65.962  74.712  1.00  0.00           O
+ATOM    553  CB  ASP I  81      70.303  66.152  77.263  1.00  0.00           C
+ATOM    554  CG  ASP I  81      70.586  67.629  77.448  1.00  0.00           C
+ATOM    555  OD1 ASP I  81      71.456  68.162  76.729  1.00  0.00           O
+ATOM    556  OD2 ASP I  81      69.938  68.254  78.314  1.00  0.00           O
+ATOM    557  H   ASP I  81      68.726  64.385  76.353  1.00  0.00           H
+ATOM    558  HA  ASP I  81      69.980  66.616  75.197  1.00  0.00           H
+ATOM    559  HB2 ASP I  81      69.356  65.926  77.731  1.00  0.00           H
+ATOM    560  HB3 ASP I  81      71.086  65.590  77.750  1.00  0.00           H
+ATOM    561  N   ALA I  82      71.872  63.974  75.638  1.00  0.00           N
+ATOM    562  CA  ALA I  82      73.130  63.349  75.257  1.00  0.00           C
+ATOM    563  C   ALA I  82      73.202  63.159  73.752  1.00  0.00           C
+ATOM    564  O   ALA I  82      74.247  63.373  73.136  1.00  0.00           O
+ATOM    565  CB  ALA I  82      73.284  62.020  75.962  1.00  0.00           C
+ATOM    566  H   ALA I  82      71.207  63.447  76.130  1.00  0.00           H
+ATOM    567  HA  ALA I  82      73.937  63.996  75.572  1.00  0.00           H
+ATOM    568  HB1 ALA I  82      72.432  61.855  76.603  1.00  0.00           H
+ATOM    569  HB2 ALA I  82      74.187  62.030  76.551  1.00  0.00           H
+ATOM    570  HB3 ALA I  82      73.340  61.230  75.227  1.00  0.00           H
+ATOM    571  N   LEU I  83      72.079  62.770  73.158  1.00  0.00           N
+ATOM    572  CA  LEU I  83      72.016  62.569  71.721  1.00  0.00           C
+ATOM    573  C   LEU I  83      72.232  63.901  71.036  1.00  0.00           C
+ATOM    574  O   LEU I  83      73.036  64.026  70.113  1.00  0.00           O
+ATOM    575  CB  LEU I  83      70.657  62.004  71.320  1.00  0.00           C
+ATOM    576  CG  LEU I  83      70.508  61.673  69.835  1.00  0.00           C
+ATOM    577  CD1 LEU I  83      71.427  60.524  69.449  1.00  0.00           C
+ATOM    578  CD2 LEU I  83      69.061  61.339  69.505  1.00  0.00           C
+ATOM    579  H   LEU I  83      71.275  62.626  73.699  1.00  0.00           H
+ATOM    580  HA  LEU I  83      72.796  61.883  71.433  1.00  0.00           H
+ATOM    581  HB2 LEU I  83      70.482  61.109  71.892  1.00  0.00           H
+ATOM    582  HB3 LEU I  83      69.899  62.730  71.578  1.00  0.00           H
+ATOM    583  HG  LEU I  83      70.793  62.537  69.251  1.00  0.00           H
+ATOM    584  N   LEU I  84      71.520  64.902  71.529  1.00  0.00           N
+ATOM    585  CA  LEU I  84      71.635  66.246  71.003  1.00  0.00           C
+ATOM    586  C   LEU I  84      73.070  66.737  71.136  1.00  0.00           C
+ATOM    587  O   LEU I  84      73.553  67.494  70.296  1.00  0.00           O
+ATOM    588  CB  LEU I  84      70.681  67.185  71.742  1.00  0.00           C
+ATOM    589  CG  LEU I  84      69.233  67.129  71.264  1.00  0.00           C
+ATOM    590  CD1 LEU I  84      68.332  67.925  72.196  1.00  0.00           C
+ATOM    591  CD2 LEU I  84      69.128  67.650  69.841  1.00  0.00           C
+ATOM    592  H   LEU I  84      70.911  64.729  72.280  1.00  0.00           H
+ATOM    593  HA  LEU I  84      71.367  66.221  69.958  1.00  0.00           H
+ATOM    594  HB2 LEU I  84      70.703  66.933  72.792  1.00  0.00           H
+ATOM    595  HB3 LEU I  84      71.038  68.198  71.624  1.00  0.00           H
+ATOM    596  HG  LEU I  84      68.896  66.102  71.272  1.00  0.00           H
+ATOM    597  N   ALA I  85      73.753  66.291  72.192  1.00  0.00           N
+ATOM    598  CA  ALA I  85      75.140  66.687  72.409  1.00  0.00           C
+ATOM    599  C   ALA I  85      76.025  66.183  71.279  1.00  0.00           C
+ATOM    600  O   ALA I  85      76.846  66.924  70.738  1.00  0.00           O
+ATOM    601  CB  ALA I  85      75.632  66.145  73.736  1.00  0.00           C
+ATOM    602  H   ALA I  85      73.321  65.675  72.831  1.00  0.00           H
+ATOM    603  HA  ALA I  85      75.184  67.767  72.442  1.00  0.00           H
+ATOM    604  HB1 ALA I  85      75.718  65.070  73.669  1.00  0.00           H
+ATOM    605  HB2 ALA I  85      76.597  66.569  73.963  1.00  0.00           H
+ATOM    606  HB3 ALA I  85      74.931  66.404  74.514  1.00  0.00           H
+ATOM    607  N   ASP I  86      75.834  64.920  70.917  1.00  0.00           N
+ATOM    608  CA  ASP I  86      76.595  64.311  69.839  1.00  0.00           C
+ATOM    609  C   ASP I  86      76.142  64.876  68.501  1.00  0.00           C
+ATOM    610  O   ASP I  86      76.939  65.047  67.578  1.00  0.00           O
+ATOM    611  CB  ASP I  86      76.421  62.791  69.852  1.00  0.00           C
+ATOM    612  CG  ASP I  86      77.572  62.085  70.542  1.00  0.00           C
+ATOM    613  OD1 ASP I  86      77.712  62.241  71.774  1.00  0.00           O
+ATOM    614  OD2 ASP I  86      78.332  61.374  69.852  1.00  0.00           O
+ATOM    615  H   ASP I  86      75.154  64.389  71.379  1.00  0.00           H
+ATOM    616  HA  ASP I  86      77.638  64.552  69.986  1.00  0.00           H
+ATOM    617  HB2 ASP I  86      75.509  62.544  70.373  1.00  0.00           H
+ATOM    618  HB3 ASP I  86      76.359  62.431  68.835  1.00  0.00           H
+ATOM    619  N   LEU I  87      74.850  65.166  68.411  1.00  0.00           N
+ATOM    620  CA  LEU I  87      74.269  65.715  67.192  1.00  0.00           C
+ATOM    621  C   LEU I  87      74.896  67.060  66.859  1.00  0.00           C
+ATOM    622  O   LEU I  87      75.114  67.384  65.694  1.00  0.00           O
+ATOM    623  CB  LEU I  87      72.747  65.860  67.338  1.00  0.00           C
+ATOM    624  CG  LEU I  87      71.939  64.558  67.256  1.00  0.00           C
+ATOM    625  CD1 LEU I  87      70.524  64.844  66.775  1.00  0.00           C
+ATOM    626  CD2 LEU I  87      72.616  63.545  66.340  1.00  0.00           C
+ATOM    627  H   LEU I  87      74.271  65.008  69.191  1.00  0.00           H
+ATOM    628  HA  LEU I  87      74.490  65.033  66.386  1.00  0.00           H
+ATOM    629  HB2 LEU I  87      72.547  66.319  68.295  1.00  0.00           H
+ATOM    630  HB3 LEU I  87      72.393  66.525  66.564  1.00  0.00           H
+ATOM    631  HG  LEU I  87      71.869  64.124  68.243  1.00  0.00           H
+ATOM    632  N   THR I  88      75.200  67.837  67.890  1.00  0.00           N
+ATOM    633  CA  THR I  88      75.819  69.138  67.698  1.00  0.00           C
+ATOM    634  C   THR I  88      77.159  68.971  66.991  1.00  0.00           C
+ATOM    635  O   THR I  88      77.502  69.733  66.089  1.00  0.00           O
+ATOM    636  CB  THR I  88      76.021  69.836  69.049  1.00  0.00           C
+ATOM    637  OG1 THR I  88      75.331  69.150  70.078  1.00  0.00           O
+ATOM    638  CG2 THR I  88      75.549  71.272  69.062  1.00  0.00           C
+ATOM    639  H   THR I  88      75.014  67.522  68.800  1.00  0.00           H
+ATOM    640  HA  THR I  88      75.165  69.736  67.081  1.00  0.00           H
+ATOM    641  HB  THR I  88      77.075  69.831  69.291  1.00  0.00           H
+ATOM    642  HG1 THR I  88      75.607  69.493  70.931  1.00  0.00           H
+ATOM    643  N   ARG I  89      77.908  67.960  67.418  1.00  0.00           N
+ATOM    644  CA  ARG I  89      79.215  67.667  66.847  1.00  0.00           C
+ATOM    645  C   ARG I  89      79.118  67.145  65.414  1.00  0.00           C
+ATOM    646  O   ARG I  89      79.895  67.553  64.550  1.00  0.00           O
+ATOM    647  CB  ARG I  89      79.952  66.647  67.718  1.00  0.00           C
+ATOM    648  CG  ARG I  89      80.507  67.236  69.006  1.00  0.00           C
+ATOM    649  CD  ARG I  89      79.667  66.842  70.211  1.00  0.00           C
+ATOM    650  NE  ARG I  89      79.199  68.008  70.957  1.00  0.00           N
+ATOM    651  CZ  ARG I  89      79.959  68.700  71.803  1.00  0.00           C
+ATOM    652  NH1 ARG I  89      81.221  68.346  72.014  1.00  0.00           N
+ATOM    653  NH2 ARG I  89      79.455  69.748  72.440  1.00  0.00           N
+ATOM    654  H   ARG I  89      77.569  67.394  68.143  1.00  0.00           H
+ATOM    655  HA  ARG I  89      79.781  68.586  66.841  1.00  0.00           H
+ATOM    656  HB2 ARG I  89      79.269  65.851  67.975  1.00  0.00           H
+ATOM    657  HB3 ARG I  89      80.773  66.236  67.153  1.00  0.00           H
+ATOM    658  HG2 ARG I  89      81.514  66.875  69.151  1.00  0.00           H
+ATOM    659  HG3 ARG I  89      80.516  68.313  68.923  1.00  0.00           H
+ATOM    660  HD2 ARG I  89      78.811  66.279  69.870  1.00  0.00           H
+ATOM    661  HD3 ARG I  89      80.264  66.224  70.865  1.00  0.00           H
+ATOM    662  HE  ARG I  89      78.271  68.291  70.822  1.00  0.00           H
+ATOM    663  N   SER I  90      78.189  66.220  65.162  1.00  0.00           N
+ATOM    664  CA  SER I  90      78.049  65.642  63.826  1.00  0.00           C
+ATOM    665  C   SER I  90      77.403  66.608  62.840  1.00  0.00           C
+ATOM    666  O   SER I  90      77.785  66.659  61.671  1.00  0.00           O
+ATOM    667  CB  SER I  90      77.225  64.355  63.890  1.00  0.00           C
+ATOM    668  OG  SER I  90      77.881  63.299  63.208  1.00  0.00           O
+ATOM    669  H   SER I  90      77.602  65.909  65.887  1.00  0.00           H
+ATOM    670  HA  SER I  90      79.038  65.399  63.470  1.00  0.00           H
+ATOM    671  HB2 SER I  90      77.085  64.071  64.921  1.00  0.00           H
+ATOM    672  HB3 SER I  90      76.263  64.523  63.428  1.00  0.00           H
+ATOM    673  HG  SER I  90      77.887  63.480  62.266  1.00  0.00           H
+ATOM    674  N   LEU I  91      76.419  67.364  63.306  1.00  0.00           N
+ATOM    675  CA  LEU I  91      75.723  68.306  62.457  1.00  0.00           C
+ATOM    676  C   LEU I  91      76.290  69.721  62.602  1.00  0.00           C
+ATOM    677  O   LEU I  91      75.819  70.650  61.948  1.00  0.00           O
+ATOM    678  CB  LEU I  91      74.238  68.292  62.808  1.00  0.00           C
+ATOM    679  CG  LEU I  91      73.332  67.534  61.831  1.00  0.00           C
+ATOM    680  CD1 LEU I  91      71.889  67.955  62.026  1.00  0.00           C
+ATOM    681  CD2 LEU I  91      73.763  67.760  60.388  1.00  0.00           C
+ATOM    682  H   LEU I  91      76.140  67.280  64.237  1.00  0.00           H
+ATOM    683  HA  LEU I  91      75.845  67.980  61.436  1.00  0.00           H
+ATOM    684  HB2 LEU I  91      74.131  67.841  63.782  1.00  0.00           H
+ATOM    685  HB3 LEU I  91      73.900  69.309  62.868  1.00  0.00           H
+ATOM    686  HG  LEU I  91      73.401  66.475  62.040  1.00  0.00           H
+ATOM    687  N   SER I  92      77.286  69.879  63.483  1.00  0.00           N
+ATOM    688  CA  SER I  92      77.905  71.183  63.739  1.00  0.00           C
+ATOM    689  C   SER I  92      77.977  72.044  62.481  1.00  0.00           C
+ATOM    690  O   SER I  92      78.557  71.649  61.468  1.00  0.00           O
+ATOM    691  CB  SER I  92      79.309  71.004  64.310  1.00  0.00           C
+ATOM    692  OG  SER I  92      79.960  69.885  63.731  1.00  0.00           O
+ATOM    693  H   SER I  92      77.605  69.101  63.984  1.00  0.00           H
+ATOM    694  HA  SER I  92      77.298  71.694  64.469  1.00  0.00           H
+ATOM    695  HB2 SER I  92      79.892  71.890  64.102  1.00  0.00           H
+ATOM    696  HB3 SER I  92      79.247  70.858  65.376  1.00  0.00           H
+ATOM    697  HG  SER I  92      80.187  69.255  64.420  1.00  0.00           H
+ATOM    698  N   ASP I  93      77.379  73.225  62.564  1.00  0.00           N
+ATOM    699  CA  ASP I  93      77.361  74.165  61.451  1.00  0.00           C
+ATOM    700  C   ASP I  93      77.178  75.594  61.957  1.00  0.00           C
+ATOM    701  O   ASP I  93      77.359  75.866  63.146  1.00  0.00           O
+ATOM    702  CB  ASP I  93      76.240  73.794  60.473  1.00  0.00           C
+ATOM    703  CG  ASP I  93      76.769  73.145  59.209  1.00  0.00           C
+ATOM    704  OD1 ASP I  93      77.089  71.939  59.249  1.00  0.00           O
+ATOM    705  OD2 ASP I  93      76.864  73.844  58.179  1.00  0.00           O
+ATOM    706  H   ASP I  93      76.938  73.472  63.403  1.00  0.00           H
+ATOM    707  HA  ASP I  93      78.310  74.094  60.939  1.00  0.00           H
+ATOM    708  HB2 ASP I  93      75.568  73.097  60.955  1.00  0.00           H
+ATOM    709  HB3 ASP I  93      75.691  74.681  60.200  1.00  0.00           H
+ATOM    710  N   ASN I  94      76.814  76.503  61.060  1.00  0.00           N
+ATOM    711  CA  ASN I  94      76.605  77.899  61.426  1.00  0.00           C
+ATOM    712  C   ASN I  94      75.817  78.632  60.345  1.00  0.00           C
+ATOM    713  O   ASN I  94      75.965  79.840  60.165  1.00  0.00           O
+ATOM    714  CB  ASN I  94      77.947  78.596  61.660  1.00  0.00           C
+ATOM    715  CG  ASN I  94      78.883  78.461  60.476  1.00  0.00           C
+ATOM    716  OD1 ASN I  94      79.758  77.594  60.455  1.00  0.00           O
+ATOM    717  ND2 ASN I  94      78.704  79.320  59.479  1.00  0.00           N
+ATOM    718  H   ASN I  94      76.684  76.229  60.128  1.00  0.00           H
+ATOM    719  HA  ASN I  94      76.036  77.918  62.345  1.00  0.00           H
+ATOM    720  HB2 ASN I  94      77.771  79.647  61.839  1.00  0.00           H
+ATOM    721  HB3 ASN I  94      78.424  78.163  62.526  1.00  0.00           H
+ATOM    722  N   ILE I  95      74.974  77.888  59.637  1.00  0.00           N
+ATOM    723  CA  ILE I  95      74.150  78.448  58.582  1.00  0.00           C
+ATOM    724  C   ILE I  95      72.705  77.986  58.751  1.00  0.00           C
+ATOM    725  O   ILE I  95      71.779  78.796  58.777  1.00  0.00           O
+ATOM    726  CB  ILE I  95      74.680  78.031  57.190  1.00  0.00           C
+ATOM    727  CG1 ILE I  95      75.857  78.923  56.781  1.00  0.00           C
+ATOM    728  CG2 ILE I  95      73.576  78.090  56.148  1.00  0.00           C
+ATOM    729  CD1 ILE I  95      77.147  78.160  56.571  1.00  0.00           C
+ATOM    730  H   ILE I  95      74.899  76.932  59.834  1.00  0.00           H
+ATOM    731  HA  ILE I  95      74.189  79.524  58.659  1.00  0.00           H
+ATOM    732  HB  ILE I  95      75.023  77.009  57.254  1.00  0.00           H
+ATOM    733  N   ASN I  96      72.526  76.673  58.870  1.00  0.00           N
+ATOM    734  CA  ASN I  96      71.205  76.089  59.043  1.00  0.00           C
+ATOM    735  C   ASN I  96      70.894  75.891  60.524  1.00  0.00           C
+ATOM    736  O   ASN I  96      69.737  75.966  60.942  1.00  0.00           O
+ATOM    737  CB  ASN I  96      71.117  74.747  58.311  1.00  0.00           C
+ATOM    738  CG  ASN I  96      71.929  74.723  57.029  1.00  0.00           C
+ATOM    739  OD1 ASN I  96      73.115  74.393  57.037  1.00  0.00           O
+ATOM    740  ND2 ASN I  96      71.291  75.072  55.918  1.00  0.00           N
+ATOM    741  H   ASN I  96      73.305  76.083  58.844  1.00  0.00           H
+ATOM    742  HA  ASN I  96      70.481  76.770  58.620  1.00  0.00           H
+ATOM    743  HB2 ASN I  96      71.485  73.967  58.962  1.00  0.00           H
+ATOM    744  HB3 ASN I  96      70.088  74.550  58.066  1.00  0.00           H
+ATOM    745  N   LEU I  97      71.934  75.634  61.313  1.00  0.00           N
+ATOM    746  CA  LEU I  97      71.774  75.421  62.747  1.00  0.00           C
+ATOM    747  C   LEU I  97      72.603  76.424  63.550  1.00  0.00           C
+ATOM    748  O   LEU I  97      73.831  76.386  63.520  1.00  0.00           O
+ATOM    749  CB  LEU I  97      72.196  74.002  63.126  1.00  0.00           C
+ATOM    750  CG  LEU I  97      71.200  72.902  62.754  1.00  0.00           C
+ATOM    751  CD1 LEU I  97      71.938  71.633  62.352  1.00  0.00           C
+ATOM    752  CD2 LEU I  97      70.241  72.631  63.905  1.00  0.00           C
+ATOM    753  H   LEU I  97      72.830  75.586  60.920  1.00  0.00           H
+ATOM    754  HA  LEU I  97      70.731  75.552  62.988  1.00  0.00           H
+ATOM    755  HB2 LEU I  97      73.137  73.787  62.639  1.00  0.00           H
+ATOM    756  HB3 LEU I  97      72.348  73.972  64.194  1.00  0.00           H
+ATOM    757  HG  LEU I  97      70.618  73.228  61.909  1.00  0.00           H
+ATOM    758  N   PRO I  98      71.938  77.334  64.281  1.00  0.00           N
+ATOM    759  CA  PRO I  98      72.621  78.346  65.095  1.00  0.00           C
+ATOM    760  C   PRO I  98      73.738  77.765  65.956  1.00  0.00           C
+ATOM    761  O   PRO I  98      74.918  78.021  65.715  1.00  0.00           O
+ATOM    762  CB  PRO I  98      71.495  78.890  65.976  1.00  0.00           C
+ATOM    763  CG  PRO I  98      70.271  78.731  65.145  1.00  0.00           C
+ATOM    764  CD  PRO I  98      70.469  77.455  64.373  1.00  0.00           C
+ATOM    765  HA  PRO I  98      73.018  79.143  64.483  1.00  0.00           H
+ATOM    766  HB2 PRO I  98      71.432  78.315  66.886  1.00  0.00           H
+ATOM    767  HB3 PRO I  98      71.684  79.920  66.210  1.00  0.00           H
+ATOM    768  HG2 PRO I  98      69.403  78.653  65.783  1.00  0.00           H
+ATOM    769  HG3 PRO I  98      70.172  79.566  64.470  1.00  0.00           H
+ATOM    770  HD2 PRO I  98      70.047  76.618  64.910  1.00  0.00           H
+ATOM    771  HD3 PRO I  98      70.029  77.535  63.391  1.00  0.00           H
+ATOM    772  N   GLN I  99      73.359  76.994  66.969  1.00  0.00           N
+ATOM    773  CA  GLN I  99      74.329  76.389  67.877  1.00  0.00           C
+ATOM    774  C   GLN I  99      74.579  74.919  67.545  1.00  0.00           C
+ATOM    775  O   GLN I  99      75.067  74.162  68.385  1.00  0.00           O
+ATOM    776  CB  GLN I  99      73.848  76.519  69.324  1.00  0.00           C
+ATOM    777  CG  GLN I  99      73.793  77.954  69.821  1.00  0.00           C
+ATOM    778  CD  GLN I  99      75.145  78.638  69.778  1.00  0.00           C
+ATOM    779  OE1 GLN I  99      76.170  78.033  70.096  1.00  0.00           O
+ATOM    780  NE2 GLN I  99      75.154  79.906  69.385  1.00  0.00           N
+ATOM    781  H   GLN I  99      72.404  76.840  67.116  1.00  0.00           H
+ATOM    782  HA  GLN I  99      75.258  76.929  67.771  1.00  0.00           H
+ATOM    783  HB2 GLN I  99      72.857  76.094  69.401  1.00  0.00           H
+ATOM    784  HB3 GLN I  99      74.585  76.076  69.977  1.00  0.00           H
+ATOM    785  HG2 GLN I  99      73.104  78.509  69.202  1.00  0.00           H
+ATOM    786  HG3 GLN I  99      73.429  78.561  68.890  1.00  0.00           H
+ATOM    787 HE21 GLN I  99      74.300  80.324  69.147  1.00  0.00           H
+ATOM    788 HE22 GLN I  99      76.016  80.374  69.347  1.00  0.00           H
+ATOM    789  N   GLY I 100      74.258  74.518  66.319  1.00  0.00           N
+ATOM    790  CA  GLY I 100      74.474  73.140  65.911  1.00  0.00           C
+ATOM    791  C   GLY I 100      73.209  72.304  65.944  1.00  0.00           C
+ATOM    792  O   GLY I 100      72.643  71.997  64.903  1.00  0.00           O
+ATOM    793  H   GLY I 100      73.882  75.161  65.684  1.00  0.00           H
+ATOM    794  HA2 GLY I 100      75.205  72.695  66.570  1.00  0.00           H
+ATOM    795  HA3 GLY I 100      74.867  73.135  64.906  1.00  0.00           H
+ATOM    796  N   VAL I 101      72.776  71.928  67.142  1.00  0.00           N
+ATOM    797  CA  VAL I 101      71.573  71.112  67.311  1.00  0.00           C
+ATOM    798  C   VAL I 101      71.116  71.142  68.767  1.00  0.00           C
+ATOM    799  O   VAL I 101      71.735  70.524  69.634  1.00  0.00           O
+ATOM    800  CB  VAL I 101      71.820  69.637  66.901  1.00  0.00           C
+ATOM    801  CG1 VAL I 101      70.612  68.769  67.231  1.00  0.00           C
+ATOM    802  CG2 VAL I 101      72.166  69.523  65.424  1.00  0.00           C
+ATOM    803  H   VAL I 101      73.278  72.203  67.937  1.00  0.00           H
+ATOM    804  HA  VAL I 101      70.788  71.519  66.683  1.00  0.00           H
+ATOM    805  HB  VAL I 101      72.661  69.268  67.471  1.00  0.00           H
+ATOM    806  N   ARG I 102      70.035  71.865  69.029  1.00  0.00           N
+ATOM    807  CA  ARG I 102      69.502  71.977  70.378  1.00  0.00           C
+ATOM    808  C   ARG I 102      68.261  71.121  70.579  1.00  0.00           C
+ATOM    809  O   ARG I 102      68.027  70.607  71.674  1.00  0.00           O
+ATOM    810  CB  ARG I 102      69.180  73.434  70.700  1.00  0.00           C
+ATOM    811  CG  ARG I 102      70.165  74.060  71.663  1.00  0.00           C
+ATOM    812  CD  ARG I 102      69.765  73.788  73.108  1.00  0.00           C
+ATOM    813  NE  ARG I 102      69.092  72.490  73.272  1.00  0.00           N
+ATOM    814  CZ  ARG I 102      69.456  71.567  74.164  1.00  0.00           C
+ATOM    815  NH1 ARG I 102      70.482  71.782  74.980  1.00  0.00           N
+ATOM    816  NH2 ARG I 102      68.786  70.426  74.241  1.00  0.00           N
+ATOM    817  H   ARG I 102      69.588  72.338  68.300  1.00  0.00           H
+ATOM    818  HA  ARG I 102      70.267  71.637  71.059  1.00  0.00           H
+ATOM    819  HB2 ARG I 102      69.191  74.006  69.785  1.00  0.00           H
+ATOM    820  HB3 ARG I 102      68.198  73.489  71.139  1.00  0.00           H
+ATOM    821  HG2 ARG I 102      71.146  73.643  71.487  1.00  0.00           H
+ATOM    822  HG3 ARG I 102      70.189  75.127  71.500  1.00  0.00           H
+ATOM    823  HD2 ARG I 102      70.652  73.804  73.717  1.00  0.00           H
+ATOM    824  HD3 ARG I 102      69.095  74.570  73.429  1.00  0.00           H
+ATOM    825  HE  ARG I 102      68.324  72.296  72.686  1.00  0.00           H
+ATOM    826  N   TYR I 103      67.465  70.966  69.533  1.00  0.00           N
+ATOM    827  CA  TYR I 103      66.251  70.166  69.637  1.00  0.00           C
+ATOM    828  C   TYR I 103      65.997  69.363  68.373  1.00  0.00           C
+ATOM    829  O   TYR I 103      66.536  69.663  67.308  1.00  0.00           O
+ATOM    830  CB  TYR I 103      65.029  71.035  69.936  1.00  0.00           C
+ATOM    831  CG  TYR I 103      65.247  72.103  70.982  1.00  0.00           C
+ATOM    832  CD1 TYR I 103      65.785  73.339  70.650  1.00  0.00           C
+ATOM    833  CD2 TYR I 103      64.894  71.875  72.304  1.00  0.00           C
+ATOM    834  CE1 TYR I 103      65.965  74.319  71.610  1.00  0.00           C
+ATOM    835  CE2 TYR I 103      65.071  72.845  73.268  1.00  0.00           C
+ATOM    836  CZ  TYR I 103      65.606  74.065  72.918  1.00  0.00           C
+ATOM    837  OH  TYR I 103      65.783  75.037  73.876  1.00  0.00           O
+ATOM    838  H   TYR I 103      67.697  71.396  68.680  1.00  0.00           H
+ATOM    839  HA  TYR I 103      66.391  69.475  70.456  1.00  0.00           H
+ATOM    840  HB2 TYR I 103      64.704  71.521  69.030  1.00  0.00           H
+ATOM    841  HB3 TYR I 103      64.241  70.397  70.291  1.00  0.00           H
+ATOM    842  HD1 TYR I 103      66.064  73.533  69.625  1.00  0.00           H
+ATOM    843  HD2 TYR I 103      64.475  70.916  72.576  1.00  0.00           H
+ATOM    844  HE1 TYR I 103      66.383  75.274  71.333  1.00  0.00           H
+ATOM    845  HE2 TYR I 103      64.787  72.644  74.291  1.00  0.00           H
+ATOM    846  HH  TYR I 103      66.616  75.489  73.724  1.00  0.00           H
+ATOM    847  N   ILE I 104      65.160  68.342  68.504  1.00  0.00           N
+ATOM    848  CA  ILE I 104      64.809  67.490  67.383  1.00  0.00           C
+ATOM    849  C   ILE I 104      63.307  67.523  67.134  1.00  0.00           C
+ATOM    850  O   ILE I 104      62.515  67.192  68.012  1.00  0.00           O
+ATOM    851  CB  ILE I 104      65.246  66.037  67.627  1.00  0.00           C
+ATOM    852  CG1 ILE I 104      66.725  65.992  68.025  1.00  0.00           C
+ATOM    853  CG2 ILE I 104      64.984  65.192  66.392  1.00  0.00           C
+ATOM    854  CD1 ILE I 104      67.356  64.619  67.894  1.00  0.00           C
+ATOM    855  H   ILE I 104      64.762  68.163  69.383  1.00  0.00           H
+ATOM    856  HA  ILE I 104      65.321  67.858  66.506  1.00  0.00           H
+ATOM    857  HB  ILE I 104      64.652  65.641  68.433  1.00  0.00           H
+ATOM    858  N   TYR I 105      62.928  67.942  65.938  1.00  0.00           N
+ATOM    859  CA  TYR I 105      61.527  68.044  65.568  1.00  0.00           C
+ATOM    860  C   TYR I 105      61.107  66.971  64.583  1.00  0.00           C
+ATOM    861  O   TYR I 105      61.942  66.287  63.990  1.00  0.00           O
+ATOM    862  CB  TYR I 105      61.256  69.414  64.967  1.00  0.00           C
+ATOM    863  CG  TYR I 105      60.508  70.302  65.911  1.00  0.00           C
+ATOM    864  CD1 TYR I 105      59.140  70.176  66.043  1.00  0.00           C
+ATOM    865  CD2 TYR I 105      61.167  71.241  66.684  1.00  0.00           C
+ATOM    866  CE1 TYR I 105      58.438  70.965  66.919  1.00  0.00           C
+ATOM    867  CE2 TYR I 105      60.478  72.035  67.567  1.00  0.00           C
+ATOM    868  CZ  TYR I 105      59.108  71.897  67.684  1.00  0.00           C
+ATOM    869  OH  TYR I 105      58.411  72.690  68.567  1.00  0.00           O
+ATOM    870  H   TYR I 105      63.604  68.211  65.297  1.00  0.00           H
+ATOM    871  HA  TYR I 105      60.943  67.937  66.464  1.00  0.00           H
+ATOM    872  HB2 TYR I 105      62.194  69.889  64.725  1.00  0.00           H
+ATOM    873  HB3 TYR I 105      60.665  69.303  64.070  1.00  0.00           H
+ATOM    874  HD1 TYR I 105      58.619  69.445  65.443  1.00  0.00           H
+ATOM    875  HD2 TYR I 105      62.237  71.344  66.588  1.00  0.00           H
+ATOM    876  HE1 TYR I 105      57.372  70.842  67.002  1.00  0.00           H
+ATOM    877  HE2 TYR I 105      61.010  72.757  68.162  1.00  0.00           H
+ATOM    878  HH  TYR I 105      58.596  72.408  69.465  1.00  0.00           H
+ATOM    879  N   THR I 106      59.796  66.838  64.410  1.00  0.00           N
+ATOM    880  CA  THR I 106      59.249  65.853  63.489  1.00  0.00           C
+ATOM    881  C   THR I 106      59.521  66.265  62.048  1.00  0.00           C
+ATOM    882  O   THR I 106      59.773  67.437  61.768  1.00  0.00           O
+ATOM    883  CB  THR I 106      57.744  65.691  63.716  1.00  0.00           C
+ATOM    884  OG1 THR I 106      57.185  66.881  64.240  1.00  0.00           O
+ATOM    885  CG2 THR I 106      57.398  64.564  64.665  1.00  0.00           C
+ATOM    886  H   THR I 106      59.180  67.428  64.916  1.00  0.00           H
+ATOM    887  HA  THR I 106      59.738  64.909  63.681  1.00  0.00           H
+ATOM    888  HB  THR I 106      57.268  65.482  62.768  1.00  0.00           H
+ATOM    889  HG1 THR I 106      57.541  67.639  63.771  1.00  0.00           H
+ATOM    890  N   ILE I 107      59.478  65.296  61.139  1.00  0.00           N
+ATOM    891  CA  ILE I 107      59.728  65.558  59.724  1.00  0.00           C
+ATOM    892  C   ILE I 107      58.981  66.802  59.244  1.00  0.00           C
+ATOM    893  O   ILE I 107      59.423  67.486  58.321  1.00  0.00           O
+ATOM    894  CB  ILE I 107      59.327  64.353  58.852  1.00  0.00           C
+ATOM    895  CG1 ILE I 107      59.790  64.568  57.409  1.00  0.00           C
+ATOM    896  CG2 ILE I 107      57.825  64.122  58.908  1.00  0.00           C
+ATOM    897  CD1 ILE I 107      61.296  64.619  57.262  1.00  0.00           C
+ATOM    898  H   ILE I 107      59.277  64.381  61.427  1.00  0.00           H
+ATOM    899  HA  ILE I 107      60.789  65.722  59.604  1.00  0.00           H
+ATOM    900  HB  ILE I 107      59.812  63.475  59.249  1.00  0.00           H
+ATOM    901  N   ASP I 108      57.852  67.094  59.885  1.00  0.00           N
+ATOM    902  CA  ASP I 108      57.050  68.259  59.530  1.00  0.00           C
+ATOM    903  C   ASP I 108      57.362  69.435  60.456  1.00  0.00           C
+ATOM    904  O   ASP I 108      57.191  70.594  60.081  1.00  0.00           O
+ATOM    905  CB  ASP I 108      55.558  67.917  59.597  1.00  0.00           C
+ATOM    906  CG  ASP I 108      54.863  68.097  58.262  1.00  0.00           C
+ATOM    907  OD1 ASP I 108      55.442  67.693  57.232  1.00  0.00           O
+ATOM    908  OD2 ASP I 108      53.740  68.643  58.248  1.00  0.00           O
+ATOM    909  H   ASP I 108      57.553  66.514  60.615  1.00  0.00           H
+ATOM    910  HA  ASP I 108      57.301  68.539  58.518  1.00  0.00           H
+ATOM    911  HB2 ASP I 108      55.446  66.888  59.904  1.00  0.00           H
+ATOM    912  HB3 ASP I 108      55.079  68.557  60.324  1.00  0.00           H
+ATOM    913  N   GLY I 109      57.819  69.124  61.666  1.00  0.00           N
+ATOM    914  CA  GLY I 109      58.149  70.163  62.626  1.00  0.00           C
+ATOM    915  C   GLY I 109      56.975  70.546  63.507  1.00  0.00           C
+ATOM    916  O   GLY I 109      57.007  71.576  64.179  1.00  0.00           O
+ATOM    917  H   GLY I 109      57.936  68.182  61.909  1.00  0.00           H
+ATOM    918  HA2 GLY I 109      58.484  71.039  62.090  1.00  0.00           H
+ATOM    919  HA3 GLY I 109      58.955  69.811  63.254  1.00  0.00           H
+ATOM    920  N   SER I 110      55.936  69.717  63.502  1.00  0.00           N
+ATOM    921  CA  SER I 110      54.747  69.978  64.306  1.00  0.00           C
+ATOM    922  C   SER I 110      55.043  69.861  65.798  1.00  0.00           C
+ATOM    923  O   SER I 110      54.532  70.641  66.603  1.00  0.00           O
+ATOM    924  CB  SER I 110      53.626  69.010  63.921  1.00  0.00           C
+ATOM    925  OG  SER I 110      53.010  69.400  62.706  1.00  0.00           O
+ATOM    926  H   SER I 110      55.967  68.911  62.947  1.00  0.00           H
+ATOM    927  HA  SER I 110      54.424  70.985  64.095  1.00  0.00           H
+ATOM    928  HB2 SER I 110      54.037  68.019  63.798  1.00  0.00           H
+ATOM    929  HB3 SER I 110      52.881  68.997  64.702  1.00  0.00           H
+ATOM    930  HG  SER I 110      53.091  68.692  62.063  1.00  0.00           H
+ATOM    931  N   ARG I 111      55.862  68.879  66.167  1.00  0.00           N
+ATOM    932  CA  ARG I 111      56.210  68.660  67.560  1.00  0.00           C
+ATOM    933  C   ARG I 111      57.654  68.187  67.696  1.00  0.00           C
+ATOM    934  O   ARG I 111      58.143  67.400  66.886  1.00  0.00           O
+ATOM    935  CB  ARG I 111      55.267  67.630  68.183  1.00  0.00           C
+ATOM    936  CG  ARG I 111      55.292  66.284  67.478  1.00  0.00           C
+ATOM    937  CD  ARG I 111      53.961  65.560  67.599  1.00  0.00           C
+ATOM    938  NE  ARG I 111      53.745  64.620  66.503  1.00  0.00           N
+ATOM    939  CZ  ARG I 111      53.328  64.977  65.290  1.00  0.00           C
+ATOM    940  NH1 ARG I 111      53.081  66.251  65.013  1.00  0.00           N
+ATOM    941  NH2 ARG I 111      53.156  64.058  64.350  1.00  0.00           N
+ATOM    942  H   ARG I 111      56.235  68.287  65.487  1.00  0.00           H
+ATOM    943  HA  ARG I 111      56.099  69.598  68.083  1.00  0.00           H
+ATOM    944  HB2 ARG I 111      55.546  67.479  69.215  1.00  0.00           H
+ATOM    945  HB3 ARG I 111      54.258  68.013  68.144  1.00  0.00           H
+ATOM    946  HG2 ARG I 111      55.510  66.440  66.432  1.00  0.00           H
+ATOM    947  HG3 ARG I 111      56.065  65.671  67.921  1.00  0.00           H
+ATOM    948  HD2 ARG I 111      53.943  65.019  68.533  1.00  0.00           H
+ATOM    949  HD3 ARG I 111      53.166  66.293  67.594  1.00  0.00           H
+ATOM    950  HE  ARG I 111      53.920  63.672  66.679  1.00  0.00           H
+ATOM    951  N   LYS I 112      58.320  68.671  68.734  1.00  0.00           N
+ATOM    952  CA  LYS I 112      59.704  68.298  69.000  1.00  0.00           C
+ATOM    953  C   LYS I 112      59.766  67.122  69.974  1.00  0.00           C
+ATOM    954  O   LYS I 112      58.971  67.036  70.910  1.00  0.00           O
+ATOM    955  CB  LYS I 112      60.502  69.512  69.523  1.00  0.00           C
+ATOM    956  CG  LYS I 112      61.142  69.321  70.896  1.00  0.00           C
+ATOM    957  CD  LYS I 112      61.658  70.639  71.460  1.00  0.00           C
+ATOM    958  CE  LYS I 112      60.554  71.681  71.549  1.00  0.00           C
+ATOM    959  NZ  LYS I 112      60.613  72.445  72.827  1.00  0.00           N
+ATOM    960  H   LYS I 112      57.865  69.289  69.337  1.00  0.00           H
+ATOM    961  HA  LYS I 112      60.136  67.982  68.063  1.00  0.00           H
+ATOM    962  HB2 LYS I 112      61.289  69.733  68.821  1.00  0.00           H
+ATOM    963  HB3 LYS I 112      59.840  70.363  69.577  1.00  0.00           H
+ATOM    964  HG2 LYS I 112      60.404  68.916  71.574  1.00  0.00           H
+ATOM    965  HG3 LYS I 112      61.966  68.632  70.803  1.00  0.00           H
+ATOM    966  HD2 LYS I 112      62.059  70.466  72.450  1.00  0.00           H
+ATOM    967  HD3 LYS I 112      62.440  71.012  70.815  1.00  0.00           H
+ATOM    968  HE2 LYS I 112      60.660  72.371  70.724  1.00  0.00           H
+ATOM    969  HE3 LYS I 112      59.600  71.183  71.480  1.00  0.00           H
+ATOM    970  HZ1 LYS I 112      61.600  72.685  73.055  1.00  0.00           H
+ATOM    971  HZ2 LYS I 112      60.066  73.325  72.744  1.00  0.00           H
+ATOM    972  HZ3 LYS I 112      60.217  71.875  73.603  1.00  0.00           H
+ATOM    973  N   ILE I 113      60.701  66.211  69.729  1.00  0.00           N
+ATOM    974  CA  ILE I 113      60.862  65.026  70.561  1.00  0.00           C
+ATOM    975  C   ILE I 113      61.674  65.328  71.814  1.00  0.00           C
+ATOM    976  O   ILE I 113      62.724  65.968  71.753  1.00  0.00           O
+ATOM    977  CB  ILE I 113      61.573  63.905  69.779  1.00  0.00           C
+ATOM    978  CG1 ILE I 113      60.846  63.627  68.461  1.00  0.00           C
+ATOM    979  CG2 ILE I 113      61.678  62.642  70.620  1.00  0.00           C
+ATOM    980  CD1 ILE I 113      59.680  62.672  68.588  1.00  0.00           C
+ATOM    981  H   ILE I 113      61.289  66.329  68.959  1.00  0.00           H
+ATOM    982  HA  ILE I 113      59.882  64.675  70.847  1.00  0.00           H
+ATOM    983  HB  ILE I 113      62.574  64.239  69.560  1.00  0.00           H
+ATOM    984  N   GLY I 114      61.182  64.846  72.949  1.00  0.00           N
+ATOM    985  CA  GLY I 114      61.869  65.051  74.208  1.00  0.00           C
+ATOM    986  C   GLY I 114      62.395  63.752  74.788  1.00  0.00           C
+ATOM    987  O   GLY I 114      63.317  63.756  75.603  1.00  0.00           O
+ATOM    988  H   GLY I 114      60.345  64.335  72.929  1.00  0.00           H
+ATOM    989  HA2 GLY I 114      61.183  65.496  74.914  1.00  0.00           H
+ATOM    990  HA3 GLY I 114      62.697  65.726  74.050  1.00  0.00           H
+ATOM    991  N   SER I 115      61.805  62.635  74.365  1.00  0.00           N
+ATOM    992  CA  SER I 115      62.219  61.322  74.845  1.00  0.00           C
+ATOM    993  C   SER I 115      62.642  60.423  73.685  1.00  0.00           C
+ATOM    994  O   SER I 115      62.063  60.473  72.600  1.00  0.00           O
+ATOM    995  CB  SER I 115      61.085  60.662  75.631  1.00  0.00           C
+ATOM    996  OG  SER I 115      59.822  60.997  75.082  1.00  0.00           O
+ATOM    997  H   SER I 115      61.077  62.695  73.715  1.00  0.00           H
+ATOM    998  HA  SER I 115      63.066  61.462  75.501  1.00  0.00           H
+ATOM    999  HB2 SER I 115      61.204  59.589  75.598  1.00  0.00           H
+ATOM   1000  HB3 SER I 115      61.118  60.997  76.656  1.00  0.00           H
+ATOM   1001  HG  SER I 115      59.162  60.375  75.393  1.00  0.00           H
+ATOM   1002  N   MET I 116      63.653  59.600  73.933  1.00  0.00           N
+ATOM   1003  CA  MET I 116      64.168  58.675  72.926  1.00  0.00           C
+ATOM   1004  C   MET I 116      63.105  57.659  72.521  1.00  0.00           C
+ATOM   1005  O   MET I 116      63.142  57.113  71.418  1.00  0.00           O
+ATOM   1006  CB  MET I 116      65.403  57.951  73.466  1.00  0.00           C
+ATOM   1007  CG  MET I 116      66.552  57.888  72.476  1.00  0.00           C
+ATOM   1008  SD  MET I 116      67.317  59.497  72.203  1.00  0.00           S
+ATOM   1009  CE  MET I 116      68.855  59.297  73.097  1.00  0.00           C
+ATOM   1010  H   MET I 116      64.063  59.608  74.817  1.00  0.00           H
+ATOM   1011  HA  MET I 116      64.450  59.253  72.058  1.00  0.00           H
+ATOM   1012  HB2 MET I 116      65.747  58.464  74.353  1.00  0.00           H
+ATOM   1013  HB3 MET I 116      65.127  56.940  73.730  1.00  0.00           H
+ATOM   1014  HG2 MET I 116      67.301  57.210  72.857  1.00  0.00           H
+ATOM   1015  HG3 MET I 116      66.178  57.517  71.534  1.00  0.00           H
+ATOM   1016  HE1 MET I 116      68.866  58.333  73.584  1.00  0.00           H
+ATOM   1017  HE2 MET I 116      69.683  59.363  72.407  1.00  0.00           H
+ATOM   1018  HE3 MET I 116      68.943  60.078  73.840  1.00  0.00           H
+ATOM   1019  N   ASP I 117      62.165  57.407  73.424  1.00  0.00           N
+ATOM   1020  CA  ASP I 117      61.098  56.458  73.175  1.00  0.00           C
+ATOM   1021  C   ASP I 117      60.227  56.882  71.994  1.00  0.00           C
+ATOM   1022  O   ASP I 117      59.459  56.079  71.465  1.00  0.00           O
+ATOM   1023  CB  ASP I 117      60.250  56.318  74.437  1.00  0.00           C
+ATOM   1024  CG  ASP I 117      60.499  55.011  75.163  1.00  0.00           C
+ATOM   1025  OD1 ASP I 117      61.549  54.893  75.828  1.00  0.00           O
+ATOM   1026  OD2 ASP I 117      59.643  54.107  75.069  1.00  0.00           O
+ATOM   1027  H   ASP I 117      62.189  57.866  74.285  1.00  0.00           H
+ATOM   1028  HA  ASP I 117      61.548  55.503  72.951  1.00  0.00           H
+ATOM   1029  HB2 ASP I 117      60.487  57.129  75.109  1.00  0.00           H
+ATOM   1030  HB3 ASP I 117      59.214  56.375  74.170  1.00  0.00           H
+ATOM   1031  N   GLU I 118      60.343  58.143  71.581  1.00  0.00           N
+ATOM   1032  CA  GLU I 118      59.552  58.645  70.464  1.00  0.00           C
+ATOM   1033  C   GLU I 118      60.249  58.394  69.128  1.00  0.00           C
+ATOM   1034  O   GLU I 118      59.629  58.498  68.069  1.00  0.00           O
+ATOM   1035  CB  GLU I 118      59.281  60.140  70.639  1.00  0.00           C
+ATOM   1036  CG  GLU I 118      58.221  60.450  71.683  1.00  0.00           C
+ATOM   1037  CD  GLU I 118      56.945  61.003  71.077  1.00  0.00           C
+ATOM   1038  OE1 GLU I 118      56.590  60.580  69.957  1.00  0.00           O
+ATOM   1039  OE2 GLU I 118      56.306  61.859  71.722  1.00  0.00           O
+ATOM   1040  H   GLU I 118      60.966  58.749  72.039  1.00  0.00           H
+ATOM   1041  HA  GLU I 118      58.609  58.119  70.467  1.00  0.00           H
+ATOM   1042  HB2 GLU I 118      60.199  60.628  70.934  1.00  0.00           H
+ATOM   1043  HB3 GLU I 118      58.955  60.548  69.694  1.00  0.00           H
+ATOM   1044  HG2 GLU I 118      57.983  59.540  72.215  1.00  0.00           H
+ATOM   1045  HG3 GLU I 118      58.617  61.176  72.377  1.00  0.00           H
+ATOM   1046  N   LEU I 119      61.540  58.067  69.175  1.00  0.00           N
+ATOM   1047  CA  LEU I 119      62.302  57.806  67.957  1.00  0.00           C
+ATOM   1048  C   LEU I 119      62.076  56.387  67.449  1.00  0.00           C
+ATOM   1049  O   LEU I 119      62.454  55.416  68.105  1.00  0.00           O
+ATOM   1050  CB  LEU I 119      63.798  58.025  68.201  1.00  0.00           C
+ATOM   1051  CG  LEU I 119      64.151  59.111  69.215  1.00  0.00           C
+ATOM   1052  CD1 LEU I 119      65.661  59.237  69.347  1.00  0.00           C
+ATOM   1053  CD2 LEU I 119      63.536  60.442  68.809  1.00  0.00           C
+ATOM   1054  H   LEU I 119      61.988  58.000  70.043  1.00  0.00           H
+ATOM   1055  HA  LEU I 119      61.968  58.502  67.204  1.00  0.00           H
+ATOM   1056  HB2 LEU I 119      64.224  57.092  68.544  1.00  0.00           H
+ATOM   1057  HB3 LEU I 119      64.259  58.281  67.258  1.00  0.00           H
+ATOM   1058  HG  LEU I 119      63.754  58.837  70.180  1.00  0.00           H
+ATOM   1059  N   GLU I 120      61.472  56.275  66.271  1.00  0.00           N
+ATOM   1060  CA  GLU I 120      61.207  54.978  65.666  1.00  0.00           C
+ATOM   1061  C   GLU I 120      62.251  54.671  64.594  1.00  0.00           C
+ATOM   1062  O   GLU I 120      62.856  55.581  64.030  1.00  0.00           O
+ATOM   1063  CB  GLU I 120      59.809  54.959  65.056  1.00  0.00           C
+ATOM   1064  CG  GLU I 120      58.738  55.546  65.962  1.00  0.00           C
+ATOM   1065  CD  GLU I 120      57.862  56.558  65.250  1.00  0.00           C
+ATOM   1066  OE1 GLU I 120      57.494  56.310  64.083  1.00  0.00           O
+ATOM   1067  OE2 GLU I 120      57.542  57.600  65.862  1.00  0.00           O
+ATOM   1068  H   GLU I 120      61.200  57.085  65.794  1.00  0.00           H
+ATOM   1069  HA  GLU I 120      61.269  54.228  66.441  1.00  0.00           H
+ATOM   1070  HB2 GLU I 120      59.821  55.524  64.136  1.00  0.00           H
+ATOM   1071  HB3 GLU I 120      59.543  53.941  64.837  1.00  0.00           H
+ATOM   1072  HG2 GLU I 120      58.113  54.744  66.325  1.00  0.00           H
+ATOM   1073  HG3 GLU I 120      59.217  56.032  66.798  1.00  0.00           H
+ATOM   1074  N   GLU I 121      62.467  53.386  64.319  1.00  0.00           N
+ATOM   1075  CA  GLU I 121      63.449  52.978  63.316  1.00  0.00           C
+ATOM   1076  C   GLU I 121      63.170  53.626  61.968  1.00  0.00           C
+ATOM   1077  O   GLU I 121      62.044  54.036  61.683  1.00  0.00           O
+ATOM   1078  CB  GLU I 121      63.461  51.461  63.146  1.00  0.00           C
+ATOM   1079  CG  GLU I 121      64.132  50.721  64.291  1.00  0.00           C
+ATOM   1080  CD  GLU I 121      65.325  49.901  63.837  1.00  0.00           C
+ATOM   1081  OE1 GLU I 121      66.350  50.504  63.461  1.00  0.00           O
+ATOM   1082  OE2 GLU I 121      65.232  48.656  63.860  1.00  0.00           O
+ATOM   1083  H   GLU I 121      61.961  52.701  64.802  1.00  0.00           H
+ATOM   1084  HA  GLU I 121      64.421  53.297  63.658  1.00  0.00           H
+ATOM   1085  HB2 GLU I 121      62.443  51.112  63.062  1.00  0.00           H
+ATOM   1086  HB3 GLU I 121      63.989  51.227  62.231  1.00  0.00           H
+ATOM   1087  HG2 GLU I 121      64.468  51.442  65.022  1.00  0.00           H
+ATOM   1088  HG3 GLU I 121      63.410  50.058  64.746  1.00  0.00           H
+ATOM   1089  N   GLY I 122      64.211  53.710  61.142  1.00  0.00           N
+ATOM   1090  CA  GLY I 122      64.088  54.302  59.825  1.00  0.00           C
+ATOM   1091  C   GLY I 122      63.216  55.542  59.822  1.00  0.00           C
+ATOM   1092  O   GLY I 122      62.353  55.700  58.959  1.00  0.00           O
+ATOM   1093  H   GLY I 122      65.078  53.364  61.433  1.00  0.00           H
+ATOM   1094  HA2 GLY I 122      63.668  53.575  59.150  1.00  0.00           H
+ATOM   1095  HA3 GLY I 122      65.071  54.559  59.480  1.00  0.00           H
+ATOM   1096  N   GLU I 123      63.435  56.416  60.799  1.00  0.00           N
+ATOM   1097  CA  GLU I 123      62.649  57.643  60.913  1.00  0.00           C
+ATOM   1098  C   GLU I 123      63.374  58.844  60.314  1.00  0.00           C
+ATOM   1099  O   GLU I 123      64.560  58.774  59.986  1.00  0.00           O
+ATOM   1100  CB  GLU I 123      62.318  57.924  62.380  1.00  0.00           C
+ATOM   1101  CG  GLU I 123      60.998  57.322  62.831  1.00  0.00           C
+ATOM   1102  CD  GLU I 123      59.860  58.322  62.800  1.00  0.00           C
+ATOM   1103  OE1 GLU I 123      60.044  59.445  63.315  1.00  0.00           O
+ATOM   1104  OE2 GLU I 123      58.784  57.984  62.265  1.00  0.00           O
+ATOM   1105  H   GLU I 123      64.134  56.228  61.462  1.00  0.00           H
+ATOM   1106  HA  GLU I 123      61.728  57.494  60.372  1.00  0.00           H
+ATOM   1107  HB2 GLU I 123      63.105  57.518  62.998  1.00  0.00           H
+ATOM   1108  HB3 GLU I 123      62.269  58.993  62.527  1.00  0.00           H
+ATOM   1109  HG2 GLU I 123      60.749  56.497  62.179  1.00  0.00           H
+ATOM   1110  HG3 GLU I 123      61.111  56.958  63.841  1.00  0.00           H
+ATOM   1111  N   SER I 124      62.647  59.952  60.197  1.00  0.00           N
+ATOM   1112  CA  SER I 124      63.197  61.193  59.663  1.00  0.00           C
+ATOM   1113  C   SER I 124      62.972  62.327  60.659  1.00  0.00           C
+ATOM   1114  O   SER I 124      61.835  62.619  61.028  1.00  0.00           O
+ATOM   1115  CB  SER I 124      62.543  61.534  58.321  1.00  0.00           C
+ATOM   1116  OG  SER I 124      63.089  60.751  57.274  1.00  0.00           O
+ATOM   1117  H   SER I 124      61.713  59.938  60.491  1.00  0.00           H
+ATOM   1118  HA  SER I 124      64.258  61.055  59.519  1.00  0.00           H
+ATOM   1119  HB2 SER I 124      61.483  61.342  58.381  1.00  0.00           H
+ATOM   1120  HB3 SER I 124      62.709  62.578  58.098  1.00  0.00           H
+ATOM   1121  HG  SER I 124      64.044  60.718  57.363  1.00  0.00           H
+ATOM   1122  N   TYR I 125      64.057  62.945  61.112  1.00  0.00           N
+ATOM   1123  CA  TYR I 125      63.961  64.023  62.089  1.00  0.00           C
+ATOM   1124  C   TYR I 125      64.633  65.297  61.622  1.00  0.00           C
+ATOM   1125  O   TYR I 125      65.499  65.288  60.747  1.00  0.00           O
+ATOM   1126  CB  TYR I 125      64.544  63.608  63.429  1.00  0.00           C
+ATOM   1127  CG  TYR I 125      63.606  62.744  64.226  1.00  0.00           C
+ATOM   1128  CD1 TYR I 125      62.477  63.294  64.802  1.00  0.00           C
+ATOM   1129  CD2 TYR I 125      63.833  61.384  64.388  1.00  0.00           C
+ATOM   1130  CE1 TYR I 125      61.597  62.525  65.520  1.00  0.00           C
+ATOM   1131  CE2 TYR I 125      62.957  60.600  65.113  1.00  0.00           C
+ATOM   1132  CZ  TYR I 125      61.838  61.176  65.677  1.00  0.00           C
+ATOM   1133  OH  TYR I 125      60.956  60.403  66.397  1.00  0.00           O
+ATOM   1134  H   TYR I 125      64.941  62.658  60.800  1.00  0.00           H
+ATOM   1135  HA  TYR I 125      62.909  64.233  62.229  1.00  0.00           H
+ATOM   1136  HB2 TYR I 125      65.451  63.068  63.262  1.00  0.00           H
+ATOM   1137  HB3 TYR I 125      64.758  64.491  64.010  1.00  0.00           H
+ATOM   1138  HD1 TYR I 125      62.292  64.346  64.686  1.00  0.00           H
+ATOM   1139  HD2 TYR I 125      64.710  60.939  63.945  1.00  0.00           H
+ATOM   1140  HE1 TYR I 125      60.726  62.986  65.954  1.00  0.00           H
+ATOM   1141  HE2 TYR I 125      63.152  59.545  65.234  1.00  0.00           H
+ATOM   1142  HH  TYR I 125      60.057  60.669  66.195  1.00  0.00           H
+ATOM   1143  N   VAL I 126      64.215  66.392  62.234  1.00  0.00           N
+ATOM   1144  CA  VAL I 126      64.756  67.711  61.916  1.00  0.00           C
+ATOM   1145  C   VAL I 126      65.449  68.325  63.129  1.00  0.00           C
+ATOM   1146  O   VAL I 126      64.991  68.181  64.256  1.00  0.00           O
+ATOM   1147  CB  VAL I 126      63.658  68.675  61.409  1.00  0.00           C
+ATOM   1148  CG1 VAL I 126      64.143  70.120  61.426  1.00  0.00           C
+ATOM   1149  CG2 VAL I 126      63.212  68.289  60.008  1.00  0.00           C
+ATOM   1150  H   VAL I 126      63.526  66.299  62.935  1.00  0.00           H
+ATOM   1151  HA  VAL I 126      65.482  67.586  61.127  1.00  0.00           H
+ATOM   1152  HB  VAL I 126      62.805  68.597  62.069  1.00  0.00           H
+ATOM   1153  N   CYS I 127      66.558  69.010  62.889  1.00  0.00           N
+ATOM   1154  CA  CYS I 127      67.308  69.647  63.962  1.00  0.00           C
+ATOM   1155  C   CYS I 127      66.937  71.120  64.079  1.00  0.00           C
+ATOM   1156  O   CYS I 127      66.945  71.854  63.089  1.00  0.00           O
+ATOM   1157  CB  CYS I 127      68.809  69.489  63.726  1.00  0.00           C
+ATOM   1158  SG  CYS I 127      69.395  67.788  63.902  1.00  0.00           S
+ATOM   1159  H   CYS I 127      66.880  69.092  61.964  1.00  0.00           H
+ATOM   1160  HA  CYS I 127      67.046  69.150  64.884  1.00  0.00           H
+ATOM   1161  HB2 CYS I 127      69.047  69.819  62.725  1.00  0.00           H
+ATOM   1162  HB3 CYS I 127      69.344  70.100  64.439  1.00  0.00           H
+ATOM   1163  HG  CYS I 127      69.056  67.443  64.733  1.00  0.00           H
+ATOM   1164  N   SER I 128      66.604  71.544  65.293  1.00  0.00           N
+ATOM   1165  CA  SER I 128      66.222  72.928  65.542  1.00  0.00           C
+ATOM   1166  C   SER I 128      66.939  73.485  66.769  1.00  0.00           C
+ATOM   1167  O   SER I 128      67.579  72.748  67.515  1.00  0.00           O
+ATOM   1168  CB  SER I 128      64.707  73.028  65.741  1.00  0.00           C
+ATOM   1169  OG  SER I 128      64.011  72.433  64.659  1.00  0.00           O
+ATOM   1170  H   SER I 128      66.611  70.909  66.037  1.00  0.00           H
+ATOM   1171  HA  SER I 128      66.502  73.513  64.679  1.00  0.00           H
+ATOM   1172  HB2 SER I 128      64.432  72.519  66.653  1.00  0.00           H
+ATOM   1173  HB3 SER I 128      64.423  74.067  65.807  1.00  0.00           H
+ATOM   1174  HG  SER I 128      63.765  73.108  64.026  1.00  0.00           H
+ATOM   1175  N   SER I 129      66.817  74.792  66.965  1.00  0.00           N
+ATOM   1176  CA  SER I 129      67.440  75.464  68.099  1.00  0.00           C
+ATOM   1177  C   SER I 129      66.649  76.713  68.464  1.00  0.00           C
+ATOM   1178  O   SER I 129      66.292  76.923  69.623  1.00  0.00           O
+ATOM   1179  CB  SER I 129      68.887  75.836  67.770  1.00  0.00           C
+ATOM   1180  OG  SER I 129      69.532  74.799  67.051  1.00  0.00           O
+ATOM   1181  H   SER I 129      66.288  75.320  66.332  1.00  0.00           H
+ATOM   1182  HA  SER I 129      67.431  74.783  68.938  1.00  0.00           H
+ATOM   1183  HB2 SER I 129      68.898  76.734  67.169  1.00  0.00           H
+ATOM   1184  HB3 SER I 129      69.429  76.012  68.688  1.00  0.00           H
+ATOM   1185  HG  SER I 129      69.701  75.089  66.151  1.00  0.00           H
+ATOM   1186  N   ASP I 130      66.369  77.528  67.456  1.00  0.00           N
+ATOM   1187  CA  ASP I 130      65.607  78.757  67.643  1.00  0.00           C
+ATOM   1188  C   ASP I 130      64.812  79.077  66.381  1.00  0.00           C
+ATOM   1189  O   ASP I 130      63.644  79.457  66.443  1.00  0.00           O
+ATOM   1190  CB  ASP I 130      66.535  79.922  67.991  1.00  0.00           C
+ATOM   1191  CG  ASP I 130      67.769  79.967  67.112  1.00  0.00           C
+ATOM   1192  OD1 ASP I 130      67.620  80.187  65.890  1.00  0.00           O
+ATOM   1193  OD2 ASP I 130      68.884  79.781  67.643  1.00  0.00           O
+ATOM   1194  H   ASP I 130      66.675  77.292  66.554  1.00  0.00           H
+ATOM   1195  HA  ASP I 130      64.916  78.599  68.458  1.00  0.00           H
+ATOM   1196  HB2 ASP I 130      65.997  80.851  67.871  1.00  0.00           H
+ATOM   1197  HB3 ASP I 130      66.851  79.825  69.020  1.00  0.00           H
+ATOM   1198  N   ASN I 131      65.466  78.909  65.235  1.00  0.00           N
+ATOM   1199  CA  ASN I 131      64.842  79.167  63.942  1.00  0.00           C
+ATOM   1200  C   ASN I 131      63.518  78.420  63.805  1.00  0.00           C
+ATOM   1201  O   ASN I 131      63.318  77.374  64.422  1.00  0.00           O
+ATOM   1202  CB  ASN I 131      65.787  78.759  62.804  1.00  0.00           C
+ATOM   1203  CG  ASN I 131      66.591  77.507  63.118  1.00  0.00           C
+ATOM   1204  OD1 ASN I 131      67.819  77.510  63.036  1.00  0.00           O
+ATOM   1205  ND2 ASN I 131      65.903  76.428  63.479  1.00  0.00           N
+ATOM   1206  H   ASN I 131      66.394  78.602  65.260  1.00  0.00           H
+ATOM   1207  HA  ASN I 131      64.651  80.228  63.873  1.00  0.00           H
+ATOM   1208  HB2 ASN I 131      65.207  78.576  61.913  1.00  0.00           H
+ATOM   1209  HB3 ASN I 131      66.478  79.566  62.617  1.00  0.00           H
+ATOM   1210  N   PHE I 132      62.621  78.962  62.988  1.00  0.00           N
+ATOM   1211  CA  PHE I 132      61.320  78.344  62.765  1.00  0.00           C
+ATOM   1212  C   PHE I 132      61.386  77.338  61.619  1.00  0.00           C
+ATOM   1213  O   PHE I 132      62.363  77.299  60.873  1.00  0.00           O
+ATOM   1214  CB  PHE I 132      60.268  79.414  62.465  1.00  0.00           C
+ATOM   1215  CG  PHE I 132      59.088  79.371  63.394  1.00  0.00           C
+ATOM   1216  CD1 PHE I 132      57.998  78.564  63.112  1.00  0.00           C
+ATOM   1217  CD2 PHE I 132      59.069  80.138  64.548  1.00  0.00           C
+ATOM   1218  CE1 PHE I 132      56.910  78.520  63.965  1.00  0.00           C
+ATOM   1219  CE2 PHE I 132      57.985  80.100  65.404  1.00  0.00           C
+ATOM   1220  CZ  PHE I 132      56.904  79.289  65.112  1.00  0.00           C
+ATOM   1221  H   PHE I 132      62.840  79.795  62.521  1.00  0.00           H
+ATOM   1222  HA  PHE I 132      61.041  77.823  63.669  1.00  0.00           H
+ATOM   1223  HB2 PHE I 132      60.722  80.390  62.555  1.00  0.00           H
+ATOM   1224  HB3 PHE I 132      59.904  79.284  61.457  1.00  0.00           H
+ATOM   1225  HD1 PHE I 132      58.003  77.961  62.216  1.00  0.00           H
+ATOM   1226  HD2 PHE I 132      59.912  80.772  64.778  1.00  0.00           H
+ATOM   1227  HE1 PHE I 132      56.067  77.885  63.735  1.00  0.00           H
+ATOM   1228  HE2 PHE I 132      57.981  80.701  66.301  1.00  0.00           H
+ATOM   1229  HZ  PHE I 132      56.056  79.257  65.780  1.00  0.00           H
+ATOM   1230  N   PHE I 133      60.341  76.529  61.484  1.00  0.00           N
+ATOM   1231  CA  PHE I 133      60.282  75.524  60.427  1.00  0.00           C
+ATOM   1232  C   PHE I 133      59.985  76.176  59.080  1.00  0.00           C
+ATOM   1233  O   PHE I 133      59.132  77.058  58.979  1.00  0.00           O
+ATOM   1234  CB  PHE I 133      59.216  74.476  60.747  1.00  0.00           C
+ATOM   1235  CG  PHE I 133      59.616  73.078  60.375  1.00  0.00           C
+ATOM   1236  CD1 PHE I 133      60.426  72.328  61.211  1.00  0.00           C
+ATOM   1237  CD2 PHE I 133      59.182  72.514  59.185  1.00  0.00           C
+ATOM   1238  CE1 PHE I 133      60.795  71.041  60.869  1.00  0.00           C
+ATOM   1239  CE2 PHE I 133      59.546  71.228  58.838  1.00  0.00           C
+ATOM   1240  CZ  PHE I 133      60.354  70.490  59.680  1.00  0.00           C
+ATOM   1241  H   PHE I 133      59.590  76.607  62.109  1.00  0.00           H
+ATOM   1242  HA  PHE I 133      61.246  75.040  60.375  1.00  0.00           H
+ATOM   1243  HB2 PHE I 133      59.014  74.492  61.809  1.00  0.00           H
+ATOM   1244  HB3 PHE I 133      58.309  74.719  60.211  1.00  0.00           H
+ATOM   1245  HD1 PHE I 133      60.771  72.757  62.140  1.00  0.00           H
+ATOM   1246  HD2 PHE I 133      58.550  73.091  58.526  1.00  0.00           H
+ATOM   1247  HE1 PHE I 133      61.429  70.465  61.530  1.00  0.00           H
+ATOM   1248  HE2 PHE I 133      59.202  70.801  57.908  1.00  0.00           H
+ATOM   1249  HZ  PHE I 133      60.642  69.484  59.410  1.00  0.00           H
+ATOM   1250  N   LYS I 134      60.699  75.741  58.044  1.00  0.00           N
+ATOM   1251  CA  LYS I 134      60.509  76.290  56.705  1.00  0.00           C
+ATOM   1252  C   LYS I 134      59.815  75.294  55.778  1.00  0.00           C
+ATOM   1253  O   LYS I 134      59.536  75.603  54.619  1.00  0.00           O
+ATOM   1254  CB  LYS I 134      61.856  76.707  56.107  1.00  0.00           C
+ATOM   1255  CG  LYS I 134      62.753  77.448  57.084  1.00  0.00           C
+ATOM   1256  CD  LYS I 134      62.320  78.896  57.254  1.00  0.00           C
+ATOM   1257  CE  LYS I 134      62.278  79.301  58.719  1.00  0.00           C
+ATOM   1258  NZ  LYS I 134      62.162  80.776  58.885  1.00  0.00           N
+ATOM   1259  H   LYS I 134      61.369  75.039  58.184  1.00  0.00           H
+ATOM   1260  HA  LYS I 134      59.885  77.161  56.796  1.00  0.00           H
+ATOM   1261  HB2 LYS I 134      62.376  75.824  55.770  1.00  0.00           H
+ATOM   1262  HB3 LYS I 134      61.675  77.352  55.258  1.00  0.00           H
+ATOM   1263  HG2 LYS I 134      62.707  76.954  58.044  1.00  0.00           H
+ATOM   1264  HG3 LYS I 134      63.768  77.425  56.714  1.00  0.00           H
+ATOM   1265  HD2 LYS I 134      63.023  79.535  56.736  1.00  0.00           H
+ATOM   1266  HD3 LYS I 134      61.336  79.021  56.827  1.00  0.00           H
+ATOM   1267  HE2 LYS I 134      61.426  78.826  59.185  1.00  0.00           H
+ATOM   1268  HE3 LYS I 134      63.185  78.961  59.199  1.00  0.00           H
+ATOM   1269  HZ1 LYS I 134      61.470  81.158  58.210  1.00  0.00           H
+ATOM   1270  HZ2 LYS I 134      61.847  81.003  59.850  1.00  0.00           H
+ATOM   1271  HZ3 LYS I 134      63.083  81.228  58.719  1.00  0.00           H
+ATOM   1272  N   LYS I 135      59.533  74.103  56.296  1.00  0.00           N
+ATOM   1273  CA  LYS I 135      58.864  73.057  55.524  1.00  0.00           C
+ATOM   1274  C   LYS I 135      59.459  72.929  54.120  1.00  0.00           C
+ATOM   1275  O   LYS I 135      59.060  73.643  53.201  1.00  0.00           O
+ATOM   1276  CB  LYS I 135      57.364  73.347  55.425  1.00  0.00           C
+ATOM   1277  CG  LYS I 135      56.733  73.774  56.741  1.00  0.00           C
+ATOM   1278  CD  LYS I 135      56.194  72.581  57.517  1.00  0.00           C
+ATOM   1279  CE  LYS I 135      54.691  72.686  57.731  1.00  0.00           C
+ATOM   1280  NZ  LYS I 135      54.358  73.159  59.103  1.00  0.00           N
+ATOM   1281  H   LYS I 135      59.776  73.925  57.226  1.00  0.00           H
+ATOM   1282  HA  LYS I 135      59.005  72.122  56.045  1.00  0.00           H
+ATOM   1283  HB2 LYS I 135      57.210  74.135  54.704  1.00  0.00           H
+ATOM   1284  HB3 LYS I 135      56.860  72.456  55.080  1.00  0.00           H
+ATOM   1285  HG2 LYS I 135      57.478  74.274  57.341  1.00  0.00           H
+ATOM   1286  HG3 LYS I 135      55.920  74.454  56.532  1.00  0.00           H
+ATOM   1287  HD2 LYS I 135      56.405  71.677  56.965  1.00  0.00           H
+ATOM   1288  HD3 LYS I 135      56.683  72.541  58.478  1.00  0.00           H
+ATOM   1289  HE2 LYS I 135      54.284  73.380  57.012  1.00  0.00           H
+ATOM   1290  HE3 LYS I 135      54.250  71.712  57.579  1.00  0.00           H
+ATOM   1291  HZ1 LYS I 135      55.085  72.843  59.777  1.00  0.00           H
+ATOM   1292  HZ2 LYS I 135      54.315  74.199  59.122  1.00  0.00           H
+ATOM   1293  HZ3 LYS I 135      53.437  72.779  59.400  1.00  0.00           H
+ATOM   1294  N   VAL I 136      60.413  72.015  53.966  1.00  0.00           N
+ATOM   1295  CA  VAL I 136      61.060  71.798  52.674  1.00  0.00           C
+ATOM   1296  C   VAL I 136      60.897  70.356  52.207  1.00  0.00           C
+ATOM   1297  O   VAL I 136      60.293  69.534  52.894  1.00  0.00           O
+ATOM   1298  CB  VAL I 136      62.567  72.136  52.716  1.00  0.00           C
+ATOM   1299  CG1 VAL I 136      62.833  73.451  52.010  1.00  0.00           C
+ATOM   1300  CG2 VAL I 136      63.082  72.179  54.149  1.00  0.00           C
+ATOM   1301  H   VAL I 136      60.688  71.476  54.736  1.00  0.00           H
+ATOM   1302  HA  VAL I 136      60.588  72.451  51.953  1.00  0.00           H
+ATOM   1303  HB  VAL I 136      63.105  71.360  52.189  1.00  0.00           H
+ATOM   1304  N   GLU I 137      61.446  70.059  51.032  1.00  0.00           N
+ATOM   1305  CA  GLU I 137      61.367  68.716  50.475  1.00  0.00           C
+ATOM   1306  C   GLU I 137      62.370  67.801  51.150  1.00  0.00           C
+ATOM   1307  O   GLU I 137      63.312  67.304  50.534  1.00  0.00           O
+ATOM   1308  CB  GLU I 137      61.597  68.744  48.963  1.00  0.00           C
+ATOM   1309  CG  GLU I 137      60.594  69.605  48.213  1.00  0.00           C
+ATOM   1310  CD  GLU I 137      61.008  69.872  46.779  1.00  0.00           C
+ATOM   1311  OE1 GLU I 137      61.469  68.923  46.109  1.00  0.00           O
+ATOM   1312  OE2 GLU I 137      60.872  71.027  46.325  1.00  0.00           O
+ATOM   1313  H   GLU I 137      61.917  70.758  50.532  1.00  0.00           H
+ATOM   1314  HA  GLU I 137      60.378  68.334  50.682  1.00  0.00           H
+ATOM   1315  HB2 GLU I 137      62.587  69.130  48.768  1.00  0.00           H
+ATOM   1316  HB3 GLU I 137      61.531  67.738  48.580  1.00  0.00           H
+ATOM   1317  HG2 GLU I 137      59.638  69.102  48.207  1.00  0.00           H
+ATOM   1318  HG3 GLU I 137      60.498  70.552  48.726  1.00  0.00           H
+ATOM   1319  N   TYR I 138      62.141  67.595  52.432  1.00  0.00           N
+ATOM   1320  CA  TYR I 138      62.984  66.754  53.258  1.00  0.00           C
+ATOM   1321  C   TYR I 138      63.065  65.326  52.721  1.00  0.00           C
+ATOM   1322  O   TYR I 138      64.136  64.856  52.345  1.00  0.00           O
+ATOM   1323  CB  TYR I 138      62.411  66.749  54.666  1.00  0.00           C
+ATOM   1324  CG  TYR I 138      62.744  67.996  55.452  1.00  0.00           C
+ATOM   1325  CD1 TYR I 138      64.060  68.415  55.607  1.00  0.00           C
+ATOM   1326  CD2 TYR I 138      61.740  68.757  56.035  1.00  0.00           C
+ATOM   1327  CE1 TYR I 138      64.365  69.559  56.322  1.00  0.00           C
+ATOM   1328  CE2 TYR I 138      62.036  69.902  56.751  1.00  0.00           C
+ATOM   1329  CZ  TYR I 138      63.349  70.297  56.891  1.00  0.00           C
+ATOM   1330  OH  TYR I 138      63.647  71.437  57.601  1.00  0.00           O
+ATOM   1331  H   TYR I 138      61.368  68.035  52.844  1.00  0.00           H
+ATOM   1332  HA  TYR I 138      63.974  67.182  53.282  1.00  0.00           H
+ATOM   1333  HB2 TYR I 138      61.333  66.688  54.589  1.00  0.00           H
+ATOM   1334  HB3 TYR I 138      62.786  65.894  55.206  1.00  0.00           H
+ATOM   1335  HD1 TYR I 138      64.852  67.834  55.159  1.00  0.00           H
+ATOM   1336  HD2 TYR I 138      60.712  68.445  55.924  1.00  0.00           H
+ATOM   1337  HE1 TYR I 138      65.394  69.869  56.431  1.00  0.00           H
+ATOM   1338  HE2 TYR I 138      61.242  70.480  57.196  1.00  0.00           H
+ATOM   1339  HH  TYR I 138      63.396  71.316  58.521  1.00  0.00           H
+ATOM   1340  N   THR I 139      61.923  64.639  52.707  1.00  0.00           N
+ATOM   1341  CA  THR I 139      61.849  63.259  52.234  1.00  0.00           C
+ATOM   1342  C   THR I 139      61.452  63.177  50.759  1.00  0.00           C
+ATOM   1343  O   THR I 139      61.411  62.091  50.182  1.00  0.00           O
+ATOM   1344  CB  THR I 139      60.850  62.466  53.079  1.00  0.00           C
+ATOM   1345  OG1 THR I 139      59.523  62.873  52.800  1.00  0.00           O
+ATOM   1346  CG2 THR I 139      61.074  62.618  54.569  1.00  0.00           C
+ATOM   1347  H   THR I 139      61.110  65.070  53.029  1.00  0.00           H
+ATOM   1348  HA  THR I 139      62.828  62.819  52.352  1.00  0.00           H
+ATOM   1349  HB  THR I 139      60.942  61.417  52.837  1.00  0.00           H
+ATOM   1350  HG1 THR I 139      58.957  62.099  52.742  1.00  0.00           H
+ATOM   1351  N   LYS I 140      61.155  64.323  50.149  1.00  0.00           N
+ATOM   1352  CA  LYS I 140      60.761  64.350  48.745  1.00  0.00           C
+ATOM   1353  C   LYS I 140      61.946  64.045  47.845  1.00  0.00           C
+ATOM   1354  O   LYS I 140      62.976  64.718  47.894  1.00  0.00           O
+ATOM   1355  CB  LYS I 140      60.153  65.708  48.386  1.00  0.00           C
+ATOM   1356  CG  LYS I 140      58.689  65.627  47.991  1.00  0.00           C
+ATOM   1357  CD  LYS I 140      57.863  66.705  48.674  1.00  0.00           C
+ATOM   1358  CE  LYS I 140      57.837  66.515  50.182  1.00  0.00           C
+ATOM   1359  NZ  LYS I 140      56.582  65.855  50.636  1.00  0.00           N
+ATOM   1360  H   LYS I 140      61.198  65.161  50.652  1.00  0.00           H
+ATOM   1361  HA  LYS I 140      60.018  63.581  48.593  1.00  0.00           H
+ATOM   1362  HB2 LYS I 140      60.240  66.365  49.238  1.00  0.00           H
+ATOM   1363  HB3 LYS I 140      60.705  66.131  47.558  1.00  0.00           H
+ATOM   1364  HG2 LYS I 140      58.606  65.752  46.921  1.00  0.00           H
+ATOM   1365  HG3 LYS I 140      58.303  64.660  48.275  1.00  0.00           H
+ATOM   1366  HD2 LYS I 140      58.293  67.672  48.453  1.00  0.00           H
+ATOM   1367  HD3 LYS I 140      56.852  66.666  48.298  1.00  0.00           H
+ATOM   1368  HE2 LYS I 140      58.679  65.903  50.470  1.00  0.00           H
+ATOM   1369  HE3 LYS I 140      57.917  67.481  50.657  1.00  0.00           H
+ATOM   1370  HZ1 LYS I 140      55.772  66.213  50.091  1.00  0.00           H
+ATOM   1371  HZ2 LYS I 140      56.649  64.825  50.502  1.00  0.00           H
+ATOM   1372  HZ3 LYS I 140      56.418  66.051  51.645  1.00  0.00           H
+END

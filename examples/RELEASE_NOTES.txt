@@ -1,0 +1,53 @@
+Release notes for PyRy3D 4.2.0
+-------------------------------
+
+(May 2013)
+Latest changes include:
+- program positions all components randomly inside the density map/SAXS shape; components linked by covalent bonds are moved together
+- possibility to include all complex atoms in verification of clashes (new parameter in a configuration file: CLASHES_ALLATOMS)
+- radius of dummy atoms can be given as a program parameter (SAXS_RADIUS)
+- new parameter added: is_complex_outmap to add additional penalties when one of components is completly outside the density map/ab initio SAXS model
+- bug with simulbox shape has been repaired
+- symmetry can be used as additional restraint for optimalization of models; programs tries to model structures in such a way that distances defined by the user are of the same lenght
+- access restraint was added for defining of single residues or fragments of components that are exposed to solvent (they do not have to be on the surface of a density map as in access_surface restraint)
+- exchange mutation has been improved in such a way that program changes positions of two particular components and then performs a series of rotations and translations in order to sample conformational space more effectively
+- simulation grid is created only for a density map, not for a whole simulation box to reduce RAM usage and CPU
+- clustering procedure and ranking script are now included in the program distribution
+
+
+
+(June 2012)
+Added features:
+- modeling of complexes without defined shape
+- possibility to optimize models with PyRy3D from predefined orientations
+- possibility to define boundaries of all moves for all components
+- possibility to rotate components around covalent bonds (line defined by two points)
+- new mutations added: rotate_all, translate_all, rotate_cov (rotation around covalent bond)
+- new scoring function element which uses density values during complex scoring
+- possibility to define components linked by covalent bonds
+- possibility to calculate complex volume based on its sequence and define density map threshold describing complex volume
+- new updated CCP4 reader able to read even simulated maps generated automatically
+- possibility to generate energy plot of generated complex models
+- score complex without running simulations
+- sample complex map with one component only
+
+
+(July 2011)
+
+Program features:
+
+- Simulated annealing / replica exchange /genetic simulation module
+- VolumeSimulator a module for random simulation of disordered regions
+- further program speedup
+- crude models of component for both proteins and nucleic acids available
+- history of mutations available
+- convinient ways of saving simulation results
+- easier way to run program with default parameters
+- new simulation paraemters enabling i.e. freezing disorder, 
+- scaling parameters during simulation i.e. scoring weights, rotation angles, translation vectors, number of mutated components in a particular iteration
+- possibility to define frequencies of all mutations
+- possibility to turn on/of simulation parameters scaling
+- improved modeling of components with defined boundaries/limitations of movements inside a density map (preoriented components)
+- PyRyInputGenerator - a module for automatic creation of PyRy input files
+- RankingGenerator - a module for quality assesment of set of structures
+- PyRy3D Chimera Extension - a Chimera plugin for testing simulation parameters, running short simulations, run simple program options
